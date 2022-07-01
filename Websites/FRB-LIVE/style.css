@@ -373,6 +373,13 @@ input[type="text"], text {
   margin-bottom: auto;
 }
 
+/* MUSIC PAGE */
+
+#music-player {
+  width: 40%;
+  height: 300px;
+}
+
 /* VIDEOS */
 
 .videos {
@@ -688,6 +695,13 @@ input[type="text"], text {
     z-index:999;
     border: 2px solid white;
     border-radius: 5px;
+  }
+
+  /* MUSIC PAGE */
+
+  #music-player {
+    width: auto;
+    height: 300px;
   }
   
   /* VIDEOS PAGE */
