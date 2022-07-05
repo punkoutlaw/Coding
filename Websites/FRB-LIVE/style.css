@@ -280,6 +280,10 @@ div {
 
 /* EMAIL FORM */
 
+.user-cannot-see {
+  display:none
+}
+
 .form-control {
   border-style: none;
   color: black;
