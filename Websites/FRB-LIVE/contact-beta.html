@@ -76,38 +76,41 @@
                 <br>
               <p>Send inquiries below.</p>
             </div>
+
             <br>
-            <form action="index.php" method="post">
-              <header>
-                  <h1>Your Message, Please.</h1>
-              </header>
-  
-              <div>
-                  <label for="name">Name</label>
-                  <br>
-                  <input type="text" name="name" id="name" placeholder="Full name">
-              </div>
-          
-              <div>
-                  <label for="email">Email</label>
-                  <br>
-                  <input type="email" name="email" id="email" placeholder="Email address">
-                  <small></small>
-              </div>
-          
-              <div>
-                  <label for="subject">Subject</label>
-                  <br>
-                  <input type="subject" name="subject" id="subject" placeholder="Enter a subject">
-              </div>
-          
-              <div>
-                  <label for="message">Message</label>
-                  <br>
-                  <textarea id="message" name="message" rows="5"></textarea>
-              </div>
-              <button type="submit">Submit</button>
-          </form>
+
+              <form action="index.php" method="post">
+                <div class="col-8">
+                  <div class="input-text">
+                    <div class="input-headers">
+                     
+                          <label for="name">Name</label>
+                          <br>
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Full name">
+                 
+                          <label for="email">Email</label>
+                          <br>
+                          <input type="text" name="email" class="form-control" id="email" placeholder="Email address">
+                 
+                          <label for="subject">Subject</label>
+                          <br>
+                          <input type="text" name="subject" class="form-control" id="subject" placeholder="Enter a subject">
+               
+                          <label for="message">Message</label>
+                          <br>
+                          <textarea class="form-control" id="textarea" name="message" rows="5" placeholder="Your message"></textarea>
+
+                      <br>
+
+                      <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+
+                      <br><br>
+
+                    </div>
+                  </div>
+                </div>
+            </form>
+            
             </div>
           </div>
         </div>
