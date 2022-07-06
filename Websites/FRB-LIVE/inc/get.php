@@ -36,10 +36,5 @@
         <textarea id="message" name="message" rows="5"><?= $inputs['message'] ?? '' ?></textarea>
         <small><?= $errors['message'] ?? '' ?></small>
     </div>
-
-    <label for="nickname" aria-hidden="true" class="user-cannot-see"> Nickname
-        <input type="text" name="nickname" id="nickname" class="user-cannot-see" tabindex="-1" autocomplete="off">
-    </label>
-
     <button type="submit">Submit</button>
 </form>

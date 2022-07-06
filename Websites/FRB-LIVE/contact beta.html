@@ -77,36 +77,37 @@
               <p>Send inquiries below.</p>
             </div>
             <br>
-            <form action="index.php" 
-            method="POST"
-            enctype="text/plain"
-            name="EmailForm">
-                <div class="col-8">
-                  <div class="input-text">
-                    <div class="input-headers">
-                      <span class="input-text">First Name</span>
-                        <input type="text" name="First Name" aria-label="First name" class="form-control" autocomplete="off">
-                      <span class="input-text">Last Name</span>
-                        <input type="text" name="Last Name" aria-label="Last name" class="form-control" autocomplete="off">
-                          <label for="Email" class="form-label">Email address</label>
-                        <input type="text" name="Email" class="form-control" id="Email" aria-describedby="emailHelp" autocomplete="off">
-                      <div id="emailHelp" class="form-text"></div>
-                        <p id="email-message">We will never share your email - your privacy matters to us!</p>
-                        <label for="textarea">Message</label>
-                        <textarea 
-                          type="text" 
-                          id="textarea" 
-                          name="Message" 
-                          class="form-control" 
-                          placeholder="Your message" 
-                          rows="3"></textarea>
-                        <br>
-                      <button type="submit" value="submit" class="btn btn-primary">Submit</button>
-                      <br><br>
-                    </div>
-                  </div>
-                </div>
-              </form>
+            <form action="index.php" method="post">
+              <header>
+                  <h1>Your Message, Please.</h1>
+              </header>
+  
+              <div>
+                  <label for="name">Name</label>
+                  <br>
+                  <input type="text" name="name" id="name" placeholder="Full name">
+              </div>
+          
+              <div>
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="email" name="email" id="email" placeholder="Email address">
+                  <small></small>
+              </div>
+          
+              <div>
+                  <label for="subject">Subject</label>
+                  <br>
+                  <input type="subject" name="subject" id="subject" placeholder="Enter a subject">
+              </div>
+          
+              <div>
+                  <label for="message">Message</label>
+                  <br>
+                  <textarea id="message" name="message" rows="5"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+          </form>
             </div>
           </div>
         </div>

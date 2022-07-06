@@ -1,14 +1,14 @@
 <?php
 
 // check the honeypot
-$honeypot = filter_input(INPUT_POST, 'nickname', FILTER_SANITIZE_STRING);
+$honeypot = filter_input(INPUT_POST, 'nickname', FILTER_SANITIZE_SPECIAL_CHARS);
 if ($honeypot) {
     header($_SERVER['SERVER_PROTOCOL'] . ' 405 Method Not Allowed');
     exit;
 }
 
 // validate name
-$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
 $inputs['name'] = $name;
 if (!$name || trim($name) === '') {
     $errors['name'] = 'Please enter your name';
@@ -27,14 +27,14 @@ if ($email) {
 }
 
 // validate subject
-$subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
+$subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
 $inputs['subject'] = $subject;
 if (!$subject || trim($subject) === '') {
     $errors['subject'] = 'Please enter the subject';
 }
 
 // validate message
-$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
+$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
 $inputs['message'] = $message;
 if (!$message || trim($message) === '') {
     $errors['message'] = 'Please enter the message';
