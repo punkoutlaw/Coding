@@ -33,6 +33,6 @@ if ($request_method === 'GET') {
         $_SESSION['inputs'] =   $inputs;
     }
 
-    header('Location: contact beta.html', true, 303);
+    header('Location: contact-beta.html', true, 303);
     exit;
 }
