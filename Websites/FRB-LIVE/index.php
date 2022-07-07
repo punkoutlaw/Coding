@@ -19,8 +19,7 @@ if ($request_method === 'GET') {
         $inputs = $_SESSION['inputs'];
         unset($_SESSION['inputs']);
     }
-    // show the form
-} elseif ($request_method === 'POST') {
+} if ($request_method === 'POST') {
     // check the honeypot and validate the field
     require_once __DIR__ . '/inc/post.php';
 
