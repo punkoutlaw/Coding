@@ -76,43 +76,37 @@
                 <br>
               <p>Send inquiries below.</p>
             </div>
-
             <br>
-
-              <form action="index.php" 
-              method="post"
-              name="EmailForm">
+            <form action="mailto:info@feudalerockband.com?subject=New Inquiry" 
+            method="POST"
+            enctype="text/plain"
+            name="EmailForm">
                 <div class="col-8">
                   <div class="input-text">
                     <div class="input-headers">
-                     
-                          <label for="name">Full Name</label>
-                          <br>
-                          <input type="text" name="name" class="form-control" placeholder="Full name" required="required">
-                 
-                          <label for="email">Email Address</label>
-                          <br>
-                          <input type="text" name="email" class="form-control" placeholder="Email address" required="required">
-                 
-                          <label for="subject">Subject</label>
-                          <br>
-                          <input type="text" name="subject" class="form-control" placeholder="Enter a subject" required="required">
-               
-                          <label for="message">Message</label>
-                          <br>
-                          <textarea class="form-control" id="textarea" name="message" rows="5" placeholder="Your message" required="required"></textarea>
-
-                      <br>
-
+                      <span class="input-text">First Name</span>
+                        <input type="text" name="First Name" aria-label="First name" class="form-control" autocomplete="off">
+                      <span class="input-text">Last Name</span>
+                        <input type="text" name="Last Name" aria-label="Last name" class="form-control" autocomplete="off">
+                          <label for="Email" class="form-label">Email address</label>
+                        <input type="text" name="Email" class="form-control" id="Email" aria-describedby="emailHelp" autocomplete="off">
+                      <div id="emailHelp" class="form-text"></div>
+                        <p id="email-message">We will never share your email - your privacy matters to us!</p>
+                        <label for="textarea">Message</label>
+                        <textarea 
+                          type="text" 
+                          id="textarea" 
+                          name="Message" 
+                          class="form-control" 
+                          placeholder="Your message" 
+                          rows="3"></textarea>
+                        <br>
                       <button type="submit" value="submit" class="btn btn-primary">Submit</button>
-
                       <br><br>
-
                     </div>
                   </div>
                 </div>
-            </form>
-            
+              </form>
             </div>
           </div>
         </div>
