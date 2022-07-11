@@ -32,11 +32,7 @@ if ($request_method === 'GET') {
         $_SESSION['errors'] =   $errors;
         $_SESSION['inputs'] =   $inputs;
     }
-    
-echo '<script type="text/javascript">
-       window.onload = function () { alert("Thanks for your inquiry!"); 
-       location="contact.html";
-       } 
-</script>';
 
+    header('Location: index.html', true, 303);
+    exit;
 }
