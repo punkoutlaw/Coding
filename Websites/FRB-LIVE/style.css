@@ -359,6 +359,9 @@ input[type="text"], text {
   border-color: white;
   border-width: 1px;
   border-radius: 5px;
+  width: 1200px;
+  max-width: 1200px;
+  display: inline-block;
 }
 
 .gallery-image {
