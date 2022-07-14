@@ -55,6 +55,11 @@ body {
 background-color: rgb(19,18,18);
 }
 
+.rounded {
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -354,11 +359,6 @@ input[type="text"], text {
 
 /* PICTURES PAGE */
 
-.rounded {
-  border-top: 3px solid #bbb;
-  border-radius: 5px;
-}
-
 #gallery {
   border-style: none;
   border-color: white;
@@ -413,15 +413,15 @@ input[type="text"], text {
 
 #instagram-feed1 {
   display:contents;
-  flex-wrap: wrap;
 }
 
 .instagram_feed .instagram_new {
   width:25%;
   float:left;
-  padding:0 0px 5px 0;
+  padding:0 5px 5px 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
   box-sizing: border-box;
 }
   
@@ -444,6 +444,8 @@ input[type="text"], text {
   display:block;
   background:#232323;
   padding-top:100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .instagram_feed .insta-link:hover .insta-image {
@@ -467,8 +469,8 @@ input[type="text"], text {
   -o-transition-duration: 0.3s;
   transition-timing-function: ease;
   -webkit-transition-timing-function: ease;
-  -moz-transition-timing-function: ease; 
-  -o-transition-timing-function: ease; 
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
 }
 
 /* MUSIC PAGE */
