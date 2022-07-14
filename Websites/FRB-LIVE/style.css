@@ -364,6 +364,7 @@ input[type="text"], text {
   border-color: white;
   border-width: 1px;
   border-radius: 5px;
+  margin-top: 1%;
   width: 1000px;
   max-width: 1000px;
   display: inline-block;
@@ -446,6 +447,8 @@ input[type="text"], text {
   padding-top:100%;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .instagram_feed .insta-link:hover .insta-image {
