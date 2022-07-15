@@ -413,19 +413,19 @@ input[type="text"], text {
 }
 
 #instagram-feed1 {
-  display:contents;
+  display: inline;
 }
 
 .instagram_feed .instagram_new {
   width:25%;
   float:left;
-  padding:0 5px 5px 0;
+  padding: 0 5px 5px 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-  
+
 .instagram_feed img.insta-image {
   position: absolute;
   left:0;
@@ -445,10 +445,10 @@ input[type="text"], text {
   display:block;
   background:#232323;
   padding-top:100%;
-  margin-top: 5%;
+  /* margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 5%; */
 }
 
 .instagram_feed .insta-link:hover .insta-image {
@@ -456,10 +456,10 @@ input[type="text"], text {
   top: 50%;
   transform: translate(-50%, -50%) scale(2,2);
   opacity: 100;
-  background-color: rgb(41,47,51);
+  background-color: rgb(41,47,51, .0);
   position: absolute;
   object-fit:contain;
-  display: block;
+  display: inline;
   z-index:999;
   visibility: visible;
   transition-property: all;
@@ -711,15 +711,11 @@ input[type="text"], text {
   /* INSTAGRAM FEED */
 
   .instagram_feed {
-      overflow:hidden;
+    overflow:hidden;
   }
     
   #instagram-feed1 {
-      display: flex;
-      flex-wrap: wrap;
-      height: auto;
-      width: auto;
-      margin: 3em;
+    display: block;
   }
 
   .instagram_feed .instagram_new {
@@ -729,7 +725,7 @@ input[type="text"], text {
 
   .instagram_feed img.insta-image {
     position:absolute;
-    object-fit: fill;
+    object-fit: cover;
     width:100%;
     height:100%;
     -o-transition:all 0.3s ease0s;
@@ -742,8 +738,8 @@ input[type="text"], text {
   .instagram_feed .insta-link:hover .insta-image {
     opacity: 100;
     position:relative;
-    width:100%;
-    height:100%;
+    width: 50%;
+    height: 50%;
     display:block;
     z-index:999;
     border: 2px solid white;
