@@ -129,6 +129,7 @@ div {
 }
 
 .div3 {
+  display: block;
   text-align: left;
   font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -145,20 +146,6 @@ div {
     text-align: center;
     border-style:ridge;
     border-color: white;
-}
-
-.divp {
-  text-align: left;
-  font-size: 25px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  border-color: #000;
-  background-color: rgb(41,47,51);
-  background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  background-image: -webkit-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  background-image: -o-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  display: inline-block;
-  min-width: 1300px;
 }
 
 #img-main {
@@ -502,7 +489,10 @@ input[type="text"], text {
 .videos {
   overflow: hidden;
   background-color: rgb(41,47,51);
-  /* background-image: linear-gradient(#6c757d, rgb(19, 18, 18)); */
+  background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-image: -webkit-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-image: -o-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
 }
 
 .iframes {
