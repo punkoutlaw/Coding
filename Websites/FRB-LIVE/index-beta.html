@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/custom.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>FEUDALE</title>
     <link rel="icon" type="image/x-icon" href="./Images/feudale-symbol-favi.ico">
 </head>
@@ -60,9 +60,6 @@
 
       <br>
 
-
-  <div class="parent">
-
     <div class="container">
 
       <div class="row">
@@ -79,20 +76,20 @@
             “<i>It’s Alright</i>” is the follow up single to their latest track “Teenager” and this new single is sure to pump up fans far and wide! With its electrifying riff, fierce drums and sing out loud chorus it will have you shouting at the top of your lungs “HEY-NA-HEY-NA”! You’ll be rocking out and jumping around to its ferocious, melodic beats all while cleaning the house (‘cause we’re all still doing that, right?!).
             <br><br>
             FEUDALE is part of TLG Entertainment and distributes via INgrooves.</p>
+            <div class="twitterfeed">
+              <b><h2>Now Tweeting</h2></b>
+            <a class="twitter-timeline" 
+            data-chrome="noscrollbar"
+            data-tweet-limit="1"
+            data-width="500" 
+            data-height="400" 
+            data-theme="dark" 
+            href="https://twitter.com/FEUDALEROCKBAND?ref_src=twsrc%5Etfw">Tweets by FEUDALEROCKBAND</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
           </div>
             <div class="row" id="img-main">
-              <div class="twitterfeed">
-                <b><h2>Now Tweeting</h2></b>
-              <!-- <img src="./Images/Feudale-3.png" alt="FEUDALE LOGO"> -->
-              <a class="twitter-timeline" 
-              data-chrome="noscrollbar"
-              data-tweet-limit="1"
-              data-width="500" 
-              data-height="400" 
-              data-theme="dark" 
-              href="https://twitter.com/FEUDALEROCKBAND?ref_src=twsrc%5Etfw">Tweets by FEUDALEROCKBAND</a> 
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
+              <img src="./Images/Feudale-3.png" alt="FEUDALE LOGO">
             </div>
         </div>
         <div class="col">
@@ -107,7 +104,7 @@
 
       <div class="main">
         <form 
-        action="mailto:info@feudalerockband.com?subject=Mailing List" 
+        action="get.php" 
         method="POST"
         enctype="text/plain"
         name="EmailForm" 
@@ -115,7 +112,7 @@
           <button class="shown" type="button" id="subs">Subscribe to our mailing list!</button>
           <div id="email-input">
             <input type="text" placeholder="Email" id="email" name="Email Address">
-            <button type="button" class="addbut1" disabled="disabled">Subscribe</button>
+            <button type="submit" class="addbut1" disabled="disabled">Subscribe</button>
           </div>
           <div id="success">Successfully subscribed to mailing list!</div>
         </form>
@@ -123,6 +120,7 @@
 
       <div class="socials">
           <div class="col">
+            <hr class="rounded">
               <a href="https://facebook.com/feudalerockband" class="fa fa-facebook fa-stack fa-2x" title="Facebook Icon"></a>
               <a href="https://twitter.com/feudalerockband" class="fa fa-twitter fa-stack fa-2x" title="Twitter Icon"></a>
               <a href="https://instagram.com/feudalerockband" class="fa fa-instagram fa-stack fa-2x" title="Instagram Icon"></a>
@@ -130,8 +128,9 @@
           </div>
       </div>
 
+      <br>
+
     </div>
-  </div>
 
   <footer>
     <div class="card-footer-fluid bg-dark">
