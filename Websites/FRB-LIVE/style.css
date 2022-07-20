@@ -17,13 +17,13 @@
 }
 
 .navbar {
-  font-family: 'Anton', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  font-family: 'Anton', 'Oswald', 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   background-image: linear-gradient(rgb(41,47,51), rgb(19,18,18));
 }
 
 .navbar-brand {
-    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif, 'Fantasy', 'Copperplate Gothic Bold';
+    font-family: 'Anton', 'Oswald', 'Arial Narrow Bold', sans-serif, 'Fantasy', 'Copperplate Gothic Bold';
     font-size: xx-large;
 }
 
