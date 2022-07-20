@@ -23,12 +23,12 @@
 }
 
 .navbar-brand {
-    font-family: 'Anton', 'Oswald', 'Arial Narrow Bold', sans-serif, 'Fantasy', 'Copperplate Gothic Bold';
+    font-family: 'Anton', 'Oswald', 'Copperplate Gothic Bold', 'Arial Narrow Bold', sans-serif, 'Fantasy';
     font-size: xx-large;
 }
 
 .navbar-text {
-  font-family: 'Copperplate Gothic';
+  font-family: 'Oxygen', 'Copperplate Gothic';
 }
 
 .nav-name {
@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-  font-family: "Oxygen", "Oswald", "Anton", "Impact";
+  font-family: 'Oxygen', 'Oswald', 'Anton', 'Impact';
   font-size: larger;
   font-weight: 100;
   /* font-family: Verdana, Tahoma, Geneva, sans-serif;
