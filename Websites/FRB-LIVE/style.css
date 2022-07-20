@@ -56,12 +56,10 @@ body {
   font-family: 'Oxygen', 'Oswald', 'Anton', 'Impact';
   font-size: larger;
   font-weight: 100;
-  /* font-family: Verdana, Tahoma, Geneva, sans-serif;
-  font-weight: 100; */
 }
 
 .headers {
-background-color: rgb(19,18,18);
+background-color: rgb(20,19,19);
 }
 
 .rounded {
@@ -115,7 +113,7 @@ div {
 
 .div2 {
     padding: 10px;
-    background-color: rgb(41,47,51);
+    background-color: rgb(29,31,33);
     /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18));
     background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18));
     background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18));
@@ -132,13 +130,12 @@ div {
   display: block;
   text-align: left;
   font-size: 25px;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   border-color: #000;
-  background-color: rgb(41,47,51);
-  background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-color: rgb(29,31,33);
+  /* background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
   background-image: -webkit-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
   background-image: -o-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18)); */
 }
 
 .div4 {
@@ -168,9 +165,6 @@ div {
   background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18));
   background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18));
   background-image: linear-gradient(#6c757d, rgb(19, 18, 18)); */
-  /* border-style: solid;
-  border-color: white;
-  border-radius: 5px; */
   text-decoration: none;
   word-wrap: break-word;
   min-height: 450px;
@@ -206,7 +200,7 @@ div {
   width: 25rem;
   height: 5rem;
   padding: 12px;
-  background-color: rgb(41,47,51);
+  background-color: rgb(29,31,33);
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
@@ -216,7 +210,7 @@ div {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgb(41,47,51);
+  background-color: rgb(29,31,33);
 }
 .main>#singular-form button {
   width: 9rem;
@@ -327,7 +321,6 @@ input[type="text"], text {
 .contact {
   color:white;
   text-align: left;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-size: 30px;
 }
 
@@ -354,7 +347,6 @@ input[type="text"], text {
 
 #email-message {
   font-size: medium;
-  /* font-family: Verdana, Tahoma, Geneva, sans-serif; */
   text-align: center;
 }
 
@@ -389,10 +381,12 @@ input[type="text"], text {
   left: 0;
   width: 100%;
   height:100%;
-  /* border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  border-radius: 5px; */
+}
+
+#carousel-image {
+  background-color: rgb(29,31,33);
+  border: none;
+  display: block;
 }
 
 .carousel {
@@ -446,10 +440,6 @@ input[type="text"], text {
   display:block;
   background:#232323;
   padding-top:100%;
-  /* margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%; */
 }
 
 .instagram_feed .insta-link:hover .insta-image {
@@ -488,11 +478,11 @@ input[type="text"], text {
 
 #videos {
   overflow: hidden;
-  background-color: rgb(41,47,51);
-  background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-color: rgb(29,31,33);
+  /* background-image: -moz-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
   background-image: -webkit-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
   background-image: -o-linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
-  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18));
+  background-image: linear-gradient(rgb(41,47,51), rgb(19, 18, 18)); */
 }
 
 .iframes {
