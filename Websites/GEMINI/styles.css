@@ -1,17 +1,37 @@
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+
 .logo-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
+    height: 30vh;
 }
 
 .main-logo {
     width: 1000px;
     height: 500px;
-    object-fit: contain;
+    object-fit: scale-down;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 8vh;
+}
+
+.infographics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  padding-bottom: 1vh;
+}
+
+.color-block-top {
+  background-color: blue;
+  padding: 2vh;
 }
 
 .block1 {
@@ -23,10 +43,15 @@
 }
 
 .welcome-card {
-  padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .welcome-text {
+  min-height: 10vh;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 10px
@@ -90,4 +115,36 @@
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    .logo-block {
+      height: 30vh;
+    }
+    
+    .main-logo {
+      height: 300px;
+      object-fit:scale-down;
+  }
+
+    .welcome-card {
+      min-width: 100%;
+    }
+    
+    .welcome-text {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 10px
+    }
+
+    .infographics {
+      display: block;
+      margin-top: 1vh;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 43vh;
+    }
+
   }
