@@ -3,6 +3,10 @@ body {
   font-size: large;
 }
 
+.links {
+  text-decoration: none;
+}
+
 .logo-block {
     display: block;
     margin-left: auto;
@@ -30,7 +34,7 @@ body {
 }
 
 .color-block-top {
-  background-color: blue;
+  background-color: rgb(36,54,138);
   padding: 2vh;
 }
 
@@ -40,6 +44,9 @@ body {
 
 .block2 {
     min-height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .welcome-card {
@@ -55,6 +62,17 @@ body {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 10px
+}
+
+.tourist-icon {
+  float: left;
+  display: block;
+  margin-left: 15vh;
+  margin-right: auto;
+}
+
+.tourists {
+  padding-top: 5vh;
 }
 
 .footer-basic {
@@ -145,6 +163,13 @@ body {
       margin-left: auto;
       margin-right: auto;
       width: 43vh;
+    }
+
+    .tourist-icon {
+      display: block;
+      margin-left: 7vh;
+      margin-right: auto;
+      margin-bottom: 2vh;
     }
 
   }

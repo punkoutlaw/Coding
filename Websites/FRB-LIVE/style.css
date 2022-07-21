@@ -23,8 +23,8 @@
 }
 
 .navbar-brand {
-    font-family: 'Anton', 'Oswald', 'Copperplate Gothic Bold', 'Arial Narrow Bold', sans-serif, 'Fantasy';
-    font-size: xx-large;
+  font-family: 'Anton', 'Oswald', 'Copperplate Gothic Bold', 'Arial Narrow Bold', sans-serif, 'Fantasy';
+  font-size: xx-large;
 }
 
 .navbar-text {
@@ -39,7 +39,7 @@
   color: white;
   font-size: xx-large;
   padding-right: 10px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .nav-name:hover {
@@ -67,7 +67,7 @@ body {
 }
 
 .headers {
-background-color: rgb(20,19,19);
+  background-color: rgb(20,19,19);
 }
 
 .rounded {
@@ -99,13 +99,13 @@ background-color: rgb(20,19,19);
 }
 
 .footer-basic li {
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .footer-basic ul a:hover {
@@ -113,41 +113,39 @@ background-color: rgb(20,19,19);
 }
 
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  /* border-radius:50%;
-  border:1px solid #ccc; */
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
 }
 
 .footer-basic .social > a:hover {
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:18px;
-  color:#aaa;
-  margin-bottom:0;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 0;
 }
 
 h1 {
-    color:azure;
-    text-align: center;
-    font-family: 'Anton', 'impact';
-    font-size: 75px;
+  color:azure;
+  text-align: center;
+  font-family: 'Anton', 'impact';
+  font-size: 75px;
 }
 
 h2 {
@@ -158,33 +156,33 @@ h2 {
 }
 
 h3 {
-    color:azure;
-    text-align: center;
-    font-family: 'Anton', 'impact';
-    font-size: 30px;
+  color:azure;
+  text-align: center;
+  font-family: 'Anton', 'impact';
+  font-size: 30px;
 }
 
 div {
-    color: white;
-    border-style: none; 
-    border-color: rgb(255, 255, 255); 
-    border-radius: 5px;
-    text-align: center;
+  color: white;
+  border-style: none; 
+  border-color: rgb(255, 255, 255); 
+  border-radius: 5px;
+  text-align: center;
 }
 
 .div2 {
-    padding: 10px;
-    background-color: rgb(29,31,33);
-    /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18));
-    background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18));
-    background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18));
-    background-image: linear-gradient(#6c757d, rgb(19, 18, 18)); */
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    word-wrap: break-word;
-    min-height: 500px;
+  padding: 10px;
+  background-color: rgb(29,31,33);
+  /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18));
+  background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18));
+  background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18));
+  background-image: linear-gradient(#6c757d, rgb(19, 18, 18)); */
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  word-wrap: break-word;
+  min-height: 500px;
 }
 
 .div3 {
@@ -201,10 +199,10 @@ div {
 }
 
 .div4 {
-    background-color:black; 
-    text-align: center;
-    border-style:ridge;
-    border-color: white;
+  background-color:black; 
+  text-align: center;
+  border-style:ridge;
+  border-color: white;
 }
 
 #img-main {
@@ -233,9 +231,9 @@ div {
 }
 
 .table {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .toast {
@@ -598,13 +596,13 @@ input[type="text"], text {
 }
 /* Instagram */
 .fa-instagram {
-    background: none;
-    color: white;
+  background: none;
+  color: white;
 }
 /* YouTube */
 .fa-youtube {
-    background: none;
-    color: white;
+  background: none;
+  color: white;
 }
 
 @media only screen and (max-width: 480px)  {
