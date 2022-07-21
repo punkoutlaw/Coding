@@ -33,6 +33,12 @@ body {
   padding-bottom: 1vh;
 }
 
+.subtitles {
+  border: none;
+  text-align: center;
+  width: 400px;
+}
+
 .color-block-top {
   background-color: rgb(36,54,138);
   padding: 2vh;
