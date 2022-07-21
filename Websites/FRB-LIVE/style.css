@@ -83,6 +83,16 @@ body {
     font-weight: bold;
 } */
 
+.popover {
+  color: #000;
+}
+
+.popovers {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+
 .footer-basic {
   padding:40px 0;
   background-color: rgb(20,19,19);
