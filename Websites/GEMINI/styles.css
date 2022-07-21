@@ -1,6 +1,24 @@
 
-.main-logo {
+.logo-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 400px;
+}
+
+.main-logo {
+    width: 1000px;
+    height: 500px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block1 {
+    min-height: 10em;
+}
+
+.block2 {
+    min-height: 10em;
 }
