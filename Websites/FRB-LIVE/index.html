@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Oswald|Oxygen">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <title>FEUDALE</title>
     <link rel="icon" type="image/x-icon" href="./Images/feudale-symbol-favi.ico">
 </head>
@@ -118,15 +119,23 @@
       <footer>
           <div class="social"><a href="https://instagram.com/feudalerockband" class="fa fa-instagram fa-stack fa-2x" title="Instagram Icon"><i class="icon ion-social-instagram"></i></a><a href="https://www.youtube.com/channel/UCtEnhVXu10cy81mSURRxJhQ" class="fa fa-youtube fa-stack fa-2x" title="YouTube Icon"><i class="icon ion-social-youtube"></i></a><a href="https://twitter.com/feudalerockband" class="fa fa-twitter fa-stack fa-2x" title="Twitter Icon"><i class="icon ion-social-twitter"></i></a><a href="https://facebook.com/feudalerockband" class="fa fa-facebook fa-stack fa-2x" title="Facebook Icon"><i class="icon ion-social-facebook"></i></a></div>
           <ul class="list-inline">
-              <li class="list-inline-item"><a href="#">Home</a></li>
-              <li class="list-inline-item"><a href="#">About</a></li>
-              <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+              <li class="list-inline-item">
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Home Page">Home</button>
+              </li>
+              <li class="list-inline-item">
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Home Page">About</button>
+              </li>
+              <li class="list-inline-item">
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Home Page">Privacy Policy</button>
+              </li>
           </ul>
           <p class="copyright">FEUDALE © 2022</p>
       </footer>
 
+    <script src="popover.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="function.js"></script>
 
