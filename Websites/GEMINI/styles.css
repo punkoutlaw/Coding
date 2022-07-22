@@ -1,11 +1,22 @@
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: larger;
   overflow-x: hidden;
 }
 
 .links {
   text-decoration: none;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+#gemini-text {
+  color: rgb(223,193,83);
+  font-weight: 200;
+  font-size: larger;
+  font-family: 'Berling EF Regular';
 }
 
 .logo-block {
@@ -85,11 +96,12 @@ body {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  min-width: 450px;
 }
 
 .welcome-text {
-  min-height: 10vh;
-  padding-top: 15px;
+  min-height: 40vh;
+  padding-top: 130px;
   padding-left: 15px;
   padding-right: 10px
 }
@@ -191,6 +203,11 @@ body {
     object-fit: cover;
   }
 
+  .block1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .welcome-card {
     min-width: 100%;
   }
@@ -198,16 +215,20 @@ body {
   .welcome-text {
     padding-top: 15px;
     padding-left: 15px;
-    padding-right: 10px
+    padding-right: 15px;
   }
 
   .infographics {
     display: block;
     margin-top: 1vh;
     margin-bottom: auto;
-    margin-left: auto;
+    margin-left: -15px;
     margin-right: auto;
     width: 43vh;
+  }
+
+  .subtitle-footer {
+    margin-left: -25px;
   }
 
   .tourist-icon {
