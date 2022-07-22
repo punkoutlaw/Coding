@@ -61,6 +61,7 @@ body {
   margin-left: -100px;
   height: 500px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .block1 {
@@ -164,13 +165,13 @@ body {
 
   @media only screen and (max-width: 480px) {
 
-    .logo-block {
-      height: 30vh;
-    }
+  .logo-block {
+    height: 30vh;
+  }
     
-    .main-logo {
-      height: 300px;
-      object-fit:scale-down;
+  .main-logo {
+    height: 300px;
+    object-fit:scale-down;
   }
 
   .beach {
@@ -182,30 +183,30 @@ body {
     object-fit: cover;
   }
 
-    .welcome-card {
-      min-width: 100%;
-    }
+  .welcome-card {
+    min-width: 100%;
+  }
     
-    .welcome-text {
-      padding-top: 15px;
-      padding-left: 15px;
-      padding-right: 10px
-    }
+  .welcome-text {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px
+  }
 
-    .infographics {
-      display: block;
-      margin-top: 1vh;
-      margin-bottom: auto;
-      margin-left: auto;
-      margin-right: auto;
-      width: 43vh;
-    }
+  .infographics {
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43vh;
+  }
 
-    .tourist-icon {
-      display: block;
-      margin-left: 7vh;
-      margin-right: auto;
-      margin-bottom: 2vh;
-    }
+  .tourist-icon {
+    display: block;
+    margin-left: 5vh;
+    margin-right: auto;
+    margin-bottom: 2vh;
+  }
 
   }
