@@ -64,6 +64,7 @@ a, u {
 
 .beach {
   object-fit: cover;
+  height: 500px;
   /* width: 135em;
   height: 500px; */
 }
