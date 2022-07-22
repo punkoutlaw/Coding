@@ -58,26 +58,29 @@ a, u {
 }
 
 .color-block-top {
-  background-color: rgb(36,54,138);
-  padding: 1vh;
+  background-color: rgb(36, 54, 138);
+  height: 3vh
+}
+
+.beach {
+  object-fit: cover;
+  /* width: 135em;
+  height: 500px; */
 }
 
 .block {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  object-fit: fill;
-  width: 100%;
 }
 
-.beach {
+/* .beach {
   margin: 0;
-  min-width: 110%;
-  margin-left: -90px;
+  min-width: 100%;
   height: 500px;
   object-fit: cover;
   overflow: hidden;
-}
+} */
 
 .block1 {
   min-height: 10em;
@@ -191,13 +194,16 @@ a, u {
     object-fit:scale-down;
   }
 
+  .color-block-top {
+    width: 25em;
+  }
+
   .block {
     width: auto;
   }
 
   .beach {
     display: block;
-    margin-left: -25px;
     margin-right: auto;
     width: 100%;
     height: 300px;
