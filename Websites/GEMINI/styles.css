@@ -12,6 +12,10 @@ a, u {
   text-decoration: none;
 }
 
+.img {
+  float: left;
+}
+
 #gemini-text {
   color: rgb(223,193,83);
   font-weight: 200;
@@ -73,12 +77,10 @@ a, u {
 }
 
 .block1 {
-  /* min-height: 10em; */
   min-height: auto;
 }
 
 .block2 {
-  /* min-height: 10em; */
   min-height: auto;
   display: block;
   margin-left: auto;
@@ -93,12 +95,12 @@ a, u {
   margin-bottom: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* min-width: 450px; */
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .welcome-text {
   text-align: center;
-  /* min-height: 40vh; */
   padding-left: 15px;
   padding-right: 15px
 }
@@ -216,6 +218,10 @@ a, u {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
+  }
+
+  .subtitles {
     width: 350px;
   }
 
