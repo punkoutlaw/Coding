@@ -107,6 +107,16 @@ a, u {
   padding-bottom: 10vh;
 }
 
+.map {
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 125px;
+}
+
+.map-border {
+  border: solid 1px black;
+}
+
 .tourist-icon {
   float: left;
   display: block;
