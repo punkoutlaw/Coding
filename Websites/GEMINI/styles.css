@@ -28,7 +28,7 @@ a, u {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
+  margin-top: -25px;
   margin-bottom: auto;
   height: 400px;
 }
@@ -110,7 +110,7 @@ a, u {
 .map-body {
   justify-content: center;
   padding-left: 10px;
-  padding-top: 30px;
+  padding-top: auto;
 }
 
 .map-border {
@@ -198,12 +198,13 @@ a, u {
   @media only screen and (max-width: 480px) {
 
   .logo-block {
-    height: 20vh;
+    height: 25vh;
   }
     
   .main-logo {
     height: 300px;
-    object-fit:scale-down;
+    object-fit: scale-down;
+    margin-top: -30px;
   }
 
   .color-block-top {
@@ -225,10 +226,30 @@ a, u {
 
   .welcome-card {
     min-width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
     
   .welcome-text {
     padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .map-border {
+    height: 250px;
+    width: 355px;
+    margin-bottom: 25px;
+  }
+
+  .map-body {
+    margin-top: 40px;
+  }
+
+  .quote-form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 5px;
   }
 
