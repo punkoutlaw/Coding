@@ -107,14 +107,18 @@ a, u {
   padding-bottom: 10vh;
 }
 
-.map {
+.map-body {
   justify-content: center;
   padding-left: 10px;
-  padding-top: 125px;
+  padding-top: 30px;
 }
 
 .map-border {
   border: solid 1px black;
+}
+
+.contact-list {
+  list-style-type:none;
 }
 
 .tourist-icon {
