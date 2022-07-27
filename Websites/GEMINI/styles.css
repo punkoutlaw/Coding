@@ -28,7 +28,7 @@ a, u {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -25px;
+  margin-top: auto;
   margin-bottom: auto;
   height: 400px;
 }
@@ -208,7 +208,6 @@ a, u {
   .main-logo {
     height: 300px;
     object-fit: scale-down;
-    margin-top: -30px;
   }
 
   .color-block-top {
