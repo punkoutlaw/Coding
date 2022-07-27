@@ -108,17 +108,21 @@ a, u {
 }
 
 .map-body {
-  justify-content: center;
-  padding-left: 10px;
-  padding-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
 }
 
-.map-border {
+.map-box {
   border: solid 1px black;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contact-list {
   list-style-type:none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tourist-icon {
@@ -235,14 +239,15 @@ a, u {
     padding-bottom: 5px;
   }
 
-  .map-border {
-    height: 250px;
-    width: 355px;
-    margin-bottom: 25px;
-  }
-
   .map-body {
     margin-top: 40px;
+    margin-left: auto;
+  }
+
+  .map-box {
+    height: 250px;
+    width: 350px;
+    margin-bottom: 25px;
   }
 
   .quote-form {
