@@ -742,6 +742,11 @@ input[type="text"], text {
   .form-control {
     width: auto;
   }
+
+  .g-recaptcha {
+  display: block;
+  margin-left: -26px;
+}
   
   /* PICTURES PAGE */
 
