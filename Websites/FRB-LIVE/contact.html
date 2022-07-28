@@ -70,18 +70,24 @@
         <div class="row">
           <div class="col-9" id="contact-icons">
             <br>
-              <!-- <p><img src="./Images/telephone-icon4.png" alt="telephone icon" width="40px"> Telephone: 732-239-9908 </p> -->
-              <p><img src="./Images/email-icon.png" alt="email icon" width="40px"> Email: info@feudalerockband.com </p>
-                <br>
+            <ul class="li-form">
+              <!-- <li> <img src="./Images/telephone-icon4.png" alt="telephone icon" width="40px"> Telephone: 732-239-9908 </li> -->
+              <li> <img src="./Images/email-icon.png" alt="email icon" width="40px"> Email: info@feudalerockband.com </li>
+            </ul>
+              <br>
               <p>Send inquiries below.</p>
           </div>
 
             <br>
 
             <script>
-              function onSubmit(token) {
-                document.getElementById("demo-form").submit();
-              }
+              window.onload = function() {
+              var $recaptcha = document.querySelector('#g-recaptcha-response');
+          
+              if($recaptcha) {
+                  $recaptcha.setAttribute("required", "required");
+                }
+              };
             </script>
                    
             <form action="index.php"
@@ -114,13 +120,15 @@
 
                     <br>
 
+                    <div class="g-recaptcha" data-sitekey="6LfRQywhAAAAADg-4BZVR4ROA0FDFkdMGv8XGhdM"></div>
+
+                    <br>
+
                     <button type="submit" 
-                    value="submit"
-                    class="btn btn-primary g-recaptcha"
-                    data-sitekey="6LdEwSchAAAAABSHL0_ACR8zL4ayxpJEGQh3AxTH"
-                    data-callback="onSubmit"
-                    data-action="Submit"
-                    id="demo-form">Submit</button>
+                      value="submit"
+                      class="btn btn-primary">
+                      Submit
+                    </button>
 
                     <br>
 
@@ -140,13 +148,9 @@
         <div class="footer-basic">
           <footer>
               <div class="social"><a href="https://instagram.com/feudalerockband" class="fa fa-instagram fa-stack fa-2x" title="Instagram Icon"><i class="icon ion-social-instagram"></i></a><a href="https://www.youtube.com/channel/UCtEnhVXu10cy81mSURRxJhQ" class="fa fa-youtube fa-stack fa-2x" title="YouTube Icon"><i class="icon ion-social-youtube"></i></a><a href="https://twitter.com/feudalerockband" class="fa fa-twitter fa-stack fa-2x" title="Twitter Icon"><i class="icon ion-social-twitter"></i></a><a href="https://facebook.com/feudalerockband" class="fa fa-facebook fa-stack fa-2x" title="Facebook Icon"><i class="icon ion-social-facebook"></i></a></div>
-              <ul class="list-inline">
-                  <!-- <li class="list-inline-item"><a href="#">Home</a></li>
-                  <li class="list-inline-item"><a href="#">About</a></li>
-                  <li class="list-inline-item"><a href="#">Privacy Policy</a></li> -->
-              </ul>
               <p class="copyright">FEUDALE © 2022</p>
           </footer>
+        </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
