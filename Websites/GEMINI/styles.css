@@ -48,7 +48,7 @@ a, u {
   height: 2vh
 }
 
-.beach {
+.main-img {
   object-fit: cover;
   height: 500px;
 }
@@ -218,8 +218,9 @@ a, u {
     width: auto;
   }
 
-  .beach {
-    height: 300px;
+  .main-img {
+    height: 250px;
+    object-fit:cover;
   }
 
   .block1 {
