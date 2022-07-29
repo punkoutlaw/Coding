@@ -7,6 +7,13 @@ if ($honeypot) {
     exit;
 }
 
+// validate subject
+$subject = filter_input(INPUT_POST, 'subject', FILTER_UNSAFE_RAW);
+$inputs['subject'] = $subject;
+// if (!$subject || trim($subject) === '') {
+//     $errors['subject'] = 'Please enter the subject';
+// }
+
 // validate name
 $name = filter_input(INPUT_POST, 'name', FILTER_UNSAFE_RAW);
 $inputs['name'] = $name;

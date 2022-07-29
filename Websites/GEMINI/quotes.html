@@ -72,11 +72,12 @@
                       <div class="card-title"><strong>Request a Quote</strong></div>
                         <hr class="rounded">
                         <br>
-                        <form action="mailto:dwfeudale@gmail.com?Subject=New Quote Request"
+                        <form action="index.php"
                         method="post"
                         enctype="multipart/form-data"
                         name="EmailForm">
                         
+                        <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
                         <label for="name">Company Name</label>
                         <br>
                         <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
@@ -91,7 +92,7 @@
                         <br>
                         <label for="telephone">Telephone Number</label>
                         <br>
-                        <input type="number" name="telephone" class="form-control" placeholder="Telephone #" required="required">
+                        <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
                         <br>
                         <label for="email">Email Address</label>
                         <br>

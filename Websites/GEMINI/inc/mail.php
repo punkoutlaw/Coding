@@ -9,8 +9,9 @@ $company_name = $inputs['name'];
 $employees = $inputs['employees'];
 $coverage = $inputs['coverage'];
 $telephone = $inputs['telephone'];
-$contact_email = $inputs['email'];
 $location = $inputs['location'];
+$contact_email = $inputs['email'];
+$subject = $inputs['subject'];
 
 // Email header
 $headers[] = 'MIME-Version: 1.0';
@@ -19,5 +20,5 @@ $headers[] = "To: $recipient_email";
 $headers[] = "From: $contact_email";
 $header = implode('\r\n', $headers);
 
-$body = $message . "\n" . $company_name . "\n" . $contact_email;
+$body = $message . "\n" . $company_name . "\n" . $employees . "\n" . $coverage . "\n" . $telephone . "\n" . $location . "\n" . $contact_email;
 mail($recipient_email, $subject, $body, $header);
