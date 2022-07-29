@@ -25,6 +25,7 @@ a, u {
 
 .logo-block {
   display: block;
+  -o-object-fit: contain;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
@@ -37,6 +38,7 @@ a, u {
   width: 1000px;
   height: 500px;
   display: block;
+  -o-object-fit: contain;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
@@ -49,6 +51,7 @@ a, u {
 }
 
 .main-img {
+  -o-object-fit: cover;
   object-fit: cover;
   height: 500px;
 }
@@ -81,8 +84,8 @@ a, u {
 }
 
 .block2 {
-  min-height: auto;
   display: block;
+  min-height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,18 +96,12 @@ a, u {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 .welcome-text {
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 15px 10vh 15px;
 }
 
 .map-body {
@@ -140,7 +137,7 @@ a, u {
 }
 
 .footer-basic {
-    padding:40px 0;
+    padding:40 0;
     background-color:#ffffff;
     color:#4b4c4d;
   }
@@ -207,6 +204,7 @@ a, u {
     
   .main-logo {
     height: 300px;
+    -o-object-fit: scale-down;
     object-fit: scale-down;
   }
 
@@ -220,7 +218,8 @@ a, u {
 
   .main-img {
     height: 250px;
-    object-fit:cover;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .block1 {
@@ -229,6 +228,7 @@ a, u {
   }
 
   .welcome-card {
+    display: block;
     min-width: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -251,10 +251,7 @@ a, u {
   }
 
   .quote-form {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 25px 5px 25px 5px;
     padding-bottom: 5px;
   }
 
