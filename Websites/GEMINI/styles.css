@@ -16,6 +16,12 @@ a, u {
   float: left;
 }
 
+.btn {
+  width: 75px;
+  height: 40px;
+  color: white;
+}
+
 #gemini-text {
   color: rgb(223,193,83);
   font-weight: 200;
