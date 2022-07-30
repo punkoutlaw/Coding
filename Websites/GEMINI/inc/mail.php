@@ -20,5 +20,5 @@ $headers[] = "To: $recipient_email";
 $headers[] = "From: $contact_email";
 $header = implode('\r\n', $headers);
 
-$body = $message . "\n" . $company_name . "\n" . $employees . "\n" . $coverage . "\n" . $telephone . "\n" . $location . "\n" . $contact_email;
+$body = "\nCompany name: " . $company_name . "\nNmber of Employees: " . $employees . "\nCurrent Coverage: " . $coverage . "\nTelephone Number: " . $telephone . "\nLocation: " . $location . "\nEmail Address: " . $contact_email;
 mail($recipient_email, $subject, $body, $header);
