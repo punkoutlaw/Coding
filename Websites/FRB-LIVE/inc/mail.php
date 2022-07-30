@@ -17,5 +17,5 @@ $headers[] = "To: $recipient_email";
 $headers[] = "From: $contact_email";
 $header = implode('\r\n', $headers);
 
-$body = $message . "\n" . $contact_name . "\n" . $contact_email;
+$body = "\nMessage: " . $message . "\nName: " . $contact_name . "\nEmail Address: " . $contact_email;
 mail($recipient_email, $subject, $body, $header);
