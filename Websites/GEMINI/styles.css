@@ -126,6 +126,7 @@ a, u {
   list-style-type:none;
   margin-left: auto;
   margin-right: auto;
+  word-wrap: break-word;
 }
 
 .tourist-icon {
