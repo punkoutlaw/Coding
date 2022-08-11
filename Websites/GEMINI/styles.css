@@ -33,10 +33,7 @@ a, u {
   display: block;
   -o-object-fit: contain;
   object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
   height: 400px;
 }
 
@@ -98,10 +95,7 @@ a, u {
 
 .welcome-card {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
   padding: 5px 5px 5px 5px;
 }
 
@@ -182,17 +176,17 @@ a, u {
 }
 
 .footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
 }
 
 .footer-basic .social > a:hover {
@@ -210,11 +204,15 @@ a, u {
   @media only screen and (max-width: 480px) {
 
   .logo-block {
-    height: 200px;
+    padding-top: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 150px;
   }
     
   .main-logo {
-    height: 300px;
+    height: auto;
     -o-object-fit: scale-down;
     object-fit: scale-down;
   }
