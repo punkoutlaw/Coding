@@ -8,7 +8,8 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="Images/Gemini-Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/Gemini-Favicon-no_bg.ico" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
 
@@ -76,37 +77,52 @@
                         enctype="multipart/form-data"
                         name="EmailForm">
                         
-                        <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
-                        <label for="name">Company Name</label>
-                        <br>
-                        <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
-                        <br> 
-                        <label for="employees">Number of Employees</label>
-                        <br>
-                        <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
-                        <br>
-                        <label for="coverage">Current Coverage</label>
-                        <br>
-                        <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
-                        <br>
-                        <label for="telephone">Telephone Number</label>
-                        <br>
-                        <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
-                        <br>
-                        <label for="email">Email Address</label>
-                        <br>
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
-                        <br>
-                        <label for="location">Location</label>
-                        <br>
-                        <input type="text" class="form-control" name="location" placeholder="Location" required="required">
+                          <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
+                          <label for="name">Company Name</label>
+                          <br>
+                          <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
+                          <br> 
+                          <label for="employees">Number of Employees</label>
+                          <br>
+                          <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
+                          <br>
+                          <label for="coverage">Current Coverage</label>
+                          <br>
+                          <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
+                          <br>
+                          <label for="telephone">Telephone Number</label>
+                          <br>
+                          <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
+                          <br>
+                          <label for="email">Email Address</label>
+                          <br>
+                          <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                          <br>
+                          <label for="location">Location</label>
+                          <br>
+                          <input type="text" class="form-control" name="location" placeholder="Location" required="required">
 
-                        <br>
-
-                        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
-                        <button type="reset" value="reset" class="btn btn-warning">Reset</button>
-
-                        <br><br>
+                          <br>
+                        
+                            <script> window.onload = function() {
+                              var $recaptcha = document.querySelector('#g-recaptcha-response');
+                        
+                            if($recaptcha) {
+                                $recaptcha.setAttribute("required", "required");
+                                }
+                            };
+                            </script>
+    
+                            <form action="?" method="POST">
+                              <div class="g-recaptcha" data-sitekey="6LfS1oAhAAAAAN81lj1qt-acRt2mIamfaHSwUe0S"></div>
+                              <br/>
+                              <input type="submit" value="Submit" class="btn btn-primary" required="required">
+                              <button type="reset" value="reset" class="btn btn-warning">Reset</button>
+    
+                            <br><br>
+                        
+                            </form>
+                            
                         </form>
 
                   </div>
@@ -173,5 +189,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   </body>
 </html>
