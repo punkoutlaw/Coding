@@ -69,6 +69,10 @@ section {
   padding-bottom: 30px;
 }
 
+#mrc-header-text {
+  font-size: x-large;
+}
+
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
@@ -246,6 +250,10 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 24px 0;
+}
+
+.mrc-logo {
+  /* border: solid 1px #ba9b0d; */
 }
 
 @media (max-width: 1200px) {
@@ -505,7 +513,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/handshake.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
