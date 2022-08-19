@@ -70,7 +70,9 @@ section {
 }
 
 #mrc-header-text {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: "Franklin Gothic", "Ainslie Sans";
 }
 
 .section-header h2 {
@@ -984,6 +986,14 @@ section {
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+
+#employees {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team .team-member {
   overflow: hidden;
   background: #fff;
