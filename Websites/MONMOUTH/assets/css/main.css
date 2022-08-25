@@ -1363,8 +1363,8 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left top no-repeat;
-  background-size: contain;
+  background: url("../img/italian-mountains.jpg") left top no-repeat;
+  background-size: cover;
   position: relative;
 }
 
