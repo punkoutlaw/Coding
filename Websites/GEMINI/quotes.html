@@ -45,11 +45,11 @@
           <div class="row gx-0 color-block-top"></div>
         </div>
         
-      <div class="container-fluid px-0">
-        
         <br>
-            
-          <div class="row gx-0 block1">
+
+        <section id="main-content">
+          <div class="container-fluid px-0">
+            <div class="row gx-0 block1">
               <div class="col">
                 <div class="card subtitles mx-auto">
                   <img src="Images/employee-disability-lifes.jpg" alt="Employee Disability Life Insurance" class="infographics">
@@ -66,67 +66,67 @@
                 </div>
               </div>
               
-                <div class="col bg-light border border-solid quote-form">
-                    <div class="card-body">
+              <div class="col bg-light border border-solid quote-form">
+                  <div class="card-body">
+                    <br>
+                    <div class="card-title"><strong>Request a Quote</strong></div>
+                      <hr class="rounded">
                       <br>
-                      <div class="card-title"><strong>Request a Quote</strong></div>
-                        <hr class="rounded">
+                      <form action="index.php"
+                      method="post"
+                      enctype="multipart/form-data"
+                      name="EmailForm">
+                      
+                        <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
+                        <label for="name">Company Name</label>
                         <br>
-                        <form action="index.php"
-                        method="post"
-                        enctype="multipart/form-data"
-                        name="EmailForm">
-                        
-                          <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
-                          <label for="name">Company Name</label>
-                          <br>
-                          <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
-                          <br> 
-                          <label for="employees">Number of Employees</label>
-                          <br>
-                          <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
-                          <br>
-                          <label for="coverage">Current Coverage</label>
-                          <br>
-                          <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
-                          <br>
-                          <label for="telephone">Telephone Number</label>
-                          <br>
-                          <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
-                          <br>
-                          <label for="email">Email Address</label>
-                          <br>
-                          <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
-                          <br>
-                          <label for="location">Location</label>
-                          <br>
-                          <input type="text" class="form-control" name="location" placeholder="Location" required="required">
+                        <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
+                        <br> 
+                        <label for="employees">Number of Employees</label>
+                        <br>
+                        <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
+                        <br>
+                        <label for="coverage">Current Coverage</label>
+                        <br>
+                        <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
+                        <br>
+                        <label for="telephone">Telephone Number</label>
+                        <br>
+                        <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
+                        <br>
+                        <label for="email">Email Address</label>
+                        <br>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                        <br>
+                        <label for="location">Location</label>
+                        <br>
+                        <input type="text" class="form-control" name="location" placeholder="Location" required="required">
 
-                          <br>
-                        
-                            <script> window.onload = function() {
-                              var $recaptcha = document.querySelector('#g-recaptcha-response');
-                        
-                            if($recaptcha) {
-                                $recaptcha.setAttribute("required", "required");
-                                }
-                            };
-                            </script>
-    
-                            <form action="?" method="POST">
-                              <div class="g-recaptcha" data-sitekey="6LfS1oAhAAAAAN81lj1qt-acRt2mIamfaHSwUe0S"></div>
-                              <br/>
-                              <input type="submit" value="Submit" class="btn btn-primary" required="required">
-                              <button type="reset" value="reset" class="btn btn-warning">Reset</button>
-    
-                            <br><br>
-                        
-                            </form>
-                            
-                        </form>
+                        <br>
+                      
+                        <script> window.onload = function() {
+                          var $recaptcha = document.querySelector('#g-recaptcha-response');
+                    
+                        if($recaptcha) {
+                            $recaptcha.setAttribute("required", "required");
+                            }
+                        };
+                        </script>
+  
+                          <form action="?" method="POST">
+                            <div class="g-recaptcha" data-sitekey="6LfS1oAhAAAAAN81lj1qt-acRt2mIamfaHSwUe0S"></div>
+                            <br/>
+                            <input type="submit" value="Submit" class="btn btn-primary" required="required">
+                            <button type="reset" value="reset" class="btn btn-warning">Reset</button>
+  
+                          <br><br>
+                      
+                          </form>
 
-                  </div>
+                      </form>
+
                 </div>
+              </div>
             
               <div class="col">
                 <div class="card subtitles mx-auto">
@@ -145,17 +145,21 @@
               </div>
 
           </div>
+        </div>
+      </section>
 
         <br>
 
-        <hr class="rounded">
-
+      <section id="travelers">
         <div class="row gx-0 block2">
-          <div class="col">
 
-            <img src="Images/tourist-figure.jpg" alt="Tourists" class="tourist-icon">
+          <hr class="rounded">
 
-          </div>
+            <div class="col">
+
+              <img src="Images/tourist-figure.jpg" alt="Tourists" class="tourist-icon">
+
+            </div>
             <div class="col-6 mx-auto tourists">
 
               <p>Health Insurance for Travelers:
@@ -167,11 +171,10 @@
 
             </div>
 
-            <hr class="rounded">
+          <hr class="rounded">
             
         </div>
-
-      </div>
+      </section>
 
       <br>
 
