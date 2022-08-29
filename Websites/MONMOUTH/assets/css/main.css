@@ -655,7 +655,7 @@ section {
 
 @media (max-width: 1200px) {
   .why-us .img-bg {
-    min-height: 300px;
+    min-height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
   }
