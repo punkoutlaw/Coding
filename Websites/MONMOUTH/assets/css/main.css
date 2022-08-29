@@ -88,7 +88,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: var(--color-primary);
+  background: #b69b0c;
   left: 0;
   right: 0;
   bottom: 0;
@@ -134,7 +134,7 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #b69b0c;
 }
 
 .breadcrumbs ol a {
@@ -168,7 +168,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: #b69b0c;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -578,7 +578,7 @@ section {
   padding-left: 20px;
   font-size: 15px;
   font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
+  border-left: 2px solid #b69b0c;
   margin: 40px 0;
 }
 
@@ -653,9 +653,11 @@ section {
 }
 
 .why-us h3 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
-  color: var(--color-secondary);
+  text-align: center;
+  word-wrap: break-word;
+  color: #530305;
 }
 
 .why-us h4 {
