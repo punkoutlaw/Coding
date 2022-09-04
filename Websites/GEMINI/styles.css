@@ -94,7 +94,9 @@ a, u {
 }
 
 .welcome-card {
-  display: block;
+  display:flex;
+  align-items:center;
+  min-height: 500px;
   margin: auto;
   padding: 5px 5px 5px 5px;
 }
