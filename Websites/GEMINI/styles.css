@@ -1,3 +1,5 @@
+/* GENERAL STYLING */
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: larger;
@@ -22,6 +24,8 @@ a, u {
   color: white;
 }
 
+/* NAVBAR STYLING */
+
 #gemini-text {
   color: rgb(223,193,83);
   font-weight: 500;
@@ -29,12 +33,19 @@ a, u {
   font-family: 'Berling EF Regular';
 }
 
+/* HEADER STYLING */
+
 .logo-block {
   display: block;
   -o-object-fit: contain;
   object-fit: contain;
   margin: auto;
   height: 400px;
+}
+
+.color-block-top {
+  background-color: rgb(36, 54, 138);
+  height: 2vh
 }
 
 .main-logo {
@@ -48,15 +59,42 @@ a, u {
   padding-bottom: 8vh;
 }
 
-.color-block-top {
-  background-color: rgb(36, 54, 138);
-  height: 2vh
-}
-
 .main-img {
   -o-object-fit: cover;
   object-fit: cover;
   height: 500px;
+}
+
+/* MAIN CONTENT STYLING */
+
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1 {
+  min-height: auto;
+}
+
+.block2 {
+  display: block;
+  min-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-text {
+  text-align: center;
+  padding: 10vh 15px 10vh 15px;
+}
+
+.welcome-card {
+  display:flex;
+  align-items:center;
+  min-height: 500px;
+  margin: auto;
+  padding: 5px 5px 5px 5px;
 }
 
 .infographics {
@@ -76,35 +114,85 @@ a, u {
   margin-right: auto;
 }
 
-.block {
+/* TOURIST SECTION STYLING */
+
+.tourist-icon {
+  float: left;
   display: block;
-  margin-left: auto;
+  margin-left: 15vh;
   margin-right: auto;
+  width: 250px;
+  height: 250px;
 }
 
-.block1 {
-  min-height: auto;
-}
-
-.block2 {
-  display: block;
-  min-height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.welcome-card {
-  display:flex;
-  align-items:center;
-  min-height: 500px;
-  margin: auto;
-  padding: 5px 5px 5px 5px;
-}
-
-.welcome-text {
+.tourists {
+  padding-top: 5vh;
   text-align: center;
-  padding: 10vh 15px 10vh 15px;
 }
+
+/* FOOTER STYLING */
+
+.footer-basic {
+  padding:40 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+padding:0;
+list-style:none;
+text-align:center;
+font-size:18px;
+line-height:1.6;
+margin-bottom:0;
+}
+
+.footer-basic li {
+padding:0 10px;
+}
+
+.footer-basic ul a {
+color:inherit;
+text-decoration:none;
+opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+opacity:1;
+}
+
+.footer-basic .social {
+text-align:center;
+padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+font-size: 24px;
+width: 40px;
+height: 40px;
+line-height: 40px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+border: 1px solid #ccc;
+margin: 0 8px;
+color: inherit;
+opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+opacity:0.9;
+}
+
+.footer-basic .copyright {
+margin-top:15px;
+text-align:center;
+font-size:13px;
+color:#aaa;
+margin-bottom:0;
+}
+
+/* QUOTE FORM STYLING */
 
 .quote-form {
   padding: 5px, 5px, 5px, 5px;
@@ -119,6 +207,8 @@ a, u {
     z-index: -999999;
     opacity: 0;
 }
+
+/* CONTACT STYLING */
 
 .map-body {
   margin-left: auto;
@@ -137,80 +227,6 @@ a, u {
   margin-left: auto;
   margin-right: auto;
   word-wrap: break-word;
-}
-
-.tourist-icon {
-  float: left;
-  display: block;
-  margin-left: 15vh;
-  margin-right: auto;
-  width: 250px;
-  height: 250px;
-}
-
-.tourists {
-  padding-top: 5vh;
-  text-align: center;
-}
-
-.footer-basic {
-    padding:40 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
-  }
-  
-.footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
-}
-  
-.footer-basic li {
-  padding:0 10px;
-}
-
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
-}
-
-.footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
-}
-
-.footer-basic .social > a {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  border: 1px solid #ccc;
-  margin: 0 8px;
-  color: inherit;
-  opacity: 0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity:0.9;
-}
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
 }
 
   @media only screen and (max-width: 480px) {
