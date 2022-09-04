@@ -103,6 +103,11 @@ a, u {
   margin-right: auto;
   width: 400px;
   height: 300px;
+  opacity: 1;
+}
+
+.infographics:hover {
+  opacity: 0.5;
 }
 
 .subtitles {
