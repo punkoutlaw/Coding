@@ -131,8 +131,7 @@ a, u {
 .tourist-icon {
   float: left;
   display: block;
-  margin-left: 15vh;
-  margin-right: auto;
+  margin: auto;
   width: 250px;
   height: 250px;
 }
@@ -140,6 +139,11 @@ a, u {
 .tourists {
   padding-top: 5vh;
   text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
 }
 
 /* FOOTER STYLING */
@@ -319,11 +323,17 @@ margin-bottom:0;
     margin: auto;
   }
 
+  .tourists {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8vh;
+  }
+
   .tourist-icon {
     display: block;
-    margin-left: 7vh;
+    margin-left: -10vw;
     margin-right: auto;
-    margin-bottom: 2vh;
   }
 
   }
