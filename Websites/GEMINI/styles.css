@@ -211,6 +211,10 @@ margin-bottom:0;
 /* QUOTE FORM STYLING */
 
 .quote-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
   padding: 5px, 5px, 5px, 5px;
 }
 
@@ -226,22 +230,19 @@ margin-bottom:0;
 
 /* CONTACT STYLING */
 
-.map-body {
-  margin-left: auto;
-  margin-right: auto;
+.contact-body {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
   border: none;
 }
 
 .map-box {
   border: solid 1px black;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .contact-list {
-  list-style-type:none;
-  margin-left: auto;
-  margin-right: auto;
+  list-style-type: none;
   word-wrap: break-word;
 }
 
@@ -292,9 +293,17 @@ margin-bottom:0;
     padding-bottom: 5px;
   }
 
-  .map-body {
-    margin-top: 40px;
+  .contact-body {
+    display: block;
     margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-list {
+    list-style-type: none;
+    word-wrap: break-word;
+    min-width: 90vw;
+    padding-top: 50px;
   }
 
   .map-box {

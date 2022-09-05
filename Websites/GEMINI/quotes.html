@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemini Brokeridge - Get A Quote</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="Images/Gemini-Favicon-no_bg.ico" type="image/x-icon">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
 
@@ -37,132 +36,154 @@
         </div>
       </div>
     </nav>
-
+      
       <section id="gemini-header">
+
         <div class="container-fluid px-0">
           <div class="row gx-0 logo-block">
             <img src="Images/Gemini Logo 2022.jpg" alt="Gemini Logo" class="main-logo">
           </div>
           <div class="row gx-0 color-block-top"></div>
+          <div class="row gx-0">
+            <div class="col">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/family-beach.jpg" class="main-img d-block w-100" alt="Family on the beach">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/nyc-skline.jpg" class="main-img d-block w-100" alt="NYC Skyline">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/open-road.jpg" class="main-img d-block w-100" alt="Open Road">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-0 color-block-top"></div>
         </div>
+
       </section>
-        
-        <br>
 
-        <section id="main-content">
-          <div class="container-fluid px-0">
-            <div class="row gx-0 block1">
-              <div class="col">
-                <div class="card subtitles mx-auto">
-                  <img src="Images/employee-disability-lifes.jpg" alt="Employee Disability Life Insurance" class="infographics">
-                  <div class="card-footer bg-light subtitle-footer">
-                    Employee Disability & Life Insurance
-                  </div>
-                </div>
+    <div class="container-fluid px-0">
+
+      <section id="main-content">
+        <div class="row">
+          <div class="col quote-form">
+            <div class="card-body">
+              <br>
+              <div class="card-title"><strong>Request a Quote</strong></div>
+                <hr class="rounded">
                 <br>
-                <div class="card subtitles mx-auto">
-                  <img src="Images/passenger-van-image2.jpeg" alt="Employee Disability Life Insurance" class="infographics">
-                  <div class="card-footer bg-light subtitle-footer">
-                    Passenger Van Insurance
-                  </div>
-                </div>
-              </div>
+                <form action="index.php"
+                method="post"
+                enctype="multipart/form-data"
+                name="EmailForm">
+                
+                  <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
+                  <label for="name">Company Name</label>
+                  <br>
+                  <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
+                  <br> 
+                  <label for="employees">Number of Employees</label>
+                  <br>
+                  <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
+                  <br>
+                  <label for="coverage">Current Coverage</label>
+                  <br>
+                  <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
+                  <br>
+                  <label for="telephone">Telephone Number</label>
+                  <br>
+                  <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
+                  <br>
+                  <label for="email">Email Address</label>
+                  <br>
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                  <br>
+                  <label for="location">Location</label>
+                  <br>
+                  <input type="text" class="form-control" name="location" placeholder="Location" required="required">
+
+                  <br>
+                
+                  <script> window.onload = function() {
+                    var $recaptcha = document.querySelector('#g-recaptcha-response');
               
-              <div class="col bg-light border border-solid quote-form">
-                  <div class="card-body">
-                    <br>
-                    <div class="card-title"><strong>Request a Quote</strong></div>
-                      <hr class="rounded">
-                      <br>
-                      <form action="index.php"
-                      method="post"
-                      enctype="multipart/form-data"
-                      name="EmailForm">
-                      
-                        <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
-                        <label for="name">Company Name</label>
-                        <br>
-                        <input type="text" name="name" class="form-control" placeholder="Company Name" required="required">
-                        <br> 
-                        <label for="employees">Number of Employees</label>
-                        <br>
-                        <input type="number" name="employees" class="form-control" placeholder="# of Employees" required="required">
-                        <br>
-                        <label for="coverage">Current Coverage</label>
-                        <br>
-                        <input type="text" name="coverage" class="form-control" placeholder="Current Coverage" required="required">
-                        <br>
-                        <label for="telephone">Telephone Number</label>
-                        <br>
-                        <input type="text" name="telephone" class="form-control" placeholder="Telephone #" required="required">
-                        <br>
-                        <label for="email">Email Address</label>
-                        <br>
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
-                        <br>
-                        <label for="location">Location</label>
-                        <br>
-                        <input type="text" class="form-control" name="location" placeholder="Location" required="required">
+                  if($recaptcha) {
+                      $recaptcha.setAttribute("required", "required");
+                      }
+                  };
+                  </script>
 
-                        <br>
-                      
-                        <script> window.onload = function() {
-                          var $recaptcha = document.querySelector('#g-recaptcha-response');
-                    
-                        if($recaptcha) {
-                            $recaptcha.setAttribute("required", "required");
-                            }
-                        };
-                        </script>
-  
-                          <form action="?" method="POST">
-                            <div class="g-recaptcha" data-sitekey="6LfS1oAhAAAAAN81lj1qt-acRt2mIamfaHSwUe0S"></div>
-                            <br/>
-                            <input type="submit" value="Submit" class="btn btn-primary" required="required">
-                            <button type="reset" value="reset" class="btn btn-warning">Reset</button>
-  
-                          <br><br>
-                      
-                          </form>
+                    <form action="?" method="POST">
+                      <div class="g-recaptcha" data-sitekey="6LfS1oAhAAAAAN81lj1qt-acRt2mIamfaHSwUe0S"></div>
+                      <br/>
+                      <input type="submit" value="Submit" class="btn btn-primary" required="required">
+                      <button type="reset" value="reset" class="btn btn-warning">Reset</button>
 
-                      </form>
+                    <br><br>
+                
+                    </form>
 
-                </div>
-              </div>
-            
-              <div class="col">
-                <div class="card subtitles mx-auto">
-                  <img src="Images/employee-groups.jpg" alt="Employee Group Insurance" class="infographics">
-                  <div class="card-footer bg-light subtitle-footer">
-                    Employee Group Insurance
-                  </div>
-                </div>
-                <br>
-                <div class="card subtitles mx-auto">
-                  <img src="Images/commercial-vehicles.jpg" alt="Employee Group Insurance" class="infographics">
-                  <div class="card-footer bg-light subtitle-footer">
-                    Commercial Fleet Insurance
-                  </div>
-                </div>
-              </div>
+                </form>
 
+            </div>
           </div>
         </div>
+
       </section>
 
-        <br>
+      <section id="main-cards">
+                
+        <div class="row mx-auto welcome-card bg-light">
+
+          <div class="col-3">
+            <div class="card subtitles mx-auto">
+              <img src="Images/employee-groups.jpg" alt="Employee Group Insurance" class="infographics">
+                <div class="card-footer bg-light subtitle-footer">
+                  Employee Group Insurance
+                </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card subtitles mx-auto">
+              <img src="Images/commercial-vehicles.jpg" alt="Employee Group Insurance" class="infographics">
+                <div class="card-footer bg-light subtitle-footer">
+                  Commercial Fleet Insurance
+                </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card subtitles mx-auto">
+              <img src="Images/employee-disability-lifes.jpg" alt="Employee Disability Life Insurance" class="infographics">
+                <div class="card-footer bg-light subtitle-footer">
+                  Employee Disability & Life Insurance
+                </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card subtitles mx-auto">
+              <img src="Images/passenger-van-image2.jpeg" alt="Employee Disability Life Insurance" class="infographics">
+                <div class="card-footer bg-light subtitle-footer">
+                  Passenger Van Insurance
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
 
       <section id="travelers">
+
         <div class="row gx-0 block2">
 
           <hr class="rounded">
 
-            <div class="col">
+            <div class="col-6 mx-auto tourists">
 
               <img src="Images/tourist-figure.jpg" alt="Tourists" class="tourist-icon">
-
-            </div>
-            <div class="col-6 mx-auto tourists">
 
               <p>Health Insurance for Travelers:
               If you are traveling to anywhere in the world from anywhere in the world, you can be covered!
@@ -176,7 +197,10 @@
           <hr class="rounded">
             
         </div>
+      
       </section>
+
+    </div>
 
       <br>
 
@@ -188,18 +212,17 @@
               <a href="#"><i class="fa fa-linkedin"></i></a>
             </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
                 <li class="list-inline-item"><a href="quotes.html">Get a Quote</a></li>
                 <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
             </ul>
             <p class="copyright">Gemini Brokerage © 2022</p>
             <p class="copyright">708 3rd Avenue, 5th Floor, New York, NY 10017, United States | 212-661-1990</p>
         </footer>
-      </div> 
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
-
+        
   </body>
 </html>
