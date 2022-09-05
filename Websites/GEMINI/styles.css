@@ -300,10 +300,11 @@ margin-bottom:0;
 
 .contact-body {
   background-image: none;
+  margin-left: -25vw;
 }
 
 .contact-list {
-  
+  word-break: break-all;
 }
 
 }
