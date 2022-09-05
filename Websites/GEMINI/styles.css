@@ -154,6 +154,10 @@ a, u {
   margin-right: auto;
 }
 
+.subtitle-footer {
+  font-size: large;
+}
+
 /* TOURIST SECTION STYLING */
 
 .tourist-icon {
