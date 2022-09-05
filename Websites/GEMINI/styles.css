@@ -22,6 +22,11 @@ a, u {
   width: 75px;
   height: 40px;
   color: white;
+  background-color: rgb(36, 54, 138);
+}
+
+.btn-warning {
+  background-color: rgb(223,193,83);
 }
 
 /* NAVBAR STYLING */
@@ -299,6 +304,7 @@ margin-bottom:0;
   .welcome-text {
     padding-top: 5px;
     padding-bottom: 5px;
+    min-width: 90vw;
   }
 
   .contact-body {
