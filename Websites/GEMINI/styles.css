@@ -283,21 +283,28 @@ margin-bottom:0;
 
 /* TABLET VIEW */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   
 .services{
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: auto;
-}
-
-.infographics {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: fit-content;
 }
 
+.tourists {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+.contact-body {
+  background-image: none;
+}
+
+.contact-list {
+  
+}
 
 }
 
