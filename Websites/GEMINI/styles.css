@@ -2,6 +2,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway|Lato|Playfair);
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Playfair', 'Raleway', 'Lato', serif;
@@ -283,7 +287,7 @@ margin-bottom:0;
 
 /* TABLET VIEW */
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 760px) and (max-width: 1200px) {
   
 .services{
   display: block;
@@ -295,12 +299,11 @@ margin-bottom:0;
 .tourists {
   display: flex;
   flex-direction: column;
-  margin-bottom: auto;
+  margin-bottom: 60px;
 }
 
 .contact-body {
   background-image: none;
-  margin-left: -25vw;
 }
 
 .contact-list {
@@ -353,7 +356,7 @@ margin-bottom:0;
   }
     
   .welcome-text {
-    padding-top: 5px;
+    padding-top: 50px;
     padding-bottom: 5px;
     min-width: 90vw;
   }
