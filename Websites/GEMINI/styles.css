@@ -277,6 +277,9 @@ margin-bottom:0;
 }
 
 .map-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: solid 1px black;
 }
 
@@ -376,9 +379,6 @@ margin-bottom:0;
   }
 
   .map-box {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 250px;
     width: 300px;
     margin-bottom: 25px;
