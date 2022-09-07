@@ -27,12 +27,16 @@ if ($request_method === 'GET') {
         // send an email
         require_once __DIR__ . '/inc/mail.php';
         // set the message
-        $_SESSION['Thanks for contacting us, we will be in touch shortly!'];
+        $_SESSION['Message sent! We will be in touch shortly.'];
     } else {
         $_SESSION['errors'] =   $errors;
         $_SESSION['inputs'] =   $inputs;
     }
+    
+echo '<script type="text/javascript">
+       window.onload = function () { alert("Message sent! We will be in touch shortly."); 
+       location="/contact.html";
+       } 
+</script>';
 
-    header('Location: contact.html', true, 303);
-    exit;
 }
