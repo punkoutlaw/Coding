@@ -576,6 +576,7 @@ section {
 .hero blockquote {
   color: #fff;
   padding-left: 20px;
+  padding-right: 20px;
   font-size: 15px;
   font-family: var(--font-default);
   border-left: 2px solid var(--color-primary);
