@@ -117,16 +117,12 @@ a, u {
 }
 
 .services {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
+  font-size: larger;
   min-height: 500px;
   margin: auto;
   padding: 5px 5px 5px 5px;
-}
-
-.services {
-  text-align: center;
-  font-size: larger;
 }
 
 .services hr {
