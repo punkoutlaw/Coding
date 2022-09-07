@@ -8,7 +8,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Playfair', 'Raleway', 'Lato', serif;
+  font-family: 'Raleway', 'Lato', 'Playfair', serif;
   font-weight: 400;
   font-style: normal;
   font-size: larger;
@@ -173,7 +173,6 @@ a, u {
 }
 
 .tourists {
-  padding-top: 5vh;
   text-align: center;
   font-size: x-large;
   min-height: 500px;
@@ -293,7 +292,7 @@ margin-bottom:0;
 @media (min-width: 481px) and (max-width: 1440px) {
 
 .main-logo {
-  padding-bottom: 10vh;
+  padding-bottom: 100px;
 }
   
 .services{
@@ -306,7 +305,7 @@ margin-bottom:0;
 .tourists {
   display: flex;
   flex-direction: column;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .contact-body {
@@ -370,8 +369,7 @@ margin-bottom:0;
 
   .contact-body {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto 0 auto;
     background-image: none;
   }
 
@@ -405,7 +403,7 @@ margin-bottom:0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 8vh;
+    padding-bottom: 30px;
   }
 
   .tourist-icon {
