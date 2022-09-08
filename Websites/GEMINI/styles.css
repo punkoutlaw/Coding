@@ -108,7 +108,7 @@ a, u {
   text-align: center;
   font-size: x-large;
   max-width: 50vw;
-  padding: 10vh 15px 10vh 15px;
+  padding: 13vh 15px 10vh 15px;
 }
 
 .welcome-text h1 {
@@ -179,8 +179,7 @@ a, u {
 /* FOOTER STYLING */
 
 .footer-basic {
-  padding:40 0;
-  background-color:#ffffff;
+  padding-top: 40px;
   color:#4b4c4d;
 }
 
@@ -359,7 +358,7 @@ margin-bottom:0;
     
   .welcome-text {
     padding-top: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     min-width: 90vw;
   }
 
@@ -399,7 +398,7 @@ margin-bottom:0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 
   .tourist-icon {
