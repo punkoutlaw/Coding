@@ -689,6 +689,14 @@ section {
     min-block-size: 30vh;
   }
 
+  .why-us .swiper-button-prev:after {
+    margin-left: -125px;
+  }
+
+  .why-us .swiper-button-next:after {
+    margin-right: -125px;
+  }
+
 }
 
 .page-about .why-us {
