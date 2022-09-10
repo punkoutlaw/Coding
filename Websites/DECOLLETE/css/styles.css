@@ -1,15 +1,15 @@
 /* MAIN STYLING */
 
-@import url(http://fonts.googleapis.com/css?family=Qwitcher+Grypen|Combo);
+@import url(http://fonts.googleapis.com/css?family=Qwitcher+Grypen|Combo|Alegreya+SC);
 
 body {
-    font-family: 'Combo';
+    font-family: 'Alegreya SC';
     font-size: 20px;
     font-weight: bold;
 }
 
 .navbar {
-    background-color: #ffeeef;
+    background-color: #f1cfd1;
 }
 
 #main-content {
@@ -20,4 +20,8 @@ body {
 #footer {
     background-color: #ffeeef;
     color: black;
+}
+
+#footer-copyright {
+    background-color: #f1cfd1;
 }
