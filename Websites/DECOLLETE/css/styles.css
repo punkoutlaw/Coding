@@ -1,0 +1,23 @@
+/* MAIN STYLING */
+
+@import url(http://fonts.googleapis.com/css?family=Qwitcher+Grypen|Combo);
+
+body {
+    font-family: 'Combo';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #ffeeef;
+}
+
+#main-content {
+    font-family: 'Qwitcher Grypen';
+    font-size: 40px;
+}
+
+#footer {
+    background-color: #ffeeef;
+    color: black;
+}
