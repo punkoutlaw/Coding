@@ -57,15 +57,11 @@ a:visited {
 }
 
 .carousel-inner {
+    image-rendering: optimizeSpeed;
     object-fit: cover;
-    height: 40vh;
-    object-fit: cover;
+    height: 50vh;
     border: 1px solid;
 }
-
-/* .carousel-item {
-
-} */
 
 #footer {
     background-color: #ffeeef;
