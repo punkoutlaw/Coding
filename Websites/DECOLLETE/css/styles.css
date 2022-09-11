@@ -6,10 +6,25 @@ body {
     font-family: 'Alegreya SC';
     font-size: 20px;
     font-weight: bold;
+    color: #973330;
+    background-color: #ffeeef;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: #e1888b;
 }
 
 .navbar {
-    background-color: #f1cfd1;
+    color: white;
+    background-color: #fac4c2;
 }
 
 #main-content {
@@ -17,11 +32,22 @@ body {
     font-size: 40px;
 }
 
+#carousel {
+
+    width: 500px;
+    height: 500px;
+}
+
 #footer {
     background-color: #ffeeef;
-    color: black;
+    color: #973330;
+}
+
+.footer-text {
+    font-family: 'Qwitcher Grypen';
+    font-size: 40px;
 }
 
 #footer-copyright {
-    background-color: #f1cfd1;
+    background-color: #fac4c2;
 }
