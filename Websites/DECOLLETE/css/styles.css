@@ -25,6 +25,7 @@ a:visited {
 .navbar {
     color: white;
     background-color: #fac4c2;
+    height: 90px;
 }
 
 #main-content {
