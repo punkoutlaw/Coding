@@ -15,7 +15,7 @@ a {
 }
 
 a:active {
-    color: red;
+    color: goldenrod;
 }
 
 a:visited {
@@ -30,13 +30,42 @@ a:visited {
 #main-content {
     font-family: 'Qwitcher Grypen';
     font-size: 40px;
+    padding-top: 50px;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbotron-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
 
 #carousel {
-
-    width: 500px;
-    height: 500px;
+    background-color: #973330;
 }
+
+.carousel-inner {
+    object-fit: cover;
+    height: 40vh;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+/* .carousel-item {
+
+} */
 
 #footer {
     background-color: #ffeeef;
