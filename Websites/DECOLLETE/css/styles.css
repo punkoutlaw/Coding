@@ -72,8 +72,7 @@ a:visited {
 
 .carousel-inner {
     image-rendering: optimizeSpeed;
-    object-fit: cover;
-    height: 500px; /* 50vh */
+    height: 700px; /* 50vh */
     width: 100vw;
     border: 1px solid;
 }
