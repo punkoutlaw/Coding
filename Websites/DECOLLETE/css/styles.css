@@ -1,4 +1,4 @@
-/* MAIN STYLING */
+/* CORE STYLING */
 
 @import url(http://fonts.googleapis.com/css?family=Qwitcher+Grypen|Combo|Alegreya+SC);
 
@@ -8,14 +8,21 @@ body {
     font-weight: bold;
     color: #973330;
     background-color: #ffeeef;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+    color: #e1888b;
 }
 
 a:active {
+    color: #973330;
+}
+
+a:hover {
     color: goldenrod;
+    text-decoration: none;
 }
 
 a:visited {
@@ -26,6 +33,17 @@ a:visited {
     color: white;
     background-color: #fac4c2;
     height: 90px;
+}
+
+/* MAIN */
+
+.jumbotron {
+    background-image: url(../img/jumbotron-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px; /* 40vh */
+    border: none;
+    border-radius: 0;
 }
 
 #main-content {
@@ -46,12 +64,7 @@ a:visited {
     height: 400px;
 }
 
-.jumbotron {
-    background-image: url(../img/jumbotron-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
+/* CAROUSEL */
 
 #carousel {
     background-color: #973330;
@@ -60,10 +73,12 @@ a:visited {
 .carousel-inner {
     image-rendering: optimizeSpeed;
     object-fit: cover;
-    height: 50vh;
+    height: 500px; /* 50vh */
     width: 100vw;
     border: 1px solid;
 }
+
+/* FOOTER */
 
 #footer {
     background-color: #ffeeef;
