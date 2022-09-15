@@ -41,7 +41,9 @@ a:visited {
     background-image: url(../img/jumbotron-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 450px; /* 40vh */
+    border: none;
+    border-radius: 0;
 }
 
 #main-content {
@@ -71,7 +73,7 @@ a:visited {
 .carousel-inner {
     image-rendering: optimizeSpeed;
     object-fit: cover;
-    height: 50vh;
+    height: 500px; /* 50vh */
     width: 100vw;
     border: 1px solid;
 }
