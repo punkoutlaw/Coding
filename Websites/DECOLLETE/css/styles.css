@@ -68,25 +68,6 @@ a:visited {
     height: 400px;
 }
 
-@media (min-width: 481px) and (max-width: 1440px) {
-
-    .main-content {
-        padding-bottom: 20px;
-    }
-
-    .main-text {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80vw;
-    }
-
-    .carousel-item img {
-        max-height: 400px; /* 50vh */  
-    }
-
-}
-
 /* CAROUSEL */
 
 #carousel {
@@ -106,11 +87,6 @@ a:visited {
 }
 
 /* SUBSCRIBE FORM */
-
-/* Style the form element with a border around it */
-form {
-    /* border: 4px solid #f1f1f1; */
-  }
   
   /* Add some padding and a grey background color to containers */
   .container {
@@ -157,4 +133,30 @@ form {
 
 #footer-copyright {
     background-color: #fac4c2;
+}
+
+/* TABLET VIEW */
+
+@media (min-width: 481px) and (max-width: 1440px) {
+
+    .jumbotron p {
+        font-weight: 600;
+        text-shadow: #000;
+    }
+
+    .main-content {
+        padding-bottom: 20px;
+    }
+
+    .main-text {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+
+    .carousel-item img {
+        max-height: 500px; /* 50vh */  
+    }
+
 }
