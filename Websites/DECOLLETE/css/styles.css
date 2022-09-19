@@ -168,6 +168,11 @@ a:visited {
     }
 
     .jumbotron {
-        
+        max-height: ;
+    }
+
+    .carousel-item img {
+        max-height: 300px;
+        object-fit: fill;
     }
 }
