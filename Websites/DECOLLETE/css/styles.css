@@ -167,8 +167,16 @@ a:visited {
         height: auto;
     }
 
+    #hero {
+        
+    }
+
     .jumbotron {
-        max-height: ;
+        padding-top: 25px;
+    }
+
+    .main-text {
+        min-width: 90vw;
     }
 
     .carousel-item img {
