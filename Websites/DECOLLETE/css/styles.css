@@ -139,6 +139,10 @@ a:visited {
 
 @media (min-width: 481px) and (max-width: 1440px) {
 
+    .navbar {
+        height: auto;
+    }
+
     .jumbotron p {
         font-weight: 600;
         text-shadow: #000;
@@ -167,12 +171,8 @@ a:visited {
         height: auto;
     }
 
-    #hero {
-        
-    }
-
     .jumbotron {
-        padding-top: 25px;
+        padding: 25px 0 0 13px;
     }
 
     .main-text {
