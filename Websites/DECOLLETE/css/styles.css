@@ -52,12 +52,34 @@ a:visited {
     padding-top: 50px;
 }
 
+
 .main-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 50vw;
+}
+
+.secondary-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Alegreya SC';
+    font-size: 30px;
+    width: 50vw;
+}
+
+.services {
+    text-align: center;
+    font-family: 'Alegreya SC' !important;
+    font-size: 25px !important;
+    width: 50%;
+}
+
+.services hr {
+    width: 100px;
 }
 
 .main-logo {
@@ -67,6 +89,7 @@ a:visited {
     width: 400px;
     height: 400px;
 }
+
 
 /* CAROUSEL */
 
