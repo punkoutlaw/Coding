@@ -90,6 +90,29 @@ a:visited {
     height: 400px;
 }
 
+/* ACCORDION */
+
+.accordion {
+    background-color: #ffeeef;
+    width: 50%;
+}
+
+.accordion-item {
+    color:#973330;
+    background-color: #ffeeef;
+    font-weight: 200;
+}
+
+.accordion-button {
+    color: white;
+    background-color: #973330;
+    font-size: large;
+}
+
+.accordion-button:not(.collapsed)  {
+    color: #fff;
+    background-color: #e1888b;
+}
 
 /* CAROUSEL */
 
