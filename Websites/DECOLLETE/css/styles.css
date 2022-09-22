@@ -121,6 +121,12 @@ a:visited {
     list-style: inside ;
 }
 
+
+.services ul p {
+    font-size: large;
+    text-indent: 50px;
+}
+
 .services h3 {
     font-family: 'Qwitcher Grypen';
     font-size: 40px;
