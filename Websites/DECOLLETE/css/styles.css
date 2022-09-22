@@ -114,9 +114,17 @@ a:visited {
     background-color: #e1888b;
 }
 
+/* SERVICES */
+
 .services ul {
     text-align: left;
     list-style: inside ;
+}
+
+.services h3 {
+    font-family: 'Qwitcher Grypen';
+    font-size: 40px;
+    font-weight: 600;
 }
 
 /* CAROUSEL */
