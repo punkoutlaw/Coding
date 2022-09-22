@@ -114,6 +114,11 @@ a:visited {
     background-color: #e1888b;
 }
 
+.services ul {
+    text-align: left;
+    list-style: inside ;
+}
+
 /* CAROUSEL */
 
 #carousel {
