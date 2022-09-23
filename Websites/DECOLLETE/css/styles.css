@@ -223,6 +223,10 @@ a:visited {
         margin-right: auto;
         width: 80vw;
     }
+    
+    .logo {
+        margin-bottom: -15%;
+    }
 
     .carousel-item img {
         max-height: 500px; /* 50vh */  
