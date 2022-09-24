@@ -41,9 +41,20 @@ a:visited {
     background-image: url(../img/jumbotron-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 0 50px 10px;
+    height: 400px;
+    padding: 40px 0 0 10px;
     border: none;
     border-radius: 0;
+}
+
+.jumbotron .btn {
+    background-color: #973330;
+    color: white;
+    border: none;
+}
+
+.jumbotron .btn:hover {
+    background-color: #8dbacd;
 }
 
 #main-content {
@@ -127,7 +138,7 @@ a:visited {
     text-indent: 50px;
 }
 
-.services h3 {
+.titles {
     font-family: 'Qwitcher Grypen';
     font-size: 50px;
     font-weight: 600;
