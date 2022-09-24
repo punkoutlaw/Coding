@@ -245,6 +245,8 @@ a:visited {
 
 }
 
+/* MOBILE VIEW */
+
 @media only screen and (max-width: 480px) {
 
     .navbar {
@@ -252,6 +254,7 @@ a:visited {
     }
 
     .jumbotron {
+        height: 450px;
         padding: 25px 0 0 13px;
     }
 
