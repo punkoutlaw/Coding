@@ -9,6 +9,7 @@ body {
     color: #973330;
     background-color: #ffeeef;
     overflow-x: hidden;
+    word-wrap: break-word;
 }
 
 a {
