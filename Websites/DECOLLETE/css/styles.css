@@ -270,6 +270,7 @@ a:visited {
     }
 
     .secondary-text {
+        width: 80vw;
         font-size: 25px;
     }
 
@@ -279,8 +280,8 @@ a:visited {
     }
 
     .accordion {
-        width: 90vw;
-        margin-left: -23vw;
+        width: 80vw;
+        margin-left: -15vw;
     }
 
     .logo {
