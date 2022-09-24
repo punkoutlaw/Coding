@@ -269,9 +269,18 @@ a:visited {
         min-width: 90vw;
     }
 
+    .secondary-text {
+        font-size: 25px;
+    }
+
     .carousel-item img {
         max-height: 300px;
         object-fit: fill;
+    }
+
+    .accordion {
+        width: 90vw;
+        margin-left: -23vw;
     }
 
     .logo {
