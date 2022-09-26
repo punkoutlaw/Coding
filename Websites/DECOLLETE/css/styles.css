@@ -36,6 +36,10 @@ a:visited {
     height: 90px;
 }
 
+.navbar img {
+    height: 70px;
+}
+
 /* MAIN */
 
 .jumbotron {
