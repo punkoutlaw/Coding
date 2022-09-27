@@ -209,6 +209,10 @@ opacity: 0.8;
 
 /* CONTACT PAGE */
 
+.contact {
+    padding: 0 20px 0 20px;
+}
+
 textarea {
     width: 100%;
     border: 1px solid #ccc;
