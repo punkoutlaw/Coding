@@ -311,12 +311,13 @@ textarea {
 
     .carousel-item img {
         max-height: 300px;
+        -moz-object-fit: fill;
         object-fit: fill;
     }
 
     .accordion {
         width: 90vw;
-        margin-left: -17vw;
+        margin-left: -20vw;
     }
 
     .logo {
