@@ -181,13 +181,14 @@ padding: 20px;
 }
 
 /* Style the input elements and the submit button */
-input[type=text], input[type=submit] {
+input[type=text], input[type=submit], input[type=email] {
 width: 100%;
 padding: 12px;
 margin: 8px 0;
 display: inline-block;
 border: 1px solid #ccc;
 box-sizing: border-box;
+outline-color: #973330;
 }
 
 /* Add margins to the checkbox */
@@ -204,6 +205,15 @@ border: none;
 
 input[type=submit]:hover {
 opacity: 0.8;
+}
+
+/* CONTACT PAGE */
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline-color: #973330;
 }
 
 .contact hr {
