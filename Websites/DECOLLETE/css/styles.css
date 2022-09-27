@@ -322,5 +322,6 @@ textarea {
 
     .logo {
         height: 300px;
+        margin-left: -2vw;
     }
 }
