@@ -206,6 +206,16 @@ a:visited {
     opacity: 0.8;
   }
 
+.contact .btn {
+    background-color: #973330;
+    color: white;
+    border: none;
+}
+
+.contact .btn:hover {
+    background-color: #8dbacd;
+}
+
 /* FOOTER */
 
 #footer {
