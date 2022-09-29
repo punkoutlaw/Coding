@@ -6,7 +6,7 @@ body {
     font-family: 'Alegreya SC';
     font-size: 20px;
     font-weight: bold;
-    color: #9bcba1;
+    color: #f58a55;
     background-color: #fff4fb;
     overflow-x: hidden;
     word-wrap: break-word;
@@ -14,7 +14,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #9bcba1;
+    color: #f58a55;
 }
 
 a:active {
@@ -246,7 +246,7 @@ textarea {
 
 #footer {
     background-color: #fff4fb;
-    color: #9bcba1;
+    color: #f58a55;
 }
 
 .footer-text {
