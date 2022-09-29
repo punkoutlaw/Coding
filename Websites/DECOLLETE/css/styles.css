@@ -40,6 +40,10 @@ a:visited {
     height: 90px;
 }
 
+.navbar a:visited {
+    color: #fff;
+}
+
 .navbar img {
     height: 70px;
 }
