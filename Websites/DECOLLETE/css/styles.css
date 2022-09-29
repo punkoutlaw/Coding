@@ -157,10 +157,6 @@ a:visited {
 
 /* CAROUSEL */
 
-#carousel {
-    background-color: #973330;
-}
-
 .carousel-inner {
     image-rendering: optimizeSpeed;
     border: 1px solid;
@@ -281,8 +277,17 @@ textarea {
         height: 300px;   
     }
 
+    #carousel {
+        padding-top: 50px;
+    }    
+
     .carousel-item img {
         max-height: 500px; /* 50vh */  
+    }
+
+    .accordion {
+        width: 90vw;
+        margin-left: -22vw;
     }
 
 }
@@ -314,6 +319,10 @@ textarea {
         font-size: 25px;
     }
 
+    #carousel {
+        padding-top: 50px;
+    }    
+
     .carousel-item img {
         max-height: 300px;
         -moz-object-fit: fill;
@@ -322,11 +331,14 @@ textarea {
 
     .accordion {
         width: 90vw;
-        margin-left: -20vw;
+        margin-left: -25vw;
+    }
+
+    .main-logo {
+        width: 90vw;
     }
 
     .logo {
         height: 300px;
-        margin-left: -2vw;
     }
 }
