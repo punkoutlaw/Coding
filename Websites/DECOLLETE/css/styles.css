@@ -23,7 +23,6 @@ a:active {
 
 a:hover {
     color: goldenrod;
-    text-decoration: none;
 }
 
 a:visited {
@@ -50,12 +49,20 @@ a:visited {
 
 /* MAIN */
 
-.jumbotron {
+#banner {
     background-image: url(../img/banner-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: transform .2s; /* Animation */
+}
+
+#banner:hover {
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.jumbotron {
     height: 400px;
-    padding: 40px 0 0 10px;
+    padding: 40px 0 0 20px;
     border: none;
     border-radius: 0;
 }
