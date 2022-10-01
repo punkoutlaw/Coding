@@ -40,6 +40,10 @@ a:visited {
     height: 70px;
 }
 
+.navbar a:visited {
+    color: #fff;
+}
+
 /* MAIN */
 
 .jumbotron {
