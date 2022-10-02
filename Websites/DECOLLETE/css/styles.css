@@ -159,6 +159,11 @@ a:active {
     background-color: #e1888b;
 }
 
+/* Changes text color when pressed */
+.accordion-button:active {
+    color: #8dbacd;
+}
+
 /* SERVICES */
 
 .services ul {
