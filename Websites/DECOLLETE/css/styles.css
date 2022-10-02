@@ -17,20 +17,24 @@ a {
     color: #e1888b;
 }
 
-a:active {
-    color: #973330;
-}
-
-a:hover {
-    color: goldenrod;
-}
-
 a:visited {
     color: #e1888b;
 }
 
+a:visited:hover {
+    background-color: #8dbacd;;
+}
+
+a:hover {
+    color: #8dbacd;
+}
+
+a:active {
+    color: #973330;
+}
+
 .bi {
-    color: #fac4c2;
+    color: #973330;
 }
 
 .navbar {
@@ -41,6 +45,10 @@ a:visited {
 
 .navbar img {
     height: 70px;
+}
+
+.navbar a:hover {
+    color: #8dbacd;
 }
 
 .navbar a:visited {
@@ -185,37 +193,38 @@ a:visited {
 }
 
 /* SUBSCRIBE FORM */
-  
-/* Add some padding and a grey background color to containers */
+
+/* Padding for the subscribe container */
 .container {
-padding: 20px;
+    padding: 20px;
 }
 
-/* Style the input elements and the submit button */
+/* Styling for the input elements and the submit button */
 input[type=text], input[type=submit], input[type=email] {
-width: 100%;
-padding: 12px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-box-sizing: border-box;
-outline-color: #973330;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline-color: #973330;
 }
 
-/* Add margins to the checkbox */
+/* Margins for the checkbox */
 input[type=checkbox] {
-margin-top: 16px;
+    margin-top: 16px;
 }
 
-/* Style the submit button */
+/* Styling for the submit button */
 input[type=submit] {
-background-color: #973330;
-color: white;
-border: none;
+    background-color: #973330;
+    color: white;
+    border: none;
 }
 
 input[type=submit]:hover {
-opacity: 0.8;
+    background-color: #8dbacd;
+    /* opacity: 0.8; */
 }
 
 /* CONTACT PAGE */
