@@ -96,20 +96,50 @@
       </div>
 
       <div class="main">
-        <form 
-        action="forms/subscribe.php" 
-        method="POST"
-        enctype="text/plain"
-        name="EmailForm" 
-        id="singular-form">
-          <button class="shown" type="submit" id="subs">Subscribe to our mailing list!</button>
-          <div id="email-input">
-            <input type="text" placeholder="Email" id="email" name="Email Address">
-            <button type="submit" class="addbut1" disabled="disabled">Subscribe</button>
+   
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Subscribe to our mailing list!
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+              
+                <form 
+                  action="forms/subscribe.php" 
+                  method="POST"
+                  enctype="text/plain"
+                  name="EmailForm" 
+                  >
+
+                  <div>
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="email" required>
+                    <br><br>
+                    <label>
+                      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                    </label>
+                    <input type="submit" value="Subscribe" class="sub-button">
+                  </div>
+
+                </form>
+              
+              </div>
+            </div>
           </div>
-          <div id="success" hidden>Successfully subscribed to mailing list!</div>
-        </form>
+        </div>
+
       </div>
+      
+      <!-- <button class="shown" type="submit" id="subs">Subscribe to our mailing list!</button>
+      <div id="email-input">
+        <input type="text" placeholder="Email" id="email" name="Email Address">
+        <button type="submit" class="addbut1" disabled="disabled">Subscribe</button>
+      </div>
+      <div id="success" hidden>Successfully subscribed to mailing list!</div> -->
 
       <br>
 
