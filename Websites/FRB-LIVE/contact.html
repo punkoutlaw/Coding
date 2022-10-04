@@ -90,10 +90,11 @@
               };
             </script>
                    
-            <form action="index.php"
+            <form action="forms/contact.php"
               method="post"
               name="EmailForm"
-              id="demo-form">
+              id="demo-form"
+              onsubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
               <div class="col-8">
                 <div class="input-text">
                   <div class="input-headers">
@@ -126,7 +127,8 @@
 
                     <button type="submit" 
                       value="submit"
-                      class="btn btn-primary">
+                      class="btn btn-primary" 
+                      >
                       Submit
                     </button>
 
