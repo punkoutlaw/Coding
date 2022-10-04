@@ -52,7 +52,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: black !important;
   font-family: 'Oxygen', 'Oswald', 'Anton', 'Impact';
   font-size: larger;
   font-weight: 100;
@@ -276,100 +276,24 @@ div {
   overflow: hidden;
   transition: width .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
+
+.accordion {
+  border-radius: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #222;
+} 
+
 .sub-button {
   background-color: rgb(20,19,19);
   color: #fff;
-}
-/* .main>#singular-form {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(29,31,33);
-} */
-/* .main>#singular-form button {
-  width: 9rem;
-  padding: 0;
-  border: none;
-  outline: none;
-  border-radius: 3rem;
-  cursor: pointer;
-}
-.main>#singular-form>#subs {
-  padding: 0;
-  width: 100%;
-  color: white;
-  font-weight: bold;
-  background-color: transparent;
-  z-index: 3;
-}
-.main>#singular-form>#email-input {
-  z-index: 2;
-}
-.main>#singular-form>#email-input>input {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
-  background-color: white;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  padding: 0 26% 0 3%;
-  opacity: 0;
-  transform: scale(0);
-  transition: all .6s ease .4s;
-}
-.main>#singular-form>#email-input>button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  border-radius: 5px;
-  background-color: rgb(13, 110, 253);
-  color: white;
-  opacity: 0;
-  transform: scale(0);
-  transition: all .6s ease .4s;
-}
-.main>#singular-form>#success {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  z-index: 1;
-}
-.main>#singular-form>#subs,
-.main>#singular-form>#email-input,
-.main>#singular-form>#success {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale(0);
-  opacity: 0;
-}
-.main>#singular-form>#subs {
-  transition: all .6s ease;
-}
-.main>#singular-form>#email-input {
-  transform: scale(1);
-  opacity: 1;
-  transition: all .6s ease .4s;
+  border-radius: 15px;
 }
 
-.main>#singular-form>#success {
-  transition: all .2s ease .6s;
+.sub-button:hover {
+  opacity: 0.1;
 }
-.main>#singular-form>#subs.shown,
-.main>#singular-form>#email-input.shown,
-.main>#singular-form>#success.shown,
-.main>#singular-form>#email-input>button.shown,
-.main>#singular-form>#email-input>input.shown {
-  transform: scale(1);
-  opacity: 1;
-} */
 
 /* EMAIL FORM */
 
