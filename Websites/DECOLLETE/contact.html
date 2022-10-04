@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="./img/decollete-favicon.ico" rel="icon">
     <script src="https://kit.fontawesome.com/3d5ddf3218.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Décolleté Skin & Wellness - Contact Us</title>
 </head>
 <body>
@@ -83,6 +84,15 @@
 
       <br>
 
+      <script> window.onload = function() {
+        var $recaptcha = document.querySelector('#g-recaptcha-response');
+      
+          if($recaptcha) {
+              $recaptcha.setAttribute("required", "required");
+              }
+          };
+      </script>
+
       <section id="contact" class="container contact">
         <hr>
         <form action="forms/contact.php" method="post" role="form" onsubmit="alert('Message received! We will be in touch shortly.')">
@@ -100,10 +110,12 @@
               </div>
               <div class="col-md-6 form-group mt-3 mx-auto">
                 <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                <br><br>
+                <div class="g-recaptcha" data-sitekey="6LdjplEiAAAAAKLn8_w--Qty0DZKMDl0OXpakCuU"></div>
               </div>
             </div>
           </div>
-          
+
           <br>
 
           <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
