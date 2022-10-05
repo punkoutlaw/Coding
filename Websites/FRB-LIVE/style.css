@@ -282,6 +282,7 @@ div {
 }
 
 .accordion-item {
+  background-color: #1D1F21;
   border-radius: 1rem !important;
 }
 
@@ -637,6 +638,14 @@ input[type="text"], text {
   #subscribe {
     margin-top: 50px;
   }
+
+  .accordion-item {
+    background-color: #1D1F21;
+  }
+
+  /* .accordion-body {
+    background-color: #000;
+  } */
 
   .parent {
     flex-direction: column;
