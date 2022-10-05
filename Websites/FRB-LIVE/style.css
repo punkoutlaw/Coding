@@ -192,7 +192,7 @@ div {
   border-radius: 5px;
   text-decoration: none;
   word-wrap: break-word;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .div3 {
@@ -220,7 +220,7 @@ div {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 150px;
   border: none;
   border-radius: 4px;
   padding: 5px;
@@ -281,13 +281,22 @@ div {
   border-radius: 1rem;
 }
 
+.accordion-item {
+  border-radius: 1rem !important;
+}
+
+.accordion-button.collapsed {
+  background-color: #1D1F21;
+} 
+
 .accordion-button:not(.collapsed) {
-  background-color: #222;
+  background-color: #1D1F21;
 } 
 
 .sub-button {
   background-color: rgb(20,19,19);
   color: #fff;
+  padding: 5px 10px 5px 10px;
   border-radius: 15px;
 }
 
@@ -572,7 +581,7 @@ input[type="text"], text {
     margin-top: -50px;
   }
   
-    .nav-logo {
+  .nav-logo {
     align-self: flex-start;
   }
 
@@ -591,15 +600,15 @@ input[type="text"], text {
   
   .card-header {
     font-family: Roboto;
-    }
+  }
     
-    h2 {
-        font-family: Roboto;
-    }
-    
-    h3 {
-        font-family: Baskerville;
-    }
+  h2 {
+    font-family: Roboto;
+  }
+  
+  h3 {
+    font-family: Baskerville;
+  }
 
   div {
     flex-direction: column;
@@ -625,6 +634,10 @@ input[type="text"], text {
     margin: auto;
   }
 
+  #subscribe {
+    margin-top: 50px;
+  }
+
   .parent {
     flex-direction: column;
   }
@@ -634,7 +647,8 @@ input[type="text"], text {
   }
 
   #img-main {
-    padding: 5px;
+    /* padding: 0 0 50px 0; */
+    margin: 35px 0 0 0;
     height: 100%; 
     width: 100%; 
     object-fit: cover;
