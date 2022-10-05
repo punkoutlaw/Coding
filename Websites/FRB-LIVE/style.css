@@ -295,7 +295,7 @@ div {
 } 
 
 .sub-button {
-  background-color: #1D1F21;
+  /* background-color: #1D1F21; */
   color: #fff;
   padding: 5px 10px 5px 10px;
   border-radius: 15px;
@@ -643,9 +643,9 @@ input[type="text"], text {
     background-color: #1D1F21;
   }
 
-  /* .accordion-body {
-    background-color: #000;
-  } */
+  .sub-button {
+    border: none;
+  }
 
   .parent {
     flex-direction: column;
