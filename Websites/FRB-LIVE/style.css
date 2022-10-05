@@ -337,6 +337,10 @@ input[type="text"], text {
   background-color: white;
 }
 
+.textarea:focus {
+  border-color: red;
+}
+
 .contact {
   color:white;
   text-align: left;
@@ -691,11 +695,7 @@ input[type="text"], text {
   }
   
   .form-control {
-    width: auto;
-  }
-
-  .form-control .textarea {
-    min-width: 400px;
+    width: 70vw;
   }
 
   .g-recaptcha {
