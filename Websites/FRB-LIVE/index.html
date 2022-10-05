@@ -118,11 +118,7 @@
               
                 <form 
                   action="forms/subscribe.php" 
-                  method="POST"
-                  enctype="text/plain"
-                  name="EmailForm" 
-                  onsubmit="alert('Thank you for subscribing!')"
-                  >
+                  onsubmit="alert('Thank you for subscribing!')">
 
                   <div>
                     <input type="text" placeholder="Name" name="name" required>
@@ -131,7 +127,7 @@
                     <label>
                       <input type="checkbox" checked="checked" name="subscribe"> Newsletter
                     </label>
-                    <input type="submit" value="Subscribe" class="sub-button">
+                    <input type="submit" value="Subscribe" class="sub-button bg-primary">
                   </div>
 
                 </form>
