@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Oswald|Oxygen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="icon" type="image/x-icon" href="./Images/feudale-symbol-favi.ico">
   <title>Music</title>
 </head>
@@ -51,34 +52,41 @@
     </div>
   </nav>
 
-    <div class="container">
+  <br>
+
+  <section id="music" class="container">
+
+    <div class="card-header headers">
+      <h2>Music</h2>
+    </div>
+  
+    <div class="card-body div3">
 
       <br>
-    
-    <div class="div3">
-      <div class="card-header headers">
-        <h2>Music</h2>
-      </div>
 
-      <br>
+      <div class="row">
+        <div class="card-subitle">
+          Now Playing on Spotify <i class="bi bi-spotify" id="spotify"></i>
+        </div>
 
-      <div class="card-body">
-        <div class="card-subitle">Now Playing on Spotify <img style="width: 30px" src="./Images/spotify-logo.png" alt="spotify logo"></div>
+        <br><br>
 
-        <br>
+        <div class="col">
 
         <iframe style="border-radius:5px" src="https://open.spotify.com/embed/artist/1KP7hDx6P4JqRH7XRufgsK?utm_source=generator" 
         frameBorder="0" 
         allowfullscreen="" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         id="music-player"></iframe>
-          
+
         </div>
+          
       </div>
-
-      <br>
-
     </div>
+
+    <br>
+
+  </section>
 
     <div class="footer-basic">
       <footer>
