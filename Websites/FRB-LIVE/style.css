@@ -305,7 +305,7 @@ div {
   opacity: 0.8;
 }
 
-/* EMAIL FORM */
+/* CONTACT PAGE */
 
 #g-recaptcha-response {
   display: block !important;
@@ -348,9 +348,13 @@ textarea.form-control {
   font-size: 30px;
 }
 
+.contact-list {
+  display: block;
+  margin: auto;
+}
+
 #contact-icons {
   text-align: left;
-  padding: 18vh 0 0 0;
 }
 
 #input-headers {
@@ -358,16 +362,15 @@ textarea.form-control {
 }
 
 .contact-photo {
-  float:right;
-  border: 1px solid #222; /* Thumbnail border color */
+  display: block;
+  margin: auto;
+}
+
+#contact-photo {
+  border: 1px solid #000; /* Thumbnail border color */
   border-radius: 4px;  /* Thumbnail border */
   padding: 4px; /* Thumbnail padding */
   width: 500px; /* Thumbnail width */
-  margin-left: auto;
-  margin-right: 15px;
-  display:block;
-  border-style: solid;
-  border-color: black;
 }
 
 #email-message {
@@ -572,6 +575,23 @@ textarea.form-control {
 
 @media (min-width: 481px) and (max-width: 1440px) {
 
+  .contact-photo {
+    margin: 0 0 0 0;
+    width: 40vw;
+    height: 70%;
+  }
+  
+  .li-form {
+    width: 40vw;
+    margin: -40px 0 0 -15px;
+    font-size: 22px;
+  }
+
+  #frb-form {
+    width: 45vw;
+    margin: 50px 0 0 0 ;
+  }
+
 }
 
 @media only screen and (max-width: 480px)  {
@@ -679,7 +699,7 @@ textarea.form-control {
   
     /* CONTACT PAGE */
   
-    .div3 {
+  .div3 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -696,13 +716,10 @@ textarea.form-control {
     padding: 0 0 0 0;
   }
 
-  .contact-photo {
-    display: block;
-    margin: 0 0 0 -22vw;
-    float: none;
-    width: 80vw;
-    height: 100%;
-    object-fit: cover;
+  #contact-photo {
+    width: 325px;
+    height: auto;
+    margin-left: -24vw;
   }
 
   .li-form {
@@ -713,7 +730,7 @@ textarea.form-control {
   }
   
   #frb-form {
-    margin: 5vh 0 0 0;
+    margin: auto;
     width: 77vw;
   }  
 
