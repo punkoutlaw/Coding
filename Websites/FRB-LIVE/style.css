@@ -793,8 +793,8 @@ textarea.form-control {
   }
   
   .carousel-indicators {
-    align-items: flex-end;
-    margin-right: -22px;
+    display: block;
+    margin: auto;
   }
   
   /* INSTAGRAM FEED */
