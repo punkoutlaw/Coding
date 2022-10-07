@@ -573,11 +573,13 @@ textarea.form-control {
   color: white;
 }
 
+/* TABLET VIEW */
+
 @media (min-width: 481px) and (max-width: 1440px) {
 
-  .contact-photo {
-    margin: 0 0 0 0;
-    width: 40vw;
+  #contact-photo {
+    margin: auto;
+    width: 35vw;
     height: 70%;
   }
   
@@ -593,6 +595,8 @@ textarea.form-control {
   }
 
 }
+
+/* MOBILE VIEW */
 
 @media only screen and (max-width: 480px)  {
 
