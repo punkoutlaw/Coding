@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Oswald|Oxygen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="icon" type="image/x-icon" href="./Images/feudale-symbol-favi.ico">
   <title>Contact</title>
 </head>
@@ -51,100 +52,99 @@
     </div>
   </nav>
 
-  <div class="container">
+  <br>
 
-    <br>
+  <section id="cards" class="container">
+    <div class="card-header headers">
+      <h2>Contact</h2>
+    </div>
     
-    <div class="div3">
-      <div class="card-header headers">
-        <h2>Contact</h2>
-      </div>
+    <div class="card-body div3">
+      <div class="row">
 
-      <br>
+        <div class="col-6" id="contact-icons">
 
-      <div class="card-body">
+          <br>
 
-        <div class="col-12">
+          <ul class="li-form">
+            <!-- <li> <img src="./Images/telephone-icon4.png" alt="telephone icon" width="40px"> Telephone: 732-239-9908 </li> -->
+            <!-- <li> <img src="./Images/email-icon.png" alt="email icon" width="40px"> Email: info@feudalerockband.com </li> -->
+            <li><i class="bi bi-envelope-fill"></i> Email: info@feudalerockband.com </li>
+            <li><i class="bi bi-question-circle"></i> Send inquiries below <i class="bi bi-arrow-down"></i></li>
+          </ul>
+        </div>
+
+        <div class="col-6 mx-auto">
           <br><br>
           <img src="./Images/FEUDALE_contact.jpg" class="contact-photo" alt="BAND PHOTO">
         </div>
 
-        <div class="row">
-          <div class="col-9" id="contact-icons">
-            <br>
-            <ul class="li-form">
-              <!-- <li> <img src="./Images/telephone-icon4.png" alt="telephone icon" width="40px"> Telephone: 732-239-9908 </li> -->
-              <li> <img src="./Images/email-icon.png" alt="email icon" width="40px"> Email: info@feudalerockband.com </li>
-            </ul>
-              <br>
-              <p>Send inquiries below.</p>
-          </div>
-
-            <br>
-
-            <script>
-              window.onload = function() {
-              var $recaptcha = document.querySelector('#g-recaptcha-response');
-          
-              if($recaptcha) {
-                  $recaptcha.setAttribute("required", "required");
-                }
-              };
-            </script>
-                   
-            <form action="forms/contact.php"
-              method="post"
-              name="EmailForm"
-              id="demo-form"
-              onsubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
-              <div class="col-8">
-                <div class="input-text" id="input-headers">
-                    
-                    <label for="name">Full Name</label>
-                    <br>
-                    <input type="text" name="name" class="form-control" 
-                      placeholder="Full name" required="required">
-            
-                    <label for="email">Email Address</label>
-                    <br>
-                    <input type="text" name="email" class="form-control" 
-                      placeholder="Email address" required="required">
-            
-                    <label for="subject">Subject</label>
-                    <br>
-                    <input type="text" name="subject" class="form-control" 
-                      placeholder="Enter a subject" required="required">
-          
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea class="form-control" id="textarea" name="message" 
-                      rows="4" placeholder="Your message" required="required"></textarea>
-                    <br>
-
-                    <div class="g-recaptcha" data-sitekey="6LfRQywhAAAAADg-4BZVR4ROA0FDFkdMGv8XGhdM"></div>
-
-                    <br>
-
-                    <button type="submit" 
-                      value="submit"
-                      class="btn btn-primary" 
-                      >
-                      Submit
-                    </button>
-
-                    <br>
-
-                </div>
-              </div>
-            </form>
-            
-        </div>
       </div>
+
+      <div class="row">
+        <div class="col">
+
+          <script>
+            window.onload = function() {
+            var $recaptcha = document.querySelector('#g-recaptcha-response');
+        
+            if($recaptcha) {
+                $recaptcha.setAttribute("required", "required");
+              }
+            };
+          </script>
+                  
+          <form action="forms/contact.php"
+            method="post"
+            name="EmailForm"
+            id="frb-form"
+            onsubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
+
+              <div class="input-text" id="input-headers">
+                  
+                  <label for="name">Full Name</label>
+                  <br>
+                  <input type="text" name="name" class="form-control" 
+                    placeholder="Full name" required="required">
+          
+                  <label for="email">Email Address</label>
+                  <br>
+                  <input type="text" name="email" class="form-control" 
+                    placeholder="Email address" required="required">
+          
+                  <label for="subject">Subject</label>
+                  <br>
+                  <input type="text" name="subject" class="form-control" 
+                    placeholder="Enter a subject" required="required">
+        
+                  <label for="message">Message</label>
+                  <br>
+                  <textarea class="form-control" name="message" 
+                    rows="4" placeholder="Your message" required="required"></textarea>
+                  <br>
+
+                  <div class="g-recaptcha" data-sitekey="6LfRQywhAAAAADg-4BZVR4ROA0FDFkdMGv8XGhdM"></div>
+
+                  <br>
+
+                  <button type="submit" 
+                    value="submit"
+                    class="btn btn-primary" 
+                    >
+                    Submit
+                  </button>
+
+              </div>
+
+          </form>
+
+        </div>      
+      </div>
+  
     </div>
+  </section>
 
-    <br>
-
-  </div>
+  <br>
 
     <div class="footer-basic">
       <footer>
