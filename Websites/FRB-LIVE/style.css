@@ -590,6 +590,21 @@ textarea.form-control {
 
 @media (min-width: 481px) and (max-width: 1440px) {
 
+  #gallery {
+    max-width: 100%;
+  }
+
+  .gallery-image {
+    width: 500px;
+    height: 500px;
+  }
+
+  .gallery-image:hover {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
   #contact-photo {
     margin: auto;
     width: 35vw;
@@ -760,18 +775,15 @@ textarea.form-control {
   /* PICTURES PAGE */
 
   #gallery {
-    border-style: none;
-    border-color: white;
-    border-width: 1px;
-    border-radius: 5px;
+    margin-top: -6vh;
     display: inline-block;
     max-width: 100%;
     position: relative;
   }
 
   .gallery-image {
-    width: 250px;
-    height: 250px;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     display: inline-block;
     position: relative;
@@ -782,8 +794,8 @@ textarea.form-control {
     height: 100%;
     align-content: center;
     object-fit: cover;
-    border: 2px solid white;
-    border-radius: 5px;
+    /* border: 2px solid white;
+    border-radius: 5px; */
   }
 
   .carousel {
