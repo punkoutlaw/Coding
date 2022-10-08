@@ -138,7 +138,11 @@ div {
   border-radius: 5px;
   text-decoration: none;
   word-wrap: break-word;
-  min-height: 400px;
+  min-height: 70vh;
+}
+
+.div2 p {
+  padding-top: 20px;
 }
 
 .div3 {
@@ -168,14 +172,11 @@ div {
 
 #img-main {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  border: none;
-  border-radius: 4px;
-  padding: 5px;
-  height: 600px; 
-  width: 600px; 
+  margin: auto;
+  padding: 8vh;
+  height: 800px;
+  width: 800px;
+  -moz-object-fit: contain;
   object-fit: contain;
 }
 
@@ -590,6 +591,13 @@ textarea.form-control {
 
 @media (min-width: 481px) and (max-width: 1440px) {
 
+  #img-main {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%
+  }
+
   #gallery {
     max-width: 100%;
   }
@@ -629,7 +637,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 480px)  {
 
-    /* MAIN STYLING */
+  /* MAIN STYLING */
     
   .navbar {
     margin-top: -5px;
@@ -719,14 +727,15 @@ textarea.form-control {
   }
 
   #img-main {
-    /* padding: 0 0 50px 0; */
-    margin: 35px 0 0 0;
+    margin: auto;
     height: 100%; 
-    width: 100%; 
+    width: 100%;
+    padding: 8vh 0 0 0;
+    -moz-object-fit: cover;
     object-fit: cover;
   }
   
-    .socials {
+  .socials {
     width: 100%;
   }
   
