@@ -128,7 +128,6 @@ div {
 }
 
 .div2 {
-  padding: 10px;
   background-color: rgb(29,31,33);
   /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
   background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
@@ -139,7 +138,9 @@ div {
   border-radius: 5px;
   text-decoration: none;
   word-wrap: break-word;
+  padding: 10px;
   min-height: 70vh;
+  max-height: 80vh;
 }
 
 .div2 p {
@@ -605,7 +606,7 @@ textarea.form-control {
     flex-direction: column;
     margin: 5px;
     min-height: 60vh;
-    max-height: 75vh;
+    max-height: 80vh;
     overflow-y: auto;
   }
 
