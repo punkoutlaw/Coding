@@ -604,6 +604,7 @@ textarea.form-control {
     display: flex;
     flex-direction: column;
     margin: 5px;
+    min-height: 60vh;
     max-height: 75vh;
     overflow-y: auto;
   }
