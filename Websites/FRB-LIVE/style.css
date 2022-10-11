@@ -600,6 +600,14 @@ textarea.form-control {
     margin-left: auto;
   }
 
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
   #img-main {
     display: block;
     margin: auto;
