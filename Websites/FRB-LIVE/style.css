@@ -14,10 +14,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  background-color: black !important;
+  background-color: black;
   font-family: 'Oxygen';
   font-size: larger;
   font-weight: 100;
+  cursor: default;
 }
 
 body p {
@@ -29,6 +30,7 @@ body p {
   width: 8px;
   background: rgb(20,19,19);
 }
+
 ::-webkit-scrollbar-thumb:horizontal{
   background: #000;
   border-radius: 5px;
@@ -140,6 +142,7 @@ div {
   text-decoration: none;
   word-wrap: break-word;
   min-height: 70vh;
+  cursor: grab;
 }
 
 .div2 p {
@@ -604,8 +607,9 @@ textarea.form-control {
     display: flex;
     flex-direction: column;
     margin: 5px;
-    min-height: 60vh;
-    max-height: 80vh;
+    /* min-height: 60vh; */
+    min-height: 55vh;
+    max-height: 55vh;
     overflow-y: auto;
   }
 
