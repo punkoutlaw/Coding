@@ -146,7 +146,7 @@ div {
 }
 
 .div2 p {
-  padding-top: 8px;
+  padding: 8px 5px 0 5px;
 }
 
 .div3 {
@@ -337,7 +337,7 @@ div {
 }
 
 #frb-form {
-  width: 30vw;
+  width: 27vw;
 }
 
 .form-control {
