@@ -72,7 +72,7 @@ body p {
 #img-main {
   display: block;
   margin: auto;
-  padding: 8vh;
+  padding: 8vh 0 0 0;
   height: 100%;
   width: 100%;
   -moz-object-fit: contain;
@@ -150,7 +150,7 @@ div {
 }
 
 .div1 {
-  padding: 30px 0 35px 0;
+  padding: 35px 0 30px 0;
 }
 
 .div2 {
@@ -630,6 +630,7 @@ textarea.form-control {
   #img-main {
     display: block;
     margin: auto;
+    padding: 10vh 0 0 0;
   }
 
   #gallery {
@@ -705,6 +706,10 @@ textarea.form-control {
     flex-direction: column;
     align-items: center;
     padding: 5px;
+  }
+
+  .div1 {
+    padding-bottom: 15px;
   }
   
   .div2 {
