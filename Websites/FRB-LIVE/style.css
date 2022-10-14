@@ -25,6 +25,13 @@ body p {
   font-family: 'Oxygen';
 }
 
+.homepage {
+  /* background-image: url(./Images/Feudale-figures.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65vw; */
+}
+
 ::-webkit-scrollbar{
   height: 8px;
   width: 8px;
@@ -65,14 +72,13 @@ body p {
   height: auto;
   align-items: center;
   justify-content: center;
-  background-color: black;
   min-height: 80vh;
 }
 
 #img-main {
   display: block;
   margin: auto;
-  padding: 50px 0 0 0;
+  padding: 0;
   height: 100%;
   width: 100%;
   -moz-object-fit: contain;
@@ -154,7 +160,7 @@ div {
 }
 
 .div2 {
-  background-color: rgb(29,31,33);
+  background-color: rgb(29,31,33, 0.9);
   /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
   background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
   background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
@@ -750,7 +756,7 @@ textarea.form-control {
   }
 
   #img-main {
-    margin: auto;
+    margin: 0 0 -40px 0;
     -moz-object-fit: cover;
     object-fit: cover;
   }
