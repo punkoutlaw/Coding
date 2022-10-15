@@ -55,10 +55,11 @@
               <div class="card-title"><strong>Request a Quote</strong></div>
                 <hr class="rounded">
                 <br>
-                <form action="index.php"
+                <form action="forms/contact.php"
                 method="post"
                 enctype="multipart/form-data"
-                name="EmailForm">
+                name="EmailForm"
+                onsubmit="alert('Request received! We will be in touch shortly.')">
                 
                   <input type="text" name="subject" class="form-control" value="New Quote Request" required="required" hidden>
                   <label for="name">Company Name</label>
