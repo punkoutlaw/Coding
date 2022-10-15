@@ -1,38 +1,35 @@
 <?php
 
-session_start();
+## CONFIG ##
 
-$errors = [];
-$inputs = [];
+# LIST EMAIL ADDRESS
+$recipient = "dwfeudale@gmail.com";
 
-$request_method = strtoupper($_SERVER['REQUEST_METHOD']);
+# SUBJECT (Subscribe/Remove)
+$subject = "New Inquiry";
 
-if ($request_method === 'GET') {
+# RESULT PAGE
+$location = "/contact.html";
 
-    // show the message
-    if (isset($_SESSION['message'])) {
-        $message = $_SESSION['message'];
-        unset($_SESSION['message']);
-    } elseif (isset($_SESSION['inputs']) && isset($_SESSION['errors'])) {
-        $errors = $_SESSION['errors'];
-        unset($_SESSION['errors']);
-        $inputs = $_SESSION['inputs'];
-        unset($_SESSION['inputs']);
-    }
-} if ($request_method === 'POST') {
-    // check the honeypot and validate the field
-    require_once __DIR__ . '/inc/post.php';
+## FORM VALUES ##
 
-    if (!$errors) {
-        // send an email
-        require_once __DIR__ . '/inc/mail.php';
-        // set the message
-        $_SESSION['Thanks for contacting us, we will be in touch shortly!'];
-    } else {
-        $_SESSION['errors'] =   $errors;
-        $_SESSION['inputs'] =   $inputs;
-    }
+# SENDER - WE ALSO USE THE RECIPIENT AS SENDER IN THIS SAMPLE
+# DON'T INCLUDE UNFILTERED USER INPUT IN THE MAIL HEADER!
+$sender = $recipient;
 
-    header('Location: contact.html', true, 303);
-    exit;
-}
+# MAIL BODY
+$body .= "Name: ".$_REQUEST['name']." \n";
+$body .= "Telephone: ".$_REQUEST['telephone']." \n";
+$body .= "Email: ".$_REQUEST['email']." \n";
+$body .= "Subject: ".$_REQUEST['subject']." \n";
+$body .= "Message: ".$_REQUEST['message']." \n";
+# add more fields here if required
+
+## SEND MESSGAE ##
+
+mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
+
+## SHOW RESULT PAGE ##
+
+header( "Location: $location" );
+?>
