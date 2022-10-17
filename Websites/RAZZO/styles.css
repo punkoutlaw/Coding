@@ -1,11 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
 body {
     background-color: #000;
+    background-image: url(Images/razzo-bg.png);
     text-align: center;
 }
+
+/* a {
+    text-decoration: none;
+} */
 
 #nav-logo {
     text-align: center;
 }
+
+#welcome {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 500px 0 500px 0;
+}
+
+/* FOOTER STYLING */
+
+.footer {
+    background: #1c374a;
+    color:white;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li a {
+    text-decoration:none;
+    color: white;
+    transition: color .2s;
+}
+
+.links li a:hover {
+    color:#4180CB;
+}
+
+.about-company {
+    font-size: 25px;
+}
+
+.about-company a{
+      color:white;
+      transition: color .2s;
+}
+
+.about-company:hover {
+    color:#4180CB
+}
+ 
+.location {
+    font-size: 18px;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.copyright p {
+    border-top:1px solid rgba(255,255,255,.1);
+} 
 
 @media screen and (max-width: 480px) {
 
