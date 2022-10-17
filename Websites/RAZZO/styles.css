@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+    text-align: center;
+}
+
+#nav-logo {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    #nav-logo {
+        text-align: center;
+        width: 95vw;
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+    
+}
