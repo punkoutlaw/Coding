@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Bitter|EB+Garamond');
 
 /* MAIN STYLING */
 
@@ -7,7 +7,7 @@ body {
     background-image: url(Images/razzo-bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Noto Serif';
+    font-family: 'EB Garamond';
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ a {
 .btn-request {
     background-color: rgb(28, 55, 74);
     color: #fff;
-    font-size: large;
+    font-size: 25px;
     padding: 15px;
     width: 250px;
     border-radius: 50px;
@@ -59,6 +59,7 @@ a {
 
 .links ul {
     list-style-type: none;
+    font-size: 20px;
 }
 
 .links li a {
@@ -85,7 +86,7 @@ a {
 }
  
 .location {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .copyright {
