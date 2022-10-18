@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
+/* MAIN STYLING */
+
 body {
     background-color: #000;
     background-image: url(Images/razzo-bg3.png);
-    background-size: scale-down;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Noto Serif';
     text-align: center;
@@ -40,6 +42,8 @@ a {
     color: #fff;
     font-size: large;
     padding: 15px;
+    width: 250px;
+    border-radius: 50px;
 }
 
 .btn-request:hover {
@@ -87,17 +91,50 @@ a {
 .copyright {
     padding-top: 25px;
     border-top:1px solid rgba(255,255,255,.1);
-} 
+}
+
+/* TABLET VIEW */
+
+@media (min-width: 481px) and (max-width: 1440px) {
+
+    .navbar-nav {
+        text-align: right !important;
+    }
+
+    #welcome {
+        margin: auto;
+    }
+}
+
+/* MOBILE VIEW */
 
 @media screen and (max-width: 480px) {
 
+    body {
+        background-position:center;
+    }
+
     #nav-logo {
         text-align: center;
-        width: 95vw;
+        width: 75vw;
     }
 
     .navbar-toggler {
+        display: block;
         margin: auto;
+    }
+
+    .navbar-nav {
+        text-align: right !important;
+    }
+
+    #welcome {
+        margin: auto;
+        padding-top: 22px;
+    }
+
+    .btn-request {
+
     }
     
 }
