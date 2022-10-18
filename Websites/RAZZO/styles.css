@@ -35,6 +35,17 @@ a {
     margin: 10px;
 }
 
+.btn-request {
+    background-color: rgb(28, 55, 74);
+    color: #fff;
+    font-size: large;
+    padding: 15px;
+}
+
+.btn-request:hover {
+    background-color: rgb(28, 55, 74, 0.9);
+}
+
 /* FOOTER STYLING */
 
 .footer {
