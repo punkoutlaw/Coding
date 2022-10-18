@@ -28,7 +28,7 @@ body p {
 .homepage {
   background-image: url(./Images/feudale-figures_small.png);
   background-repeat: no-repeat;
-  background-position: right 650px top 145px;
+  background-position: right 300px top 145px;
 }
 
 ::-webkit-scrollbar{
