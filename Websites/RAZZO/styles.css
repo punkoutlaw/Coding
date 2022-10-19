@@ -49,7 +49,7 @@ a {
     color: #fff;
 }
 
-.welcome p {
+.body p {
     padding-bottom: 1vh;
 }
 
@@ -137,10 +137,6 @@ a {
         text-align: right !important;
     }
 
-    .welcome {
-        margin: auto;
-    }
-
     #main {
         height: auto;
     }
@@ -194,8 +190,24 @@ a {
         font-size: 30px;
     }
 
+    .about-company {
+        padding-bottom: 2vh;
+    }
+
+    .links {
+        padding: 0 0 2vh 0;
+    }
+
+    .location {
+        padding: 2vh 0 0 0;
+    }
+
+    .copyright {
+        padding-top: auto;
+    }
+
     .footer {
-        
+        padding: auto;
     }
     
 }
