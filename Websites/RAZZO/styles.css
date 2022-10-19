@@ -147,6 +147,15 @@ a {
 
     #main .body {
         margin: -25vh 0 0 0;
+        padding-bottom: 20vh;
+    }
+
+    #services {
+        height: 50vh;
+    }
+
+    .services {
+        font-size: 30px;
     }
 }
 
@@ -178,14 +187,15 @@ a {
 
     #main .body {
         margin: -25vh 0 0 0;
+        padding-bottom: 20vh;
     }
 
     .services {
-        
+        font-size: 30px;
     }
 
     .footer {
-
+        
     }
     
 }
