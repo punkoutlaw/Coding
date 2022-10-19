@@ -30,7 +30,6 @@ a {
     background-image: url(Images/razzo-bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #main .body {
@@ -138,12 +137,11 @@ a {
     }
 
     #main {
-        height: auto;
+        height: 100vh;
     }
 
     #main .body {
-        margin: -25vh 0 0 0;
-        padding-bottom: 20vh;
+        padding: 10vh 0 25vh 0 !important;
     }
 
     #services {
