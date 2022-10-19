@@ -4,15 +4,17 @@
 
 body {
     background-color: #000;
-    background-image: url(Images/razzo-bg3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow-x: hidden;
     font-family: 'EB Garamond';
     text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+.navbar {
+    background-color: #000f1a;
 }
 
 #nav-logo {
@@ -25,25 +27,30 @@ a {
 
 #main {
     height: 100vh;
+    background-image: url(Images/razzo-bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #main .body {
-    padding-top: 30vh;
+    padding-top: 35vh;
     display: block;
     color: rgb(255, 255, 255);
     font-size: 60px;
     text-shadow: #000;
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    /* border: 1px solid #000;
-    border-radius: 20px;*/
 }
 
-.welcome {
-
+#main hr {
+    display: block;
+    margin: auto;
+    padding-bottom: 2vh;
+    width: 400px;
+    color: #fff;
 }
 
 .welcome p {
-    padding-bottom: 3vh;
+    padding-bottom: 1vh;
 }
 
 .btn-request {
@@ -59,8 +66,23 @@ a {
     background-color: rgb(28, 55, 74, 0.9);
 }
 
-.service {
-    padding: 5vh 0 0 0;
+.btn-request:focus {
+    background-color: rgb(255, 144, 0, 0.8);
+}
+
+#services {
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    color: #4180CB;
+    font-size: 50px;
+    margin: auto;
 }
 
 /* FOOTER STYLING */
@@ -156,6 +178,14 @@ a {
 
     #main .body {
         margin: -25vh 0 0 0;
+    }
+
+    .services {
+        
+    }
+
+    .footer {
+
     }
     
 }
