@@ -144,6 +144,7 @@ a:visited {
     }
 
     .services {
+        min-height: 40vh;
         font-size: 30px;
     }
 }
