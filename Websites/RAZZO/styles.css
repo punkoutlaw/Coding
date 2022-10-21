@@ -19,7 +19,7 @@ a:visited {
 }
 
 .navbar {
-    background-color: #000f1a;
+    background-color: #100024;
 }
 
 #nav-logo {
@@ -32,13 +32,13 @@ a:visited {
 
 #main {
     height: 100vh;
-    background-image: url(Images/razzo-bg3.png);
+    background-image: url(Images/razzo-bg5.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #main .body {
-    padding-top: 35vh;
+    padding-top: 25vh;
     display: block;
     color: rgb(255, 255, 255);
     font-size: 60px;
@@ -58,7 +58,7 @@ a:visited {
 }
 
 .btn-request {
-    background-color: rgb(28, 55, 74);
+    background-color: #100024;
     color: #fff;
     font-size: 25px;
     padding: 15px;
@@ -71,12 +71,12 @@ a:visited {
 }
 
 .btn-request:focus {
-    background-color: rgb(255, 144, 0, 0.8);
+    background-color: #fe824e;
 }
 
 #services {
     min-height: 30vh;
-    background-color: rgba(255, 255, 255);
+    background-color: rgb(1, 25, 97, 0.9);
     border: 1px solid #000;
     display: flex;
     justify-content: center;
@@ -84,16 +84,17 @@ a:visited {
 }
 
 .services {
-    color: #4180CB;
+    color: #fff;
     font-family: 'Bitter';
     font-size: 50px;
+    min-height: 30vh;
     margin: auto;
 }
 
 /* FOOTER STYLING */
 
 .footer {
-    background: #000f1a;
+    background: #100024;
     color:white;
 }
 
@@ -142,26 +143,8 @@ a:visited {
         text-align: right !important;
     }
 
-    #main {
-        min-height: 100vh;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-
-    #main .body {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        padding: 10vh 0 25vh 0;
-    }
-
-    #services {
-        min-height: 50vh;
-    }
-
     .services {
-        font-size: 2em;
+        font-size: 30px;
     }
 }
 
@@ -170,7 +153,7 @@ a:visited {
 @media screen and (max-width: 480px) {
 
     body {
-        background-position:center;
+        background-position: center;
     }
 
     #nav-logo {
@@ -188,20 +171,20 @@ a:visited {
     }
 
     #main {
-        height: auto;
+        min-height: 100vh;
     }
 
     #main .body {
-        margin: -25vh 0 0 0;
-        padding-bottom: 20vh;
+        padding: auto;
     }
 
-    #services {
-        min-height: 50vh;
+    #main hr {
+        width: 70vw;
     }
 
     .services {
-        font-size: 2em;
+        min-height: 40vh;
+        font-size: 30px;
     }
 
     .about-company {
