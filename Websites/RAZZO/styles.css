@@ -3,7 +3,7 @@
 /* MAIN STYLING */
 
 body {
-    background-color: #000;
+    background-color: #000f1a;
     overflow-x: hidden;
     font-family: 'EB Garamond';
     text-align: center;
@@ -11,6 +11,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #FFFFFF8C;
 }
 
 .navbar {
@@ -88,7 +93,7 @@ a {
 /* FOOTER STYLING */
 
 .footer {
-    background: #1c374a;
+    background: #000f1a;
     color:white;
 }
 
