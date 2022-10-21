@@ -127,6 +127,10 @@ a:visited {
 .about-company:hover {
     color:#4180CB
 }
+
+i:hover {
+    color: rgb(65, 128, 203, 0.9); 
+}
  
 .location {
     font-size: 20px;
