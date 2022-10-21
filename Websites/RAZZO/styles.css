@@ -67,7 +67,8 @@ a:visited {
 }
 
 .btn-request:hover {
-    background-color: rgb(28, 55, 74, 0.9);
+    color: #fff;
+    background-color: rgb(65, 128, 203, 0.9); /* rgb(28, 55, 74, 0.9) */
 }
 
 .btn-request:focus {
