@@ -217,6 +217,17 @@ i:hover {
         min-height: 40vh;
         font-size: 30px;
     }
+
+    #sub {
+        min-height: 110vh;
+        overflow: scroll;
+    }
+
+    #sub .card {
+        min-height: 40vh;
+        max-height: 40vh;
+        overflow: scroll;
+    }
 }
 
 /* MOBILE VIEW */
@@ -276,6 +287,20 @@ i:hover {
 
     .footer {
         padding: auto;
+    }
+
+    #sub {
+        min-height: 170vh;
+    }
+
+    .breadcrumb {
+        font-size: 32px;
+        margin-bottom: -5vh;
+    }
+
+    #sub .card {
+        min-height: 35vh;
+        font-size: 25px;
     }
     
 }
