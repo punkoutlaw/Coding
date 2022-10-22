@@ -81,11 +81,12 @@ a:visited {
 }
 
 .breadcrumb {
-    /* padding-top: 15px; */
-    /* height: 15vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 3px #00000050; /* #fed54e81 */
+    font-family: 'Bitter';
+    font-size: 50px;
 }
 
 .breadcrumb-item.active {
@@ -105,15 +106,11 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 20vh;
     background-image: url(Images/mountaintop-cap.png);
     background-size: 100vw 210px;
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
-    color: #000;
-    text-shadow: 1px 1px #00000050; /* #fed54e81 */
-    font-family: 'Bitter';
-    font-size: 50px;
 }
 
 #sub {
@@ -134,15 +131,10 @@ a:visited {
     background-color: rgb(255, 255, 255, 0.8);
     font-size: 30px;
     min-height: 30vh;
-    /* box-shadow: 1px 1px #00000050; */
 }
 
 #sub .card:hover {
     background-color: rgb(65, 128, 203, 0.1);
-}
-
-#sub .card-title {
-    padding-top: 15px;
 }
 
 #sub .bi-building {
@@ -235,7 +227,8 @@ i:hover {
 
     #sub {
         min-height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -247,6 +240,7 @@ i:hover {
         max-height: 40vh;
         overflow-y: scroll;
         overflow-x: hidden;
+        font-size: 3vmax
     }
 }
 
