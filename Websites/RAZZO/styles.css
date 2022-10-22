@@ -102,6 +102,9 @@ a:visited {
 }
 
 #sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 15vh;
     background-image: url(Images/mountaintop-cap.png);
     background-size: 100vw 210px;
@@ -142,29 +145,27 @@ a:visited {
     padding-top: 15px;
 }
 
+#sub .bi-building {
+    color: rgb(216, 24, 24);
+}
+
+#sub .bi-piggy-bank {
+    color: rgb(39, 146, 39);
+}
+
+#sub .bi-easel2 {
+    color: rgb(141, 22, 141);
+}
+
+#sub .bi-question-circle {
+    color: rgb(60, 60, 216);
+}
+
 #sub .card-body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -30px;
-}
-
-#services {
-    min-height: 30vh;
-    background-color: rgb(1, 25, 97, 0.9);
-    border: 1px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.services {
-    color: #fff;
-    text-shadow: 1px 1px #00000050; /* #fed54e81 */
-    font-family: 'Bitter';
-    font-size: 50px;
-    min-height: 30vh;
-    margin: auto;
 }
 
 /* FOOTER STYLING */
@@ -226,11 +227,6 @@ i:hover {
     .navbar-nav {
         text-align: right !important;
     }
-
-    .services {
-        min-height: 40vh;
-        font-size: 30px;
-    }
     
     #sub-header {
         height: 20vh;
@@ -291,12 +287,20 @@ i:hover {
     #sub-header {
         background-position: bottom;
     }
-
-    .services {
-        min-height: 40vh;
-        font-size: 30px;
+    
+    #sub {
+        min-height: 170vh;
     }
 
+    .breadcrumb {
+        font-size: 32px;
+    }
+
+    #sub .card {
+        min-height: 35vh;
+        font-size: 25px;
+    }
+    
     .about-company {
         padding-bottom: 2vh;
     }
@@ -317,18 +321,4 @@ i:hover {
         padding: auto;
     }
 
-    #sub {
-        min-height: 170vh;
-    }
-
-    .breadcrumb {
-        font-size: 32px;
-        margin-bottom: -5vh;
-    }
-
-    #sub .card {
-        min-height: 35vh;
-        font-size: 25px;
-    }
-    
 }
