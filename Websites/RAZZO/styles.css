@@ -51,6 +51,10 @@ a:visited {
     text-shadow: 1px 1px #000;
 }
 
+.services {
+    min-height: 30vh;
+}
+
 #main hr {
     display: block;
     margin: auto;
@@ -91,13 +95,17 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px #00000050; /* #fed54e81 */
     font-family: 'Bitter';
     font-size: 50px;
 }
 
+.breadcrumb a {
+    text-shadow: 2px 2px #00000050; /* #fed54e81 */
+}
+
 .breadcrumb-item.active {
     color: #001964;
+    text-shadow: 2px 2px #00000050; /* #fed54e81 */
 }
 
 .breadcrumb-item.active::before {
@@ -225,13 +233,31 @@ i:hover {
 
 @media (min-width: 481px) and (max-width: 1440px) {
     
-    #main {
-        background-position: center;
-    }
-
     .navbar-nav {
         text-align: right !important;
     }
+
+    #main {
+        background-position: center;
+    }
+    
+    #main .body {
+        margin-top: -10vh;
+    }
+
+    .services {
+        min-height: 45vh;
+        font-size: 4vmax;
+    }
+
+    .breadcrumb a {
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
+    }
+    
+    .breadcrumb-item.active {
+        color: #fff;
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
+    }    
     
     #sub-header {
         height: 20vh;
@@ -281,10 +307,19 @@ i:hover {
 
     #main {
         min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #main .body {
-        padding: auto;
+        margin-top: -25vh;
+        font-size: 40px;
+    }
+
+    .services {
+        min-height: 50vh;
     }
 
     #main hr {
@@ -301,6 +336,15 @@ i:hover {
 
     .breadcrumb {
         font-size: 32px;
+    }
+
+    .breadcrumb a {
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
+    }
+    
+    .breadcrumb-item.active {
+        color: #fff;
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
     }
 
     #sub .card {
