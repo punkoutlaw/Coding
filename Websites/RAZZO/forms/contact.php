@@ -21,7 +21,7 @@ $sender = $recipient;
 $body .= "Name: ".$_REQUEST['name']." \n";
 $body .= "Email: ".$_REQUEST['email']." \n";
 $body .= "Telephone: ".$_REQUEST['telephone']." \n";
-$body .= "Subject: ".$_REQUEST['subject']." \n";
+// $body .= "Subject: ".$_REQUEST['subject']." \n";
 $body .= "Message: ".$_REQUEST['message']." \n";
 # add more fields here if required
 

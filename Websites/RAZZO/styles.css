@@ -224,7 +224,7 @@ a:visited {
 }
 
 #sub-contact #location-body li {
-    padding: 25px 0 25px 0;
+    padding: 0 0 30px 0;
     font-size: 20px;
 }
 
@@ -234,6 +234,10 @@ a:visited {
 
 #sub-contact #location-ul a:hover {
     color: #4180CB;
+}
+
+#sub-contact #location-ul .bi {
+    font-size: 30px;
 }
 
 input {
