@@ -201,6 +201,7 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
     background-image: url(Images/services-bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -241,11 +242,11 @@ a:visited {
 }
 
 input {
-    margin: 10px;
+    margin: 0 0 10px 0;
 }
 
 textarea {
-    margin: 10px;
+    margin: 0 0 10px 0;
     height: 200px;
 }
 
