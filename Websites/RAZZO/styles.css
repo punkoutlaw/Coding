@@ -194,7 +194,56 @@ a:visited {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #001964, rgba(0, 0, 0, 0));    
     /* width: 30vw; */
-    }
+}
+
+#sub-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/services-bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Serif';
+    min-height: 50vh;
+}
+
+#sub-contact .card {
+    background: none;
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    min-width: 40vw;
+}
+
+#sub-contact #location-ul {
+    list-style: none;
+    text-align: left;
+    color: #000;
+}
+
+#sub-contact #location-body li {
+    padding: 25px 0 25px 0;
+    font-size: 20px;
+}
+
+#sub-contact #location-ul a {
+    color: #000;
+}
+
+#sub-contact #location-ul a:hover {
+    color: #4180CB;
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+    height: 200px;
+}
 
 /* FOOTER STYLING */
 
@@ -351,7 +400,9 @@ i:hover {
     }
     
     #sub {
-        min-height: 170vh;
+        /* min-height: 170vh; */
+        overflow: scroll;
+        cursor: all-scroll;
     }
 
     #sub .card:hover {

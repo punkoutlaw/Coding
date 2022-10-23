@@ -59,8 +59,36 @@
         </div>
     </section>
 
-    <section id="sub" class="container-fluid">
-        
+    <section id="sub-contact" class="container-fluid">
+        <div class="row">
+            <div class="col mx-auto">
+                <div class="card">
+                    <div class="card-title"><h1>Contact Us <i class="bi bi-chat-dots"></i></h1></div>
+                    <div class="card-body">
+                        <form action="Forms/contact.php" method="post" role="form" onsubmit="alert('Message sent! We will be in touch shortly.')">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number">
+                            <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                            <br>
+                            <button type="button" class="btn btn-primary" value="submit" title="Submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col mx-auto">
+                <div class="card">
+                    <div class="card-title"><h1>Location <i class="bi bi-compass"></i></h1></div>
+                    <div class="card-body" id="location-body">
+                        <ul id="location-ul">
+                            <li><i class="bi bi-envelope"></i> Email: <a href="mailto:dwfeudale@gmail.com"> dwfeudale@gmail.com </a></li>
+                            <li><i class="bi bi-phone"></i> Telephone: <a href="tel:7326758786"> 732-675-8786 </a></li>
+                            <li><i class="bi bi-pin-map"></i> Location: <a href="mailto:info@razzodesigns.com"> Long Branch, NJ USA </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="footer" class="pt-5 footer">
