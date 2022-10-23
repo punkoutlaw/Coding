@@ -140,6 +140,9 @@ a:visited {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    /* background-image: url(Images/services-bg1.png); */
+    background-size: auto;
+    background-repeat: no-repeat;
     font-family: 'Noto Serif';
 }
 
@@ -148,7 +151,7 @@ a:visited {
     border-right: none;
     border-bottom: none; /* 1px solid #001964 */
     border-left: none;
-    border-radius: 0;
+    border-radius: 15px;
     background-color: rgb(255, 255, 255, 0.8);
     font-size: 30px;
     min-height: 30vh;
@@ -158,6 +161,7 @@ a:visited {
 #sub .card:hover {
     background-color: rgb(65, 128, 203, 0.1);
     border-radius: 15px;
+    cursor: crosshair;
 }
 
 #sub .bi-building {
@@ -186,9 +190,11 @@ a:visited {
 .services-hr {
     display: block;
     margin: auto;
-    color: #000;
-    width: 300px;
-}
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #001964, rgba(0, 0, 0, 0));    
+    /* width: 30vw; */
+    }
 
 /* FOOTER STYLING */
 
@@ -290,6 +296,11 @@ i:hover {
         overflow-x: hidden;
         font-size: 3vmax
     }
+
+    #sub .card:hover {
+        cursor: all-scroll;
+    }
+    
 }
 
 /* MOBILE VIEW */
@@ -341,6 +352,10 @@ i:hover {
     
     #sub {
         min-height: 170vh;
+    }
+
+    #sub .card:hover {
+        cursor: all-scroll;
     }
 
     .breadcrumb {
