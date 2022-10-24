@@ -257,7 +257,7 @@ textarea {
 
 /* ABOUT PAGE */
 
-#employees {
+#about-employees {
     display: block;
     justify-content: center;
     margin-left: auto;
@@ -283,21 +283,18 @@ textarea {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 18px;
-    color: var(--color-secondary);
 }
 
 #sub .team-member .member-info span {
     display: block;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
-    color: #6c757d;
 }
 
-#sub .team-member .member-info p {
+#sub .about-info p {
     font-style: italic;
     font-size: 14px;
     line-height: 26px;
-    color: #6c757d;
 }
 
 /* FOOTER STYLING */
