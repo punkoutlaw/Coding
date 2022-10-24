@@ -319,9 +319,18 @@ i:hover {
         font-size: 4vmax;
     }
 
+    .breadcrumb {
+        padding-top: 15px;
+    }
+
     .breadcrumb a {
         text-shadow: 2px 2px #00000050; /* #fed54e81 */
     }
+
+    .breadcrumb-item.active::before {
+        color: #fff;
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
+    } 
     
     .breadcrumb-item.active {
         color: #fff;
@@ -421,6 +430,11 @@ i:hover {
     .breadcrumb a {
         text-shadow: 2px 2px #00000050; /* #fed54e81 */
     }
+
+    .breadcrumb-item.active::before {
+        color: #fff;
+        text-shadow: 2px 2px #00000050; /* #fed54e81 */
+    } 
     
     .breadcrumb-item.active {
         color: #fff;
