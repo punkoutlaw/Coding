@@ -91,6 +91,8 @@ a:visited {
     background-color: #fe824e;
 }
 
+/* SECONDARY PAGES */
+
 .breadcrumb {
     display: flex;
     justify-content: center;
@@ -146,6 +148,8 @@ a:visited {
     font-family: 'Noto Serif';
 }
 
+/* SERVICES PAGE */
+
 #sub .card {
     border-top: none;
     border-right: none;
@@ -155,7 +159,6 @@ a:visited {
     background-color: rgb(255, 255, 255, 0.8);
     font-size: 30px;
     min-height: 30vh;
-
 }
 
 #sub .card:hover {
@@ -195,6 +198,8 @@ a:visited {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #001964, rgba(0, 0, 0, 0));    
     /* width: 30vw; */
 }
+
+/* CONTACT PAGE */
 
 #sub-contact {
     display: flex;
@@ -248,6 +253,91 @@ input {
 textarea {
     margin: 0 0 10px 0;
     height: 200px;
+}
+
+/* ABOUT PAGE */
+
+#employees {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team .team-member {
+    overflow: hidden;
+    background: #fff;
+}
+
+.team .team-member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .team-member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .team-member .social a {
+    transition: color 0.3s;
+    color: #31547c;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .team-member .social a i {
+    line-height: 0;
+}
+
+.team .team-member .social a:hover {
+    color: var(--color-primary);
+}
+
+.team .team-member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.team .team-member .member-info {
+    padding: 25px 15px 0 15px;
+    text-align: center;
+}
+
+.team .team-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: var(--color-secondary);
+}
+
+.team .team-member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.team .team-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6c757d;
+}
+
+.team .team-member:hover .social {
+    opacity: 1;
 }
 
 /* FOOTER STYLING */
@@ -339,6 +429,7 @@ i:hover {
     
     #sub-header {
         height: 20vh;
+        background-size: 100vw 295px;
         background-position: bottom;
     }
 
