@@ -261,6 +261,10 @@ textarea {
     background-color: #fff;
 }
 
+#sub-about .about {
+    padding: 15px 0 0 0;
+}
+
 #about-employees {
     display: block;
     justify-content: center;
@@ -293,6 +297,7 @@ textarea {
     display: block;
     font-size: 20px;
     font-weight: 400;
+    padding: 0 0 50px 0;
 }
 
 .about-info {
@@ -301,11 +306,11 @@ textarea {
 
 .about-title {
     padding: 25px;
+    font-family: 'Noto Serif';
 }
 
 .about-info .about-text {
     font-family: 'Noto Serif';
-    font-style: italic;
     font-size: 24px;
     line-height: 26px;
 }
