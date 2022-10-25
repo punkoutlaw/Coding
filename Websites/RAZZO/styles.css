@@ -255,6 +255,16 @@ textarea {
     height: 200px;
 }
 
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
+
 /* ABOUT PAGE */
 
 #sub-about {
@@ -317,10 +327,11 @@ textarea {
     /* text-shadow: 1px 1px #fff;
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 15px; 
-    padding: 15px; */
+    padding: 15px; 
+    line-height: 26px; */
     font-family: 'Noto Serif';
     font-size: 24px;
-    line-height: 26px;
+    font-weight: 500;
 }
 
 /* FOOTER STYLING */
@@ -438,6 +449,10 @@ i:hover {
         cursor: all-scroll;
     }
     
+    #sub-about {
+        background-position: left;
+    }
+
 }
 
 /* MOBILE VIEW */
@@ -518,6 +533,10 @@ i:hover {
     #sub .card {
         min-height: 35vh;
         font-size: 25px;
+    }
+
+    #sub-about {
+        background-position: left;
     }
     
     .about-company {

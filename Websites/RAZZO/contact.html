@@ -59,6 +59,15 @@
         </div>
     </section>
 
+    <script> window.onload = function() {
+        var $recaptcha = document.querySelector('#g-recaptcha-response');
+      
+          if($recaptcha) {
+              $recaptcha.setAttribute("required", "required");
+              }
+          };
+    </script>
+
     <section id="sub-contact" class="container-fluid">
         <div class="row">
             <div class="col mx-auto">
@@ -66,11 +75,17 @@
                     <div class="card-title"><h1>Contact Us <i class="bi bi-chat-dots"></i></h1></div>
                     <div class="card-body">
                         <form action="forms/contact.php" method="post" role="form" onsubmit="alert('Message sent! We will be in touch shortly.')">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
-                            <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Telephone Number">
-                            <textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                            <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Telephone Number" required>
+                            <textarea class="form-control" name="message" id="message" placeholder="Message" required></textarea>
+                            
                             <br>
+
+                            <div class="g-recaptcha" data-sitekey="6Le89LEiAAAAAGUP4JFHsDiwTIiYNGGte-CdMv-_"></div>
+
+                            <br>
+
                             <button type="submit" class="btn btn-request" value="submit" title="Submit">Submit</button>
                         </form>
                     </div>
@@ -129,6 +144,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </body>
 </html>
