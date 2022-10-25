@@ -259,6 +259,7 @@ textarea {
 
 #sub-about {
     background-color: #fff;
+    background-image: url(Images/about-bg3.png);
 }
 
 #sub-about .about {
@@ -274,7 +275,7 @@ textarea {
 
 #sub-about .team-member {
     overflow: hidden;
-    background: #fff;
+    /* background: #fff; */
 }
 
 #sub-about .team-member .member-img {
