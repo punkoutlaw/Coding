@@ -257,6 +257,10 @@ textarea {
 
 /* ABOUT PAGE */
 
+#sub-about {
+    background-color: #fff;
+}
+
 #about-employees {
     display: block;
     justify-content: center;
@@ -264,36 +268,45 @@ textarea {
     margin-right: auto;
 }
 
-#sub .team-member {
+#sub-about .team-member {
     overflow: hidden;
     background: #fff;
 }
 
-#sub .team-member .member-img {
+#sub-about .team-member .member-img {
     position: relative;
     overflow: hidden;
 }
 
-#sub .team-member .member-info {
+#sub-about .team-member .member-info {
     padding: 25px 15px 0 15px;
     text-align: center;
 }
 
-#sub .team-member .member-info h4 {
+#sub-about .team-member .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
-#sub .team-member .member-info span {
+#sub-about .team-member .member-info span {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
-#sub .about-info p {
+.about-info {
+    padding: 25px;
+}
+
+.about-title {
+    padding: 25px;
+}
+
+.about-info .about-text {
+    font-family: 'Noto Serif';
     font-style: italic;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 26px;
 }
 
