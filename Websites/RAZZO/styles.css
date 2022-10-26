@@ -135,7 +135,9 @@ a:visited {
     border-bottom: 1px ridge #000;
 }
 
-#sub {
+/* SERVICES PAGE */
+
+#sub-services {
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -148,9 +150,7 @@ a:visited {
     font-family: 'Noto Serif';
 }
 
-/* SERVICES PAGE */
-
-#sub .card {
+#sub-services .card {
     border-top: none;
     border-right: none;
     border-bottom: none; /* 1px solid #001964 */
@@ -161,29 +161,29 @@ a:visited {
     min-height: 30vh;
 }
 
-#sub .card:hover {
+#sub-services .card:hover {
     background-color: rgb(65, 128, 203, 0.1);
     border-radius: 15px;
     cursor: crosshair;
 }
 
-#sub .bi-building {
+#sub-services .bi-building {
     color: rgb(216, 24, 24);
 }
 
-#sub .bi-piggy-bank {
+#sub-services .bi-piggy-bank {
     color: rgb(39, 146, 39);
 }
 
-#sub .bi-easel2 {
+#sub-services .bi-easel2 {
     color: rgb(141, 22, 141);
 }
 
-#sub .bi-question-circle {
+#sub-services .bi-question-circle {
     color: rgb(60, 60, 216);
 }
 
-#sub .card-body {
+#sub-services .card-body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,6 +197,21 @@ a:visited {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #001964, rgba(0, 0, 0, 0));    
     /* width: 30vw; */
+}
+
+/* PORTFOLIO PAGE */
+
+#sub-portfolio {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* background-image: url(Images/services-bg1.png); */
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Noto Serif';
 }
 
 /* TESTIMONIALS PAGE */
@@ -498,7 +513,7 @@ i:hover {
         background-position: bottom;
     }
 
-    #sub {
+    #sub-services {
         min-height: 100vh;
         overflow-y: scroll;
         overflow-x: hidden;        
@@ -508,7 +523,7 @@ i:hover {
         align-items: center;
     }
 
-    #sub .card {
+    #sub-services .card {
         min-height: 40vh;
         max-height: 40vh;
         overflow-y: scroll;
@@ -516,7 +531,7 @@ i:hover {
         font-size: 3vmax
     }
 
-    #sub .card:hover {
+    #sub-services .card:hover {
         cursor: all-scroll;
     }
     
