@@ -208,7 +208,9 @@ a:visited {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    background-size: auto;
+    background-image: url(Images/under-construction1.png);
+    background-size:contain;
+    background-position: center;
     background-repeat: no-repeat;
     font-family: 'Noto Serif';
 }
