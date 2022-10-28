@@ -316,7 +316,7 @@ a:visited {
 }
 
 #sub-contact #location-body li {
-    padding: 0 0 30px 0;
+    padding: 0 0 40px 0;
     font-size: 20px;
 }
 
@@ -536,7 +536,7 @@ i:hover {
     }
     
     #sub-about {
-        background-position: left;
+        background-position: right;
     }
 
 }
