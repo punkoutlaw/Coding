@@ -208,7 +208,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    background-image: url(Images/under-construction1.png);
+    /* background-image: url(Images/under-construction1.png); */
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
