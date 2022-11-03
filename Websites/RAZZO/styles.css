@@ -215,6 +215,23 @@ a:visited {
     font-family: 'Noto Serif';
 }
 
+#sub-portfolio .card {
+    border: none;
+}
+
+.port-hr {
+    display: block;
+    margin: auto;
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #001964, rgba(0, 0, 0, 0));    
+    /* width: 30vw; */
+}
+
+.port-pics {
+    
+}
+
 /* TESTIMONIALS PAGE */
 
 #sub-testimonials {
