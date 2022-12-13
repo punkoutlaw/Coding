@@ -217,6 +217,7 @@ a:visited {
 
 #sub-portfolio .card {
     border: none;
+    padding: 50px;
 }
 
 .port-hr {
@@ -228,9 +229,9 @@ a:visited {
     /* width: 30vw; */
 }
 
-.port-pics {
+/* .port-pics {
     
-}
+} */
 
 /* TESTIMONIALS PAGE */
 
@@ -344,6 +345,10 @@ a:visited {
     padding: 0 0 40px 0;
     font-size: 20px;
 }
+
+/* #sub-contact #location-ul li i {
+    text-align: center;
+} */
 
 #sub-contact #location-ul a {
     color: #000;
@@ -564,6 +569,10 @@ i:hover {
         background-position: right;
     }
 
+    #sub-portfolio .card {
+        padding: 0px;
+    }
+
 }
 
 /* MOBILE VIEW */
@@ -644,6 +653,10 @@ i:hover {
     #sub .card {
         min-height: 35vh;
         font-size: 25px;
+    }
+
+    #sub-portfolio .card {
+        padding: 0px;
     }
 
     #sub-about {
