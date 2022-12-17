@@ -12,17 +12,16 @@ body {
     word-wrap: break-word;
 }
 
+/* LINKS */
+
 a {
     text-decoration: none;
     color: #e1888b;
+    font-weight: 800;
 }
 
 a:visited {
     color: #e1888b;
-}
-
-a:visited:hover {
-    background-color: #8dbacd;;
 }
 
 a:hover {
@@ -37,8 +36,9 @@ a:active {
     color: #973330;
 }
 
+/* NAVBAR */
+
 .navbar {
-    color: white;
     background-color: #f0c8c9;
     height: 90px;
 }
@@ -47,11 +47,29 @@ a:active {
     height: 70px;
 }
 
-.navbar a:hover {
+.navbar-text a {
+    color: #973330; /* #fbe7d3 */
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-text a:hover {
     color: #8dbacd;
 }
 
-.navbar a:visited {
+a.nav-link {
+    color: #973330 !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+a.nav-link.active {
+    color: #000 !important;
+}
+
+a.nav-link:hover {
+    color: #8dbacd !important;
+}
+
+a.nav-link:visited {
     color: #fff;
     text-shadow: 1px rgba(0, 0, 0, 0.3);
 }
@@ -134,18 +152,23 @@ a:active {
     background-image: url(../img/decollete-new_rose.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     height: 500px;
 }
 
-.main-logo {
+/* .main-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 400px;
-}
+} */
 
 /* ACCORDION */
+
+/* #accordionExample1.accordion {
+    
+} */
 
 .accordion {
     background-color: #f0c8c9;
@@ -155,6 +178,7 @@ a:active {
 .accordion-item {
     color:#973330;
     background-color: #f0c8c9;
+    border-color: #973330;
     font-weight: 200;
 }
 
@@ -341,7 +365,8 @@ textarea {
     }
     
     .logo {
-        height: 300px;   
+        height: 300px;
+        width: auto;
     }
 
     #carousel {
