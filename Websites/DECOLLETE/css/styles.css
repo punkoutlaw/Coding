@@ -287,7 +287,7 @@ textarea {
 }
 
 .contact .btn:hover {
-    background-color: #8dbacd;
+    background-color: hwb(198 55% 20%);
 }
 
 #g-recaptcha-response {
@@ -333,6 +333,10 @@ textarea {
 
 .arrow-button {
     float: right;
+}
+
+.bi-arrow-up-square-fill:hover {
+    color: rgba(151, 51, 48, 0.8);
 }
 
 /* TABLET VIEW */
