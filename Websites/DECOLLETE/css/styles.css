@@ -287,7 +287,7 @@ textarea {
 }
 
 .contact .btn:hover {
-    background-color: hwb(198 55% 20%);
+    background-color: rgb(140, 185, 204);
 }
 
 #g-recaptcha-response {
