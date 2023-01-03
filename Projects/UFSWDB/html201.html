@@ -28,25 +28,111 @@
     <img src="Images/computer.jpg" alt="Computer">
 
     <br>
+    
+    <p>A Simple Table with Rows</p>
 
     <table border="1" width="100%">
-        <tr>
-            <td>
-                Cell 1
-            </td>
-            <td>
-                Cell 1.2
-            </td>
-            <td>
-                Cell 1.3
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Cell 2
-            </td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>
+                    Row 1, Cell 1
+                </td>
+                <td>
+                    Row 1, Cell 2
+                </td>
+                <td>
+                    Row 1, Cell 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 2, Cell 1
+                </td>
+                <td>
+                    Row 2, Cell 2
+                </td>
+                <td>
+                    Row 2, Cell 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 3, Cell 1
+                </td>
+                <td>
+                    Row 3, Cell 2
+                </td>
+                <td>
+                    Row 3, Cell 3
+                </td>
+            </tr>
+        </tbody>
     </table>
+
+    <p>A Table with Colspans & Rowspans</p>
+
+    <table border="1" width="100%">
+        <tbody>
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>A Layout made with Tables</p>
+
+    <table border="1" width="100%">
+        <tbody>
+            <tr>
+                <th colspan="2"> Welcome to My Website</th>
+            </tr>
+            <tr>
+                <td width="20%"><h3>Navigation</h3></td>
+                <td><h3>Content</h3></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="padding: 40px; color: white; background-color: black">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis error ut molestias ipsum facilis saepe, nisi, dicta magni iste et quas soluta, facere est eum unde aperiam repellat voluptatem repellendus!
+        </p>
+    </div>
+
+    <h3>Forms</h3>
+
+    <form action="" method="get">
+        <div>
+            <input type="text" name="username" placeholder="Enter your username" required="required">
+        </div>
+        <div>
+            <input name="email" type="email" required="required">
+        </div>
+        <div>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">Click Me</button>
+        </div>
+        <div>
+            <select name="selected_option">
+                <option value="" disabled="disabled"> - Disabled -</option>
+                <option value="value1">This is Value 1</option>
+                <option value="value2">This is Value 2</option>
+                <option value="value3" selected="selected">This is Value 3</option>
+            </select>
+        </div>
+    </form>
+
+    <br>
 
     <div id="bottom">
         
