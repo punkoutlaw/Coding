@@ -38,7 +38,7 @@ a:visited {
 
 #main {
     height: 100vh;
-    background-image: url(Images/razzo-bg5.png);
+    background-image: url(../Images/razzo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -128,7 +128,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     height: 20vh;
-    background-image: url(Images/mountaintop-cap.png);
+    background-image: url(../Images/mountaintop-cap.png);
     background-size: 100vw 275px;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -267,6 +267,13 @@ a:visited {
     color: #ffc107;
     margin: 0 1px;
 }
+
+#sub-testimonials .testimonial-item p {
+    font-style: italic;
+    word-wrap: normal;
+    line-height: 180%;
+    margin: 0 auto 15px auto;
+}
   
 #sub-testimonials .testimonial-item .testimonial-img {
     width: 90px;
@@ -280,11 +287,6 @@ a:visited {
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #111;
-}
-  
-#sub-testimonials .testimonial-item p {
-    font-style: italic;
-    margin: 0 auto 15px auto;
 }
 
 #sub-testimonials .carousel {
@@ -303,12 +305,6 @@ a:visited {
     height: 30px;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%231b2f451a' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
-
-#sub-testimonials .para {
-    min-width: 40vw;
-    word-wrap: normal;
-    line-height: 180%;
-}
   
 /* CONTACT PAGE */
 
@@ -319,7 +315,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    background-image: url(Images/services-bg1.png);
+    background-image: url(../Images/contact-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Noto Serif';
@@ -386,7 +382,7 @@ textarea {
 #sub-about {
     min-height: 50vh;
     background-color: #fff;
-    background-image: url(Images/about-bg5.png);
+    background-image: url(../Images/about-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
