@@ -1,0 +1,79 @@
+body {
+    background-color: aliceblue;
+}
+
+p strong i {
+    color: orange;
+}
+
+h1 {
+    color: red;
+}
+
+.label {
+    font-weight: bold;
+    font-size: large;
+    color: rgba(25, 25, 25, .5);
+}
+
+div {
+    margin: 15px;
+}
+
+.div1 {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100px 5px 100px 5px;
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-image: url("../Images/familyguy.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0 50% 0 50%;
+    box-shadow: 10px 10px 15px orange;
+}
+
+#box2 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-image: url("../Images/familyguy.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0 50% 0 50%;
+    box-shadow: 6px 6px 15px inset gray;
+    /*          x   y   blur inset   color*/
+}
+
+#box3 {
+    display: inline-block; /* inline-block allows you to have multiple block elements in the same row */
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#box4 {
+    display: block;
+    border: 1px solid red;
+    max-width: 500px;
+}
+
+#box5 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+    text-align: center;
+    padding: 25px;
+}
