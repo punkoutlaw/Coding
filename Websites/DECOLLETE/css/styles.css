@@ -451,12 +451,39 @@ textarea {
         width: auto;
     }
 
+    .carousel {	
+        height: 250px;
+    }
+
     #carousel {
-        padding-top: 50px;
+        padding: 50px 0 0 0;
     }    
 
-    .carousel-item img {
-        max-height: 500px; /* 50vh */  
+    .carousel .carousel-item img {
+        margin: 0 auto;
+    }
+
+    .carousel .carousel-item .img-box {
+        border: 9px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
+    }
+    
+    .carousel .carousel-item .img-box-side {
+        border: 9px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
+        margin-top: 15px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 68px;
+        background: none;
+    }
+    
+    .carousel-control-prev i, .carousel-control-next i {
+        font-size: 28px;
+        top: 20%;
     }
 
     .accordion {
@@ -494,13 +521,32 @@ textarea {
     }
 
     #carousel {
-        padding-top: 50px;
-    }    
+        height: 300px;
+        margin: -10% 0 10% 0;
+    }
 
-    .carousel-item img {
-        max-height: 300px;
-        -moz-object-fit: fill;
-        object-fit: fill;
+   .carousel {	
+        height: 300px;
+    } 
+
+    .carousel .carousel-item img {
+        margin: 0 auto;
+    }
+    
+    .carousel .carousel-item .img-box-side {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 68px;
+        background: none;
+    }
+    
+    .carousel-control-prev i, .carousel-control-next i {
+        font-size: 28px;
+        top: 50%;
     }
 
     .accordion {
