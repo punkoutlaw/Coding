@@ -451,13 +451,13 @@ textarea {
         width: auto;
     }
 
+    #carousel {
+        padding: 50px 0 0 0;
+    }
+
     .carousel {	
         height: 250px;
     }
-
-    #carousel {
-        padding: 50px 0 0 0;
-    }    
 
     .carousel .carousel-item img {
         margin: 0 auto;
