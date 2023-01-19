@@ -239,6 +239,7 @@ a.nav-link:visited {
     border-radius: 5px;
 	box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
     margin-top: 50px;
+    opacity: .5;
 }
 
 .carousel .carousel-item img {
@@ -547,6 +548,10 @@ textarea {
     .carousel-control-prev i, .carousel-control-next i {
         font-size: 28px;
         top: 50%;
+    }
+
+    .carousel-indicators {
+        top: 90%;
     }
 
     .accordion {
