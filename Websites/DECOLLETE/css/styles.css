@@ -220,7 +220,7 @@ a.nav-link:visited {
 .carousel {	
 	margin: 0 auto;
 	padding: 0 68px;
-    height: 550px;
+    height: 600px;
 }
 
 .carousel .carousel-item {
@@ -276,10 +276,6 @@ a.nav-link:visited {
     margin-right: 15%;
     margin-left: 15%;
     list-style: none;
-}
-
-.carousel .carousel-indicators {
-    bottom: 5px;
 }
 
 .carousel .carousel-indicators li {
@@ -425,7 +421,32 @@ textarea {
 
 /* TABLET VIEW */
 
-@media (min-width: 481px) and (max-width: 1440px) {
+@media (min-width: 600px) and (max-width: 767px) {
+
+    .carousel-indicators {
+        top: 90% !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .carousel {	
+        padding-bottom: 500px;
+    }
+
+    .carousel .carousel-item .img-box-side {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .carousel-indicators {
+        top: 70%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
 
     .navbar {
         height: auto;
@@ -480,11 +501,13 @@ textarea {
     .carousel-control-prev, .carousel-control-next {
         width: 68px;
         background: none;
+        visibility: hidden;
     }
     
     .carousel-control-prev i, .carousel-control-next i {
         font-size: 28px;
         top: 20%;
+        visibility: hidden;
     }
 
     .accordion {
@@ -528,7 +551,7 @@ textarea {
 
    .carousel {	
         height: 300px;
-    } 
+    }
 
     .carousel .carousel-item img {
         margin: 0 auto;
@@ -543,11 +566,13 @@ textarea {
     .carousel-control-prev, .carousel-control-next {
         width: 68px;
         background: none;
+        visibility: hidden;
     }
     
     .carousel-control-prev i, .carousel-control-next i {
         font-size: 28px;
         top: 50%;
+        visibility: hidden;
     }
 
     .carousel-indicators {
