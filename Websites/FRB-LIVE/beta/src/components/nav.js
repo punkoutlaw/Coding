@@ -1,12 +1,12 @@
 import React from 'react';
 
-const nav = () => {
+const Nav = () => {
   return (
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <div class="nav-logo">
-                    <a class="navbar-brand" href="index.html"><img src="./Images/feudale-symbol-c.png" alt="FEUDALE" /></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/feudale-symbol.png" alt="FEUDALE" /></a>
                 </div>
                 <div class="nav-button">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,4 +42,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav
