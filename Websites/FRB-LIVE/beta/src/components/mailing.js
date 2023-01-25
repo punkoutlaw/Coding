@@ -6,9 +6,9 @@ const Mailing = () => {
     <div id="subscribe" className="main">
 
 
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion flush>
       <Accordion.Item eventKey="0">
-        
+
         <Accordion.Header> Subscribe to our mailing list! </Accordion.Header>
 
           <Accordion.Body>

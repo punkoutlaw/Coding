@@ -89,16 +89,6 @@ body p {
   border-radius: 5px;
 }
 
-.popover {
-  color: #000;
-}
-
-.popovers {
-  background-color: transparent;
-  border: none;
-  color: #ffffff;
-}
-
 /* HEADERS & PARAGRAPHS */
 
 .headers {
@@ -131,6 +121,7 @@ h2 {
 
 .div2 p {
   padding: 0 5px 0 5px;
+  line-height: 180%;
 }
 
 h3 {
@@ -169,8 +160,10 @@ div {
   border-radius: 5px;
   text-decoration: none;
   word-wrap: break-word;
-  min-height: 70vh;
+  height: 70vh;
   cursor: grab;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .div3 {
@@ -255,13 +248,13 @@ div {
   border-radius: 1rem !important;
 }
 
-.accordion-button.collapsed {
+.accordion-button {
   background-color: #1D1F21;
   color: #fff;
   font-size: large;
 }
 
-.accordion-button {
+.accordion-button.collapsed {
   background-color: #1D1F21;
   color: #fff;
   font-size: large;
