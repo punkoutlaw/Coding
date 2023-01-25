@@ -236,7 +236,7 @@ div {
 
 .main {
   align-items: center;
-  margin: auto;
+  margin: 0 auto 50px auto;
   width: 25rem;
   padding: 12px;
   background-color: rgb(29,31,33);
@@ -257,7 +257,25 @@ div {
 
 .accordion-button.collapsed {
   background-color: #1D1F21;
-} 
+  color: #fff;
+  font-size: large;
+}
+
+.accordion-button {
+  background-color: #1D1F21;
+  color: #fff;
+  font-size: large;
+}
+
+.accordion-button.collapsed::after {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+.accordion-button::after {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
 
 .accordion-button:not(.collapsed) {
   background-color: #1D1F21;
@@ -268,6 +286,7 @@ div {
   color: #fff;
   padding: 5px 10px 5px 10px;
   border-radius: 15px;
+  margin: 0 0 0 10px;
 }
 
 .sub-button:hover {
