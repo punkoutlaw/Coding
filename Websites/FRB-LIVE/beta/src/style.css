@@ -716,7 +716,7 @@ textarea.form-control {
   }
 
   .navbar-toggler {
-    margin-top: -50px;
+    margin: -50px 0 0 270px;
   }
 
   .nav-button {
@@ -731,16 +731,16 @@ textarea.form-control {
   div {
     flex-direction: column;
     align-items: center;
-    padding: 5px;
   }
 
   .div1 {
-    padding-bottom: 15px;
+    padding: 15px;
   }
   
   .div2 {
     flex-direction: column;
     word-wrap: break-word;
+    margin: 10px;
   }
   
   .div4 {
@@ -758,6 +758,7 @@ textarea.form-control {
 
   #subscribe {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .accordion-item {

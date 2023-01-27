@@ -1,20 +1,20 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navigation = () => {
   return (
-    <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <div class="container-fluid">
-                <div class="nav-logo">
+            <Container fluid>
+                <div className="nav-logo">
                     <Navbar.Brand href="index.html"><img src="images/feudale-symbol.png" alt="FEUDALE" />
                     </Navbar.Brand>
                 </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                <a class="nav-name" href="index.html">FEUDALE</a>
+                <a className="nav-name" href="index.html">FEUDALE</a>
                     <Nav className="me-auto">
                     <Nav.Link active href="index.html">
                         Home
@@ -32,13 +32,12 @@ const Navigation = () => {
                         Contact
                     </Nav.Link>
                     </Nav>
-                    <span class="navbar-text">
+                    <span className="navbar-text">
                     <b>NEW JERSEY'S PREMIERE ROCK BAND</b>
                     </span>
                 </Navbar.Collapse>
-            </div>
+            </Container>
         </Navbar>
-    </div>
   )
 }
 
