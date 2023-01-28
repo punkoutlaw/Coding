@@ -1,6 +1,7 @@
 import React from 'react';
+import Mailing from '../components/mailing';
 
-const Main = () => {
+const home = () => {
   return (
     <body>
     <div className='container' id='home'>
@@ -78,9 +79,11 @@ const Main = () => {
             </div>
         </div>
 
+        <Mailing />
+
     </div>
     </body>
   )
 }
 
-export default Main
+export default home
