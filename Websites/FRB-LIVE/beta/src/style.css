@@ -492,6 +492,10 @@ textarea.form-control {
 
 /* PICTURES PAGE */
 
+#pictures {
+  margin-top: 50px;
+}
+
 #gallery {
   display: block;
   margin: auto;

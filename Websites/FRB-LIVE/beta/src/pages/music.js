@@ -18,9 +18,9 @@ const Music = () => {
       <br/>
 
       <div className='row'>
-        <Card.Subtitle>
+        <Card.Title>
           Now Playing on Spotify <i class="bi bi-spotify" id="spotify"></i>
-        </Card.Subtitle>
+        </Card.Title>
 
         <br/>
         <br/>
