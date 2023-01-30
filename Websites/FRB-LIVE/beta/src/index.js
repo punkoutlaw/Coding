@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './index.css';
+import App from './App';
 import Layout from './pages/layout';
 import Home from './pages/home';
 import Contact from './pages/contact';
@@ -8,8 +10,6 @@ import Music from './pages/music';
 import Pictures from './pages/pictures';
 import Videos from './pages/videos';
 import NoPage from './pages/nopage';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -3,7 +3,6 @@ import Mailing from '../components/mailing';
 
 const home = () => {
   return (
-    <body>
     <div className='container' id='home'>
         <div className='row'>
             <div className='col div1'>
@@ -82,7 +81,6 @@ const home = () => {
         <Mailing />
 
     </div>
-    </body>
   )
 }
 

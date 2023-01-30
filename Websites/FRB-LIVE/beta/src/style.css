@@ -614,6 +614,10 @@ textarea.form-control {
 
 /* MUSIC PAGE */
 
+#music {
+  margin-top: 50px;
+}
+
 #music-player {
   width: 50%;
   height: 300px;
