@@ -14,7 +14,7 @@ const Mailing = () => {
           <Accordion.Body>
           
             <form 
-              action="forms/subscribe.php" 
+              action="../forms/subscribe.php" 
               onsubmit="alert('Thank you for subscribing!')">
 
               <div className="col mx-auto">

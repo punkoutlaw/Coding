@@ -1,5 +1,6 @@
 {
   "name": "beta",
+  "homepage": "https://www.feudalerockband.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

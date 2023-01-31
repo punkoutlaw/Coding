@@ -9,7 +9,7 @@ function verifyCallback(e) {
 const Form = () => {
   return (
     
-    <form action="forms/contact.php"
+    <form action="../forms/contact.php"
     method="post"
     name="EmailForm"
     id="frb-form"
