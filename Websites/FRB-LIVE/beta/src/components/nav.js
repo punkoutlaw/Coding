@@ -1,8 +1,14 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
+
+    let activeStyle = {
+        textDecoration: "underline",
+        color: "rgb(204, 181, 65)",
+      };
+
   return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container fluid>
@@ -14,19 +20,29 @@ const Navigation = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <a className="nav-name" href="/">FEUDALE</a>
                     <Nav className="me-auto">
-                        <NavLink active to="/">
+                        <NavLink to="/" style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                            }>
                             Home
                         </NavLink>
-                        <NavLink to="/music">
+                        <NavLink to="/music" style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                            }>
                             Music
                         </NavLink>
-                        <NavLink to="/pictures">
+                        <NavLink to="/pictures" style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                            }>
                             Pictures
                         </NavLink>
-                        <NavLink to="/videos">
+                        <NavLink to="/videos" style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                            }>
                             Videos
                         </NavLink>
-                        <NavLink to="/contact">
+                        <NavLink to="/contact" style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                            }>
                             Contact
                         </NavLink>
                     </Nav>
