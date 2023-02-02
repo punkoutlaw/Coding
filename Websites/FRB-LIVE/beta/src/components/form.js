@@ -9,11 +9,11 @@ function verifyCallback(e) {
 const Form = () => {
   return (
     
-    <form action="../forms/contact.php"
+    <form action="/contact.php"
     method="post"
     name="EmailForm"
     id="frb-form"
-    onsubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
+    onSubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
 
       <div className="input-text" id="input-headers">
           

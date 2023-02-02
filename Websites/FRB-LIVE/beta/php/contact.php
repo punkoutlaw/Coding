@@ -24,7 +24,7 @@ $body .= "Subject: ".$_REQUEST['subject']." \n";
 $body .= "Message: ".$_REQUEST['message']." \n";
 # add more fields here if required
 
-## SEND MESSGAE ##
+## SEND MESSAGE ##
 
 mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
 
