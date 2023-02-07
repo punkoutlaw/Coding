@@ -1,25 +1,29 @@
 import React from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-
-function verifyCallback(e) {
-    alert(e);
-    console.log(e);
-}
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_gbtxu0e', 'template_tkkjhda', Form.current, '0D8ZXRHZo14Tuc3Xv')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
   return (
     
-    <form action="/contact.php"
-    method="post"
-    name="EmailForm"
-    id="frb-form"
-    onSubmit="alert('Thank you for contacting us! We will be in touch shortly.')">
+    <form ref={Form} onSubmit={sendEmail} id="frb-form">
 
       <div className="input-text" id="input-headers">
           
           <label for="name">Full Name</label>
           <br/>
-          <input type="text" name="name" className="form-control" 
+          <input type="text" name="fullName" className="form-control" 
             placeholder="Full name" required="required" />
           <label for="email">Email Address</label>
           <br/>
@@ -37,19 +41,8 @@ const Form = () => {
             rows="4" placeholder="Your message" required="required"></textarea>
 
           <br/>
-
-          <ReCAPTCHA 
-            sitekey='6LfRQywhAAAAADg-4BZVR4ROA0FDFkdMGv8XGhdM'
-            data-theme='light'
-            onChange={verifyCallback}/>
-
+          <input type="submit" value="Send" className='btn btn-primary'/>
           <br/>
-
-          <button type="submit" 
-            value="submit"
-            className="btn btn-primary">
-            Submit
-          </button>
 
       </div>
 
