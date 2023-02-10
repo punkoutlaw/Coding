@@ -495,6 +495,10 @@ textarea.form-control {
   text-align: center;
 }
 
+.confirmation {
+  font-style: italic;
+}
+
 /* PICTURES PAGE */
 
 #pictures {
@@ -831,7 +835,7 @@ textarea.form-control {
   #contact-photo {
     width: 325px;
     height: auto;
-    margin-left: -24.75vw;
+    margin-left: -22vw;
   }
 
   .li-form {

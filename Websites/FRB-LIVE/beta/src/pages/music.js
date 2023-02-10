@@ -27,7 +27,7 @@ const Music = () => {
 
         <div className='col'>
 
-        <Iframe style="border-radius:5px" src="https://open.spotify.com/embed/artist/1KP7hDx6P4JqRH7XRufgsK?utm_source=generator" 
+        <Iframe style={{borderRadius: '5px'}} src="https://open.spotify.com/embed/artist/1KP7hDx6P4JqRH7XRufgsK?utm_source=generator" 
         frameBorder="0" 
         allowfullscreen="" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

@@ -51,7 +51,7 @@ const Form = (props) => {
         <input type="submit" value="Send" className='btn btn-primary'/>
         <br/>
 
-        <div className="row">
+        <div className="row confirmation">
           {result ? <Result /> : null} 
         </div>
 

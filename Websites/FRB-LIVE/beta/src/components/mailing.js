@@ -55,7 +55,7 @@ const Mailing = () => {
                 <br />
                 <br />
 
-                <div className="row">
+                <div className="row confirmation">
                   {result ? <Result /> : null} 
                 </div>
 
