@@ -1,5 +1,6 @@
 import React from 'react';
 import Mailing from '../components/mailing';
+import Iframe from 'react-iframe';
 
 const home = () => {
   return (
@@ -37,14 +38,14 @@ const home = () => {
                     </div>
                     <div className='col-md-4'>
                         <div className='header'></div>
-                        <img src="./Images/FEUDALE ACT 6.jpeg" alt="FEUDALE" className="divpics"/>
+                        <Iframe className="iframes divpics" src="https://youtube.com/embed/XxONBMf0GMI" title="It's Alright"></Iframe>
                     </div>
             </div>
             
             <div className='row gx-3 mx-auto justify-content-center' id='div2'>
                     <div className='col-md-4'>
                         <div className='header'></div>
-                        <img src="./Images/FEUDALE ACT 2.jpeg" alt="FEUDALE FIGURES"  className="divpics"/>
+                        <img src="./Images/FEUDALE ACT 6.jpeg" alt="FEUDALE FIGURES" className="divpics"/>
                     </div>
                     <div className='col-md-8'>
                         <div className='header'><b><h2> In The Press <i class="bi bi-newspaper"></i></h2></b></div>
