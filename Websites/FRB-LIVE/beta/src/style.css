@@ -216,19 +216,19 @@ div {
 
 #div1 {
   background-color: #000;
-  height: 50vh;
+  min-height: 50vh;
   padding: 25px;
 }
 
 #div2 {
   background-color: rgb(29, 31, 33, 0.4);
-  height: 50vh;
+  min-height: 50vh;
   padding: 25px;
 }
 
 #div3 {
   background-color: #000;
-  height: 50vh;
+  min-height: 50vh;
   padding: 25px;
 }
 
