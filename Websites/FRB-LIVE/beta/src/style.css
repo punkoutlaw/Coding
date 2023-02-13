@@ -25,6 +25,13 @@ body p {
   font-family: 'Oxygen';
 }
 
+/* .container {
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+} */
+
 .homepage {
   background-image: url(/images/feudale-figures_small.png);
   background-repeat: no-repeat;
@@ -41,6 +48,13 @@ body p {
   background: #000;
   border-radius: 5px;
 }
+
+.rounded {
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+}
+
+/* NAVBAR */
 
 .navbar {
   font-family: 'Anton', 'Arial Narrow Bold', sans-serif;
@@ -83,33 +97,47 @@ body p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.container {
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
+/* HOMEPAGE */
+
+#div1 {
+  background-color: #000;
+  min-height: 50vh;
+  padding: 25px;
+}
+
+#div2 {
+  background-color: rgb(29, 31, 33, 0.4);
+  min-height: 50vh;
+  padding: 25px;
+}
+
+#div3 {
+  background-color: #000;
+  min-height: 50vh;
+  padding: 25px;
+}
+
+.home-text {
+  line-height: 180%;
+  display: inline-block;
+  width: 60%;
 }
 
 #img-main {
   display: block;
   margin: auto;
   padding: 0;
-  height: 50%;
+
   width: 50%;
   -moz-object-fit: contain;
   object-fit: contain;
 }
 
-#divpics {
+.divpics {
   margin: auto;
   width: 500px;
   border-radius: 5px;
   box-shadow: 0px 0px 15px 15px #232323;
-}
-
-.rounded {
-  border-top: 3px solid #bbb;
-  border-radius: 5px;
 }
 
 /* HEADERS & PARAGRAPHS */
@@ -214,32 +242,8 @@ div {
   border-color: white;
 }
 
-#div1 {
-  background-color: #000;
-  min-height: 50vh;
-  padding: 25px;
-}
-
-#div2 {
-  background-color: rgb(29, 31, 33, 0.4);
-  min-height: 50vh;
-  padding: 25px;
-}
-
-#div3 {
-  background-color: #000;
-  min-height: 50vh;
-  padding: 25px;
-}
-
 .card-body {
   font-family: 'Oxygen';
-}
-
-.home-text {
-  line-height: 180%;
-  display: inline-block;
-  width: 60%;
 }
 
 .twitterfeed {
@@ -704,6 +708,14 @@ textarea.form-control {
     overflow-y: auto;
   }
 
+  #div1 {
+    padding-top: 0;
+  }
+
+  .divpics {
+    width: 100%;
+  }
+
   #img-main {
     display: block;
     margin: auto;
@@ -750,6 +762,10 @@ textarea.form-control {
 @media only screen and (max-width: 480px)  {
 
   /* MAIN STYLING */
+
+  .container {
+    flex-direction: column;
+  }
     
   .navbar {
     padding-top: -5px;
@@ -760,7 +776,7 @@ textarea.form-control {
     padding: 5px;
   }
   
-   .navbar .nav-name {
+  .navbar .nav-name {
     margin-top: -50px;
   }
   
@@ -777,10 +793,10 @@ textarea.form-control {
     background-image: none;
   }  
 
-  div {
+  /* div {
     flex-direction: column;
     align-items: center;
-  }
+  } */
 
   .div1 {
     padding: 15px;
@@ -794,6 +810,23 @@ textarea.form-control {
   
   .div4 {
     flex-direction: column;
+  }
+
+  #div1 {
+    padding-top: 0;
+    margin-bottom: 25px;
+  }
+
+  .divpics {
+    width: 75%;
+  }
+
+  .home-text {
+    width: 100%;
+  }
+  
+  #img-main {
+    width: 90%;
   }
 
   .card-body {
@@ -820,16 +853,6 @@ textarea.form-control {
 
   .parent {
     flex-direction: column;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  #img-main {
-    margin: 0 0 -40px 0;
-    -moz-object-fit: cover;
-    object-fit: cover;
   }
   
   .socials {
