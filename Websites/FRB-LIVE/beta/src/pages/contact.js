@@ -29,7 +29,6 @@ const Contact = () => {
           <div className="col-6 contact-photo">
             <br/>
             <img src="./Images/FEUDALE_contact.jpg" alt="BAND" id="contact-photo"/>
-            
           </div>
   
         </div>

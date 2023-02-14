@@ -58,6 +58,9 @@ const home = () => {
                             The arrangements are quite tight and lively, with fierce hacksaw guitars, churning basslines, and savage jackhammer drums creating a tremendous surging sound that shakes and rattles with utmost hard-stomping ferocity.
 
                             In short, this is the sort of album you play super loud while constantly pumping your fist in the air. Accolades don't come much better than that."</p>
+
+                            <br/>
+                            <img src='./Images/feudale-figures_small.png' alt='FEUDALE Figures'/>
                     </div>
             </div>
 

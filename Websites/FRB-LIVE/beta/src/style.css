@@ -910,12 +910,20 @@ textarea.form-control {
   #contact-icons {
     padding: 0 0 0 0;
   }
+  
+  .contact-photo {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 25px;
+  }
 
   #contact-photo {
-    width: 325px;
-    height: auto;
-    margin-left: -22vw;
-    margin-bottom: 25px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    /* margin-left: -22vw;
+    margin-bottom: 25px; */
   }
 
   .li-form {
