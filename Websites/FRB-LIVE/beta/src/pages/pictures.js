@@ -31,25 +31,25 @@ const Pictures = () => {
                 <Carousel>
 
                   <Carousel.Item>
-                    <img src="./Images/Feudale-figures.png" className="gallery-image" alt="FEUDALE LOGO"/>
+                    <img src="./Images/GAL1.png" className="gallery-image" alt="FEUDALE LOGO"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/DAVE.jpg" className="gallery-image" alt="DAVE"/>
+                    <img src="./Images/GAL2.jpg" className="gallery-image" alt="DAVE"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/BRY.jpg" className="gallery-image" alt="BRY"/>
+                    <img src="./Images/GAL3.jpg" className="gallery-image" alt="BRY"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/MIKE.jpg" className="gallery-image" alt="MIKE"/>
+                    <img src="./Images/GAL4.jpg" className="gallery-image" alt="MIKE"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/EPK1.jpg" className="gallery-image" alt="BAND"/>
+                    <img src="./Images/GAL5.jpg" className="gallery-image" alt="BAND"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/EPK2.jpg" className="gallery-image" alt="BAND"/>
+                    <img src="./Images/GAL6.jpg" className="gallery-image" alt="BAND"/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img src="./Images/FEUDALE_gallery.jpg" className="gallery-image" alt="BAND"/>
+                    <img src="./Images/GAL7.jpg" className="gallery-image" alt="BAND"/>
                   </Carousel.Item>
                   
                 </Carousel>
