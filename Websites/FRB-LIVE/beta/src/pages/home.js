@@ -38,7 +38,7 @@ const home = () => {
                     </div>
                     <div className='col-md-4'>
                         <div className='header'></div>
-                        <Iframe className="iframes divpics" src="https://youtube.com/embed/XxONBMf0GMI" title="It's Alright"></Iframe>
+                        <Iframe className="iframe" src="https://youtube.com/embed/XxONBMf0GMI" title="It's Alright" id='div1vid'></Iframe>
                     </div>
             </div>
             

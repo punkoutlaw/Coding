@@ -106,7 +106,7 @@ body p {
 }
 
 #div2 {
-  background-color: rgb(29, 31, 33, 0.4);
+  background-color: rgb(29, 31, 33, 0.6);
   min-height: 50vh;
   padding: 25px;
 }
@@ -136,6 +136,13 @@ body p {
 .divpics {
   margin: auto;
   width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 15px #232323;
+}
+
+#div1vid {
+  width:420px;
+  height:315px;
   border-radius: 5px;
   box-shadow: 0px 0px 15px 15px #232323;
 }
@@ -716,6 +723,10 @@ textarea.form-control {
     width: 100%;
   }
 
+  #div1vid {
+    width: 100%;
+  }
+
   #img-main {
     display: block;
     margin: auto;
@@ -819,6 +830,10 @@ textarea.form-control {
 
   .divpics {
     width: 75%;
+  }
+
+  #div1vid {
+    width:300px;
   }
 
   .home-text {
