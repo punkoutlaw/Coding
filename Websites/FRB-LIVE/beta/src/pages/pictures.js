@@ -1,6 +1,6 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
-import { Carousel } from "react-bootstrap";
+import { Carousel, Card } from "react-bootstrap";
+import Instafeed from "../components/instafeed";
 
 const Pictures = () => {
     return (
@@ -73,7 +73,7 @@ const Pictures = () => {
   
             <br/>
   
-            <div id="instagram-feed1" className="instagram_feed"></div>
+            <Instafeed />
               
             <br/>
   

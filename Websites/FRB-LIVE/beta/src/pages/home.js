@@ -12,15 +12,9 @@ const home = () => {
                     <p><b><strong>FEUDALE</strong></b> is a hard-rocking, blues inspired band, with a twist of alternative flare.</p>
                 </div>
             </div>
-            
-            {/* <div className='row'>
-                <div className='col'>
-                    <img src="./Images/feudale-figures_small.png" alt="FEUDALE FIGURES" id="figures" />
-                </div>
-            </div> */}
 
             <div className='row gx-3 mx-auto justify-content-center' id='div1'>
-                    <div className='col-md-8'>
+                    <div className='col-md-7'>
                         <div className='header'><b><h2> What's New? <i class="bi bi-fire"></i></h2></b></div>
                         <p className='home-text'><b>
                             FEUDALE</b> is back with their new hit single, “<i>It’s Alright</i>”.
@@ -36,18 +30,18 @@ const home = () => {
 
                             <i> FEUDALE is part of TLG Entertainment and distributes via INgrooves.</i></p>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-5'>
                         <div className='header'></div>
                         <Iframe className="iframe" src="https://youtube.com/embed/XxONBMf0GMI" title="It's Alright" id='div1vid'></Iframe>
                     </div>
             </div>
             
             <div className='row gx-3 mx-auto justify-content-center' id='div2'>
-                    <div className='col-md-4'>
+                    <div className='col-md-5'>
                         <div className='header'></div>
                         <img src="./Images/DIVPIC2.jpeg" alt="FEUDALE FIGURES" className="divpics"/>
                     </div>
-                    <div className='col-md-8'>
+                    <div className='col-md-7'>
                         <div className='header'><b><h2> In The Press <i class="bi bi-newspaper"></i></h2></b></div>
                         <p className='home-text'>
                             "This group made up of three siblings from Matawan, New Jersey kicks ass and takes names in a winningly dynamic and exciting manner.
@@ -65,7 +59,7 @@ const home = () => {
             </div>
 
             <div className='row gx-3 justify-content-center' id='div3'>
-                    <div className='col-md-8'>
+                    <div className='col-md-7'>
                         <div className='header'><b><h2> About Us <i class="bi bi-book"></i></h2></b></div>
                         <p className='home-text'><b>
                             FEUDALE</b> has been rocking the Jersey Shore with their edgy mix of rock and blues since forming in 2005.
@@ -79,7 +73,7 @@ const home = () => {
 
                             What started as a part-time hobby for the band of brothers, eventually evolved into a full-time passion for writing, recording and playing varied styles of great music.</p>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-5'>
                         <div className='header'></div>
                         <img src="./Images/DIVPIC3.jpg" alt="FEUDALE" className="divpics"/>
                     </div>
