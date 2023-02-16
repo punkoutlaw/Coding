@@ -25,3 +25,4 @@ yarn-error.log*
 # misc 
 /scrap code
 /old
+/src/components/instafeed.js
