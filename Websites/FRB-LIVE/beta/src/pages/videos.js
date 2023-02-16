@@ -22,6 +22,8 @@ const Videos = () => {
                   <Iframe className="iframes" src="https://youtube.com/embed/XxONBMf0GMI" title="It's Alright">
                   </Iframe>
                 </label>
+            </div>
+            <div className="col">
                 <label><b>Teenager</b>
                 <br/>
                   <Iframe className="iframes" src="https://youtube.com/embed/_zWJcNywMNg" title="Teenager">
@@ -36,6 +38,8 @@ const Videos = () => {
                 <Iframe className="iframes" src="https://youtube.com/embed/u9iv1lul4Lo" title="It's Alright (LIVE)">
                 </Iframe>
               </label>
+            </div>
+            <div className="col">
               <label><b>Wicked Garen (STP Cover)</b>
               <br/> 
                 <Iframe className="iframes" src="https://youtube.com/embed/vsWYeXiJVMQ" title="Wicked Garden">
