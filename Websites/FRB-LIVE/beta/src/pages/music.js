@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, CardGroup, Row, Col } from 'react-bootstrap';
 import Iframe from 'react-iframe';
 
 const Music = () => {
@@ -16,6 +16,48 @@ const Music = () => {
     <Card.Body>
 
       <br/>
+
+      {/* <div className='row'>
+        <div className='col'>
+          <img src='./Images/itsalright-artwork.png' alt='Its Alright Album Art'/>
+        </div>
+        <div className='col'>
+          <img src='./Images/teenager-artwork.png' alt='Its Alright Album Art'/>
+        </div>
+      </div> */}
+
+      <Row>
+        <Col>
+          <Card className='albumcard'>
+            <Card.Title className='albumtitle'><h3>It's Alright</h3></Card.Title>
+            <Card.Img variant="top" className='albumart' src="./Images/itsalright-artwork.png" style={{width:"300px", height:"300px"}}/>
+            <Card.Body>
+              <Card.Text>
+                <p>It's Alright performed by FEUDALE</p>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className='albumfooter'>
+              <small className="text-muted">Released: 10/16/2020</small>
+            </Card.Footer>
+          </Card>
+        </Col>
+        <Col>
+          <Card className='albumcard'>
+          <Card.Title className='albumtitle'><h3>Teenager</h3></Card.Title>
+            <Card.Img variant="top" className='albumart' src="./Images/teenager-artwork.png" style={{width:"300px", height:"300px"}}/>
+            <Card.Body>
+              <Card.Text>
+                <p>Teenager performed by FEUDALE</p>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className='albumfooter'>
+              <small className="text-muted">Released: 11/29/2019</small>
+            </Card.Footer>
+          </Card>
+        </Col>
+    </Row>
+
+    <br/>
 
       <div className='row'>
         <Card.Title>
