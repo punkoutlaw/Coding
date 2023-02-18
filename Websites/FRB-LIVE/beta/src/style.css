@@ -253,18 +253,6 @@ div {
   font-family: 'Oxygen';
 }
 
-.twitterfeed {
-  padding: 10px;
-  background-color: rgb(41,47,51);
-  /* background-image: -moz-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
-  background-image: -webkit-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
-  background-image: -o-linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings
-  background-image: linear-gradient(#6c757d, rgb(19, 18, 18)); Gradient Settings */
-  text-decoration: none;
-  word-wrap: break-word;
-  min-height: 450px;
-}
-
 .table {
   width: 25%;
   margin-left: auto;
@@ -594,8 +582,7 @@ textarea.form-control {
 
 .albumcard {
   background-color: #1D1F21;
-  border: 1px solid #232323;
-  border-radius: 15px;
+  border: none;
 }
 
 .albumart {
@@ -612,8 +599,53 @@ textarea.form-control {
   border-top-right-radius: 15px;
 }
 
-.albumfooter {
+.labeltitle {
+  font-size: larger;
+}
 
+.album-collapse-text.card {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.album-collapse-text {
+  background-color: #00000008;
+  font-size: medium;
+  font-weight: 100;
+  line-height: 180%;
+  min-height: 150px;
+  max-height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.album-buttons {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #1D1F21;
+  width: 150px;
+}
+
+.album-buttons:hover {
+  background-color: #1D1F21;
+}
+
+.album-buttons:focus {
+  background-color: #f74749;
+}
+
+.albumcollapse {
+  display: block;
+  margin: auto;
+}
+
+.albumfooter {
+  display: block;
+  margin: auto;
+  border: 1px solid #232323;
+  border-radius: 15px;
+  width: 500px;
 }
 
 #music-player {
@@ -691,6 +723,8 @@ textarea.form-control {
     margin: auto;
   }
 
+  /* PICTURES PAGE */
+
   #gallery {
     max-width: 100%;
   }
@@ -705,6 +739,8 @@ textarea.form-control {
     height: 100%;
     align-content: center;
   }
+
+  /* CONTACT PAGE */
 
   #contact-photo {
     display: block;
@@ -723,6 +759,12 @@ textarea.form-control {
     width: 45vw;
     text-align: left;
     margin: 0 0 0 0;
+  }
+
+  /* MUSIC PAGE */
+
+  .albumcard {
+    margin: 0 0 25px 0;
   }
 
 }
@@ -847,7 +889,7 @@ textarea.form-control {
     width: 100%;
   }
   
-    /* CONTACT PAGE */
+  /* CONTACT PAGE */
   
   .div3 {
     flex-direction: column;
@@ -896,7 +938,7 @@ textarea.form-control {
   margin-left: -20px;
 }
   
-  /* PICTURES PAGE */
+/* PICTURES PAGE */
 
   #gallery {
     margin-top: -6vh;
@@ -938,6 +980,19 @@ textarea.form-control {
   #music-player {
     width: auto;
     height: 300px;
+  }
+
+  .albumcard {
+    margin: 0 0 25px 0;
+  }
+
+  .album-collapse-text.card {
+    width: 300px !important;
+  }
+
+  .albumfooter {
+    width: 300px;
+    border-top-right-radius: 15px;
   }
   
   /* VIDEOS PAGE */
