@@ -977,13 +977,19 @@ textarea.form-control {
     height: 100% !important;
   }
 
+  .album-buttons {
+    width: 100%;
+  }
+
   .album-collapse-text.card {
     width: 90vw !important;
+    margin-left: -10px;
   }
 
   .albumfooter {
-    width: 100% !important;
+    width: 90vw !important;
     border-top-right-radius: 15px;
+    margin-left: -10px;
   }
   
   /* VIDEOS PAGE */

@@ -40,7 +40,7 @@ const Music = () => {
                 </Button>
                 <div style={{ minHeight: '150px' }} className='albumcollapse'>
                   <Collapse in={open} dimension="width">
-                    <div id="example-collapse-text">
+                    <div id="collapse-text">
                       <Card body style={{ width: '500px' }} className="album-collapse-text">
                       "In these trying times "It's Alright " is a rock & roll anthem of the era! Through all of the ups and down, we wanted to send a message to the world that whatever life is throwing your way -  in the end - IT'S ALRIGHT!" -FEUDALE
                       </Card>
@@ -68,7 +68,7 @@ const Music = () => {
                 </Button>
                 <div style={{ minHeight: '150px' }} className='albumcollapse'>
                   <Collapse in={open2} dimension="width">
-                    <div id="example-collapse-text">
+                    <div id="collapse-text">
                       <Card body style={{ width: '500px' }} className="album-collapse-text">
                         <p>
                         "We wrote “Teenager” based on our own experiences living and growing up in New Jersey. There was always something charming about hanging out down the shore and shopping (maybe getting kicked out) of the Freehold Raceway Mall. Or vibing in our bedroom listening to Pink Floyd and Nirvana.
