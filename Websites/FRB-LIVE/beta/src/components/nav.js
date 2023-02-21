@@ -13,7 +13,7 @@ const Navigation = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container fluid>
                 <div className="nav-logo">
-                    <Navbar.Brand href="/"><img src="Images/feudale-symbol.png" alt="FEUDALE" />
+                    <Navbar.Brand href="/"><img src="Images/feudale-symbol-c.png" alt="FEUDALE" />
                     </Navbar.Brand>
                 </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
