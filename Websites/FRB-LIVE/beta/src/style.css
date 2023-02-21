@@ -589,9 +589,8 @@ textarea.form-control {
   font-size: larger;
 }
 
-.album-collapse-text.card {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.collapse-text {
+  margin: auto;
 }
 
 .album-collapse-text {
@@ -603,6 +602,8 @@ textarea.form-control {
   max-height: 150px;
   overflow: scroll;
   overflow-x: hidden;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .album-buttons {
@@ -751,6 +752,14 @@ textarea.form-control {
 
   .albumcard {
     margin: 0 0 25px 0;
+  }
+
+  .album-collapse-text {
+    width: 85vw !important;
+  }
+
+  .albumfooter {
+    width: 85vw !important;
   }
 
 }
@@ -973,23 +982,20 @@ textarea.form-control {
   }
 
   .albumart {
-    width: 100% !important;
-    height: 100% !important;
+    width: 90% !important;
+    height: 90% !important;
   }
 
   .album-buttons {
-    width: 100%;
+    width: 50%;
   }
 
-  .album-collapse-text.card {
-    width: 90vw !important;
-    margin-left: -10px;
+  .album-collapse-text {
+    width: 85vw !important;
   }
 
   .albumfooter {
-    width: 90vw !important;
-    border-top-right-radius: 15px;
-    margin-left: -10px;
+    width: 85vw !important;
   }
   
   /* VIDEOS PAGE */
