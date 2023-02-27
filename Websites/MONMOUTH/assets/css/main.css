@@ -598,6 +598,10 @@ section {
   padding-bottom: 0;
 }
 
+.why-us .container {
+  text-align: center;
+}
+
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;
@@ -620,6 +624,15 @@ section {
   font-weight: 400;
   color: #29486a;
   font-family: var(--font-secondary);
+}
+
+.why-us ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.why-us li {
+  list-style: square ;
 }
 
 .why-us .swiper {
@@ -717,6 +730,7 @@ section {
 .about .content p {
   margin: 30px 0;
   color: #29486a;
+  line-height: 180%;
 }
 
 .about .content ul {
