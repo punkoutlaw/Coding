@@ -110,6 +110,45 @@ averageAge = myAge / yourAge // returns the average age, which is 0.546875
 averageAge // returns 0.546875
 console.log("Our ages together are " + (yourAge + myAge)); // returns 'Our ages together are 99'
 
+/* Selecting Multiple DOM Nodes */
+
+document.querySelector(".box").innerText
+document.querySelectorAll(".box").innerText
+
+/* Functions */
+
+function addStuff(a, b) { // the parameters of the function
+    let total = a + b; // the logic of the function
+    return total; // gives you the result of the function
+}
+
+// The Rest Operator
+
+function addThings(yourName, ...yourNumber) { // "..." will let you use an unlimited amount of parameters
+    let total = 0; // sets the total at zero
+    for(index in yourNumber) {
+        total = total + yourNumber[index];
+    }
+    return `${yourName}'s number is ${yourNumber}!`
+}
+
+const newTotal = addThings("David", 5, 6, 7, 8);
+console.log(newTotal);
+
+// Objects with Functions
+
+const people = {
+    'name': "David",
+    'age': "35",
+    'height': "5'10\"",
+    talk(adj="pussy") {
+        console.log(`That makes my ${adj} hurt!`);
+    }
+}
+
+people.talk() // will execute "That makes my pussy hurt!"
+people.talk("knees") // will execute "That makes my knees hurt!"
+
 // COMMENTS \\
 
 /*
