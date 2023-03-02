@@ -143,15 +143,16 @@ a:visited {
     justify-content: center;
     align-items: center;
     background-color: #F5F5F5;
-    /* background-image: url(Images/services-bg1.png); */
-    background-size: auto;
-    background-repeat: no-repeat;
     font-family: 'Noto Serif';
 }
 
 #sub-services .header {
     font-family: 'Pacifico';
     padding: 50px 0 50px 0;
+}
+
+#sub-services .header h1 {
+    font-size: 35px;
 }
 
 #sub-services .header .bi-briefcase {
@@ -264,6 +265,10 @@ a:visited {
 #sub-testimonials .header {
     font-family: 'Pacifico';
     padding: 50px 0 50px 0;
+}
+
+#sub-testimonials .header h1 {
+    font-size: 35px;
 }
 
 #sub-testimonials .header .bi-chat-quote {
@@ -580,9 +585,10 @@ i:hover {
     #sub-services .card {
         min-height: 40vh;
         max-height: 40vh;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        font-size: 3vmax;
+    }
+
+    .services-hr {
+        margin: 25px 0 25px 0;
     }
 
     #sub-services .card:hover {
