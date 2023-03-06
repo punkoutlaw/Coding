@@ -218,6 +218,29 @@ a:visited {
     border-radius: 50px;
 }
 
+.btn-request {
+    background-color: #001964;
+    color: #fff;
+    font-size: 25px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+#sub-services .btn-request:hover {
+    color: #fff;
+    background-color: rgb(65, 128, 203, 0.9); /* rgb(28, 55, 74, 0.9) */
+}
+
+#sub-services .btn-request:focus {
+    background-color: #fe824e;
+    color: #000;
+}
+
+#sub-services .btn-request:hover:active {
+    background-color: #fe824e;
+}
+
 /* PORTFOLIO PAGE */
 
 #sub-portfolio {
