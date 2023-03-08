@@ -93,12 +93,12 @@ a:visited {
 
 .loader{
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(255, 255, 255, 0.1);
+    /* background: rgb(255, 255, 255, 0.1); */
     transition: all 0.5s;
     z-index: 1;
   }
