@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #816c5b;
+    font-size: 25px;
+    background-image: url(../images/navimg3.jpg);
+    background-position: bottom;
+}
+
+#main {
+    line-height: 180%;
+}
+
+#sub-main {
+    background-color: #816c5b;
+    min-height: 50vh;
+    overflow-x: hidden;
+    display: block;
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+
+.divpics1 {
+    width: 550px;
+}
+
+.divpics2 {
+    width: 400px;
+    height: 400px;
+    border: 10px solid #bdd09f;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:visited {
+    color: #fff !important;
+}
