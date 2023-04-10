@@ -17,8 +17,10 @@ body {
 .navbar {
     background-color: #816c5b;
     font-size: 25px;
-    background-image: url(../images/navimg3.jpg);
-    background-position: bottom;
+    background-image: url(../images/stage-light2.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #navbarNav {
@@ -27,7 +29,7 @@ body {
 
 .nav-lt {
     font-family: "Great Vibes";
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 55px;
     text-align: left;
 }
@@ -45,7 +47,7 @@ a {
 }
 
 #sub-main {
-    background-color: #816c5b;
+    background-color: #5f250f;
     min-height: 50vh;
     overflow-x: hidden;
     display: block;
@@ -53,7 +55,7 @@ a {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 10px solid #bdd09f;
+    border: 10px solid #d4d4d4; /* #bdd09f */
 }
 
 .divpics1 {
@@ -423,11 +425,11 @@ footer {
 }
 
 .footer-07 {
-    background: #816c5b; 
+    background: #5f250f; 
 }
 
 .footer-07 a {
-    color: #a3de83; 
+    color: #d4d4d4; 
 }
 
 .footer-07 p {
@@ -459,7 +461,7 @@ footer {
 
 .footer-07 .ftco-footer-social li a {
     background: transparent;
-    border: 1px solid #bdd09f; 
+    border: 1px solid #d4d4d4; 
 }
 
 .ftco-footer-social li {
