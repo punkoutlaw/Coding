@@ -15,12 +15,12 @@ body {
 }
 
 .navbar {
-    background-color: #816c5b;
+    background-color: #030c0e !important;
     font-size: 25px;
-    background-image: url(../images/stage-light2.jpg);
+    /* background-image: url(../images/stage-light2.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #navbarNav {
@@ -47,7 +47,7 @@ a {
 }
 
 #sub-main {
-    background-color: #5f250f;
+    background-color: #01256d;
     min-height: 50vh;
     overflow-x: hidden;
     display: block;
@@ -56,6 +56,14 @@ a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: 10px solid #d4d4d4; /* #bdd09f */
+}
+
+.banner {
+    background-image: url("../images/stage-light3.jpg");
+    height: 250px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .divpics1 {
@@ -425,7 +433,7 @@ footer {
 }
 
 .footer-07 {
-    background: #5f250f; 
+    background: #030c0e; 
 }
 
 .footer-07 a {
