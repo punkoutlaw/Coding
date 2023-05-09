@@ -2,15 +2,15 @@ import React from 'react';
 
 const home = () => {
   return (
-        <div class="container-fluid" id='main'>
-            <div class="row">
-                <div class="col banner">
+        <div className="container-fluid" id='main'>
+            <div className="row">
+                <div className="col banner">
                     
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 p-5">
-                    <h3>Let's make new memories <i class="bi bi-camera"></i></h3>
+            <div className="row justify-content-center">
+                <div className="col-lg-4 p-5">
+                    <h3>Let's make new memories <i className="bi bi-camera"></i></h3>
                     <br/>
                     If you are looking for a professional photographer to capture your special moments, you have come to the right place. I offer a range of photography services, from portraits and weddings to events and products. Whether you need a solo shoot or a group session, I can accommodate your needs and preferences.
                     <br/>
@@ -20,8 +20,8 @@ const home = () => {
                     <br/>
                     My photography services are not only about taking pictures, but also about creating memories. I strive to make every photo session fun, relaxed and enjoyable for you and your loved ones. I will listen to your ideas and feedback, and deliver the photos in a timely manner. You can trust me to handle your photos with care and professionalism.
                 </div>
-                <div class="col-lg-4 p-5">
-                    <img src="images/cam8.jpg" alt="Cameras" class="divpics1"/>
+                <div className="col-lg-4 p-5">
+                    <img src="images/cam8.jpg" alt="Cameras" className="divpics1"/>
                 </div>
             </div>
         </div>
