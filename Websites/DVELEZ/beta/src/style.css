@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Great+Vibes');
+@import url(./owl.carousel.min.css);
+@import url(./owl.theme.default.min.css);
 
 body {
     font-family: 'Montserrat';
