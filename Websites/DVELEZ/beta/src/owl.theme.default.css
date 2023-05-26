@@ -2,6 +2,7 @@
 .owl-theme .owl-nav {
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
 }
 .owl-theme .owl-nav {
     margin-top: 10px;
@@ -39,6 +40,8 @@
     background: #d6d6d6;
     display: block;
     -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    backface-visibility: visible;
     transition: opacity 0.2s ease;
     border-radius: 30px;
 }
