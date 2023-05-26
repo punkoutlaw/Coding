@@ -1,4 +1,5 @@
 import React from 'react';
+import Maincarousel from '../components/maincarousel';
 
 const home = () => {
   return (
@@ -22,6 +23,11 @@ const home = () => {
                 </div>
                 <div className="col-lg-4 p-5">
                     <img src="images/cam8.jpg" alt="Cameras" className="divpics1"/>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col'>
+                    <Maincarousel/>
                 </div>
             </div>
         </div>

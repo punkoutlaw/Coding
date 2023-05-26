@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Great+Vibes');
+@import url(./owl.carousel.css);
+@import url(./owl.theme.default.css);
 
 body {
     font-family: 'Montserrat';
@@ -95,6 +97,10 @@ a.nav-link.active {
 }
 
 /* CAROUSEL */
+
+#slide1 {
+    background-image: url(/Images/port3.jpg)
+}
 
 .main-carousel {
     padding: 7em 0;
@@ -282,9 +288,13 @@ a.nav-link.active {
 }
 
 .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
+
 }
 
 .form-control {
