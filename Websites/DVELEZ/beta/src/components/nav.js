@@ -1,12 +1,12 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Nav, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <div>
         <Nav className="navbar navbar-dark bg-dark navbar-expand-lg py-5">
-            <div className="container-fluid">
+            <Container fluid>
                 <span className="nav-lt">Daniel Velez</span>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"     aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@ const Navigation = () => {
                     </li>
                     </ul>
                 </div>
-            </div>
+            </Container>
         </Nav>
     </div>
   )

@@ -1,69 +1,72 @@
 import React from 'react';
+import { Container, Carousel } from 'react-bootstrap';
 
 const Maincarousel = () => {
+    
   return (
-        <div className="container main-carousel" id="sub-main">
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="featured-carousel owl-carousel">
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/port3.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/cam3.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/port8.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/port1.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/port2.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="work">
-                                <div className="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/port7.jpg);">
-                                    <a href="#" className="icon d-flex align-items-center justify-content-center">
-                                        <span className="ion-ios-search"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <Container fluid className="main-carousel" id="sub-main">
+    <Carousel>
+        <Carousel.Item className='item'>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded" style={{backgroundImage: "url(/images/port3.jpg)"}}>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
                 </div>
             </div>
-        </div>    
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded">
+                <img src="/images/cam3.jpg" alt="First slide"/>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
+                </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded">
+                <img src="/images/port8.jpg" alt="First slide"/>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
+                </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded">
+                <img src="/images/port1.jpg" alt="First slide"/>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
+                </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded">
+                <img src="/images/port2.jpg" alt="First slide"/>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
+                </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="work">
+                <div className="img d-flex align-items-center justify-content-center rounded">
+                <img src="/images/port7.jpg" alt="First slide"/>
+                    <a href="#" className="icon d-flex align-items-center justify-content-center">
+                        <span className="ion-ios-search"></span>
+                    </a>
+                </div>
+            </div>
+        </Carousel.Item>
+    </Carousel>
+</Container>
   )
 }
 
