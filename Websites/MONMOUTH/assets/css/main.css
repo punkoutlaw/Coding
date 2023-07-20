@@ -872,6 +872,11 @@ section {
   overflow: hidden;
 }
 
+.team .team-member .member-img .img-fluid {
+  display: block;
+  margin: auto;
+}
+
 .team .team-member .social {
   position: absolute;
   left: 0;

@@ -55,6 +55,11 @@ a:visited {
     min-height: 32vh;
 }
 
+#pop-out {
+    position: absolute;
+    visibility: hidden;
+}
+
 #main hr {
     display: block;
     margin: auto;
