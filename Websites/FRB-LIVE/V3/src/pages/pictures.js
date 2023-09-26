@@ -62,7 +62,7 @@ const Pictures = () => {
 
         <br/>
   
-        <div className="row">
+        {/* <div className="row">
           <div className="col">
   
             <br/>
@@ -79,7 +79,7 @@ const Pictures = () => {
   
           </div>
   
-        </div>
+        </div> */}
 
       </Card.Body>
   
