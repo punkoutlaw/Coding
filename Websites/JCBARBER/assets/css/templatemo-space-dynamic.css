@@ -836,7 +836,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 280px 0px 100px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -861,7 +861,7 @@ Banner Style
 
 .main-banner .left-content h2 em {
   color: #fff;
-  font-style: normal;
+  font-style: normal;offered-services
 }
 
 .main-banner .left-content h2 span {
@@ -878,43 +878,43 @@ About Us Style
 --------------------------------------------- 
 */
 
-#about {
+#services {
   margin-top: 120px;
 }
 
-.about-us {
+.services-offered {
   background-image: url(../images/barber-scissors2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 140px 0px 120px 0px;
+  padding: 200px 0px 200px 0px;
 }
 
-.about-us .left-image {
+.services-offered .left-image {
   margin-right: 45px;
 }
 
-.about-us .services .item {
+.services-offered .services .item {
   margin-bottom: 30px;
 }
 
-.about-us .services .item .icon {
+.services-offered .services .item .icon {
   float: left;
   margin-right: 25px;
 }
 
-.about-us .services .item .icon img {
+.services-offered .services .item .icon img {
   max-width: 70px;
 }
 
-.about-us .services .item h4 {
+.services-offered .services .item h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
-.about-us .services .item p {
+.services-offered .services .item p {
   color: #fff;
 }
 
@@ -1224,7 +1224,7 @@ contact
 
 .contact-us {
   padding: 160px 0px;
-  background-image: url(../images/contact-bg.png);
+  background-image: url(../images/barber-scissors.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1259,7 +1259,7 @@ contact
   line-height: 46px;
   background-color: #fff;
   border-radius: 50%;
-  color: #ff3b2c;
+  color: #000;
   font-size: 22px;
   margin-left: 30px;
   margin-right: 15px;
@@ -1392,28 +1392,28 @@ responsive
   #about {
     margin-top: 0px;
   }
-  .about-us {
+  .services-offered {
     position: relative;
     background-image: none;
     padding: 0px;
   }
-  .about-us .left-image {
+  .services-offered .left-image {
     margin-right: 0px;
     position: absolute;
     bottom: -220px;
     right: 0;
   }
-  .about-us .services {
+  .services-offered .services {
     text-align: center;
   }
-  .about-us .services .item  {
+  .services-offered .services .item  {
     background: rgb(255,77,30);
     background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
   }
-  .about-us .services .item .right-text {
+  .services-offered .services .item .right-text {
     text-align: left;
   }
   .our-services {
@@ -1477,7 +1477,7 @@ responsive
 }
 
 @media (max-width: 767px) {
-  .about-us .left-image {
+  .services-offered .left-image {
     bottom: -280px;
   }
   .our-blog .right-list {
