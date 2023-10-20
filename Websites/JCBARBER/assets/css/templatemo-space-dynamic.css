@@ -201,7 +201,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -824,7 +824,20 @@ preloader
     border-radius: 50%;
 }
 
+/* 
+---------------------------------------------
+General Styling
+--------------------------------------------- 
+*/
 
+.main-imgs {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: 70%;
+  height: 70%;
+  /* box-shadow: 0 0 8px 8px white inset; */
+}
 
 /* 
 ---------------------------------------------
@@ -871,15 +884,6 @@ Banner Style
 
 .main-banner .left-content p {
   margin: 20px 0px;
-}
-
-.main-banner .main-right {
-  display: block;
-  margin: auto;
-  border-radius: 25px;
-  width: 70%;
-  height: 70%;
-  /* box-shadow: 0 0 8px 8px white inset; */
 }
 
 /* 
@@ -1103,6 +1107,7 @@ Portfolio
 }
 
 .our-portfolio .showed-content img {
+  border-radius: 10px;
 }
 
 
