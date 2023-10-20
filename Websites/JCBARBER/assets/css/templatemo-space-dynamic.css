@@ -106,7 +106,10 @@ html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #000 !important;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -372,12 +375,15 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: #000;
 }
 
-.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li:hover a {
+  color: rgb(42, 42, 42, .5);
+}
+
 .header-area .main-nav .nav li a.active {
-  color: #fffdd0!important;
+  color: #000!important;
 }
 
 .background-header .main-nav .nav li:hover a,
