@@ -836,13 +836,14 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 280px 0px 100px 0px;
+  padding: 200px 0px 100px 0px;
   position: relative;
   overflow: hidden;
 }
 
 .main-banner .left-content {
   margin-right: 45px;
+  padding: 0px 0px 100px 0px;
 }
 
 .main-banner .left-content h6 {
@@ -861,7 +862,7 @@ Banner Style
 
 .main-banner .left-content h2 em {
   color: #fff;
-  font-style: normal;offered-services
+  font-style: normal;
 }
 
 .main-banner .left-content h2 span {
@@ -870,6 +871,15 @@ Banner Style
 
 .main-banner .left-content p {
   margin: 20px 0px;
+}
+
+.main-banner .main-right {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: 70%;
+  height: 70%;
+  /* box-shadow: 0 0 8px 8px white inset; */
 }
 
 /* 
@@ -1086,14 +1096,13 @@ Portfolio
   z-index: 3;
   background-color: #fff;
   text-align: center;
-  padding: 50px;
+  padding: 10px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.5s;
 }
 
 .our-portfolio .showed-content img {
-  max-width: 100px;
 }
 
 
