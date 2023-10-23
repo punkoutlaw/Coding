@@ -199,19 +199,25 @@ body {
   color: #fffdd0;
 }
 
-.main-blue-button a {
+.main-book-button a {
   display: inline-block;
-  background-color: #fff;
+  background-color: #afafaf;
   font-size: 15px;
   font-weight: 400;
   color: #000;
   text-transform: capitalize;
   padding: 12px 25px;
+  margin-top: 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
 }
 
-.main-red-button a {
+.main-book-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.main-nav-button a {
   display: inline-block;
   background-color: #000;
   font-size: 15px;
@@ -223,16 +229,8 @@ body {
   letter-spacing: 0.25px;
 }
 
-.main-white-button a {
-  display: inline-block;
-  background-color: #fff;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fffdd0;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
+.main-nav-button a:hover {
+  background-color: #2a2a2a !important;
 }
 
 /* 
@@ -1137,6 +1135,7 @@ Blog
 
 .our-blog .section-heading h2 {
   margin-right: 180px;
+  margin-bottom: 15px;
 }
 
 .our-blog .top-dec {
@@ -1161,34 +1160,6 @@ Blog
   position: relative;
 }
 
-.our-blog .left-image .info .inner-content {
-  background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 20px;
-  margin-right: 75px;
-  position: absolute;
-  margin-top: -100px;
-  padding: 30px;
-}
-
-.our-blog .left-image ul li {
-  display: inline-block;
-  font-size: 15px;
-  color: #afafaf;
-  font-weight: 300;
-  margin-right: 20px;
-}
-
-.our-blog .left-image ul li:last-child {
-  margin-right: 0px;
-}
-
-.our-blog .left-image ul li i {
-  color: #ff4d61;
-  font-size: 16px;
-  margin-right: 8px;
-}
-
 .our-blog .left-image h4 {
   font-size: 20px;
   font-weight: 700;
@@ -1196,7 +1167,7 @@ Blog
   margin: 20px 0px 15px 0px;
 }
 
-.our-blog .left-image .info .main-blue-button {
+.our-blog .left-image .info .main-book-button {
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -1237,10 +1208,23 @@ Blog
 
 
 .our-blog .right-list .right-image img {
-  width: 250px;
+  
   border-radius: 20px;
 }
 
+.inner-content {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  margin-right: 75px;
+  position: absolute;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.inner-content p {
+  color: #000;
+}
 
 /* 
 ---------------------------------------------
@@ -1471,11 +1455,11 @@ responsive
     text-align: center;
     margin-bottom: 45px;
   }
-  .our-blog .left-image .info .inner-content {
+  .inner-content {
     position: relative;
     margin-right: 0px;
   }
-  .our-blog .left-image .info .main-blue-button {
+  .our-blog .left-image .info .main-book-button {
     position: relative;
     bottom: 0px;
     margin-top: 30px;
