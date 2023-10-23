@@ -130,7 +130,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 img {
@@ -182,7 +182,7 @@ body {
 .section-heading h2 {
   font-size: 30px;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #afafaf;
   font-weight: 700;
   letter-spacing: 0.25px;
   position: relative;
@@ -860,7 +860,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 200px 0px 100px 0px;
+  padding: 200px 0px 0px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -880,7 +880,7 @@ Banner Style
 .main-banner .left-content h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #afafaf;
   line-height: 72px;
 }
 
@@ -1069,7 +1069,7 @@ Portfolio
 .our-portfolio .hidden-content {
   background: rgb(255, 255, 255);
   background: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(62, 62, 62) 100%);
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -1132,7 +1132,7 @@ Blog
 .our-blog {
   position: relative;
   margin-top: 80px;
-  padding-top: 120px;
+  padding: 100px 0 250px 0;
 }
 
 .our-blog .section-heading h2 {
@@ -1231,7 +1231,7 @@ Blog
 .our-blog .right-list .left-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #afafaf;
   margin: 20px 0px 15px 0px;
 }
 
