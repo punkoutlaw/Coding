@@ -622,6 +622,8 @@ header
   }
 }
 
+/* MOBILE */
+
 @media (max-width: 767px) {
   
   .main-nav {
@@ -629,9 +631,11 @@ header
   }
   .main-nav h4 {
     margin-right: 100px;
-    height: 0px;
+    margin-top: 10px;
+    font-size: 25px !important;
+    line-height: normal !important;
+    width: 75%;
   }
-  
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
