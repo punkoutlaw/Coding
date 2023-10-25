@@ -623,6 +623,15 @@ header
 }
 
 @media (max-width: 767px) {
+  
+  .main-nav {
+    
+  }
+  .main-nav h4 {
+    margin-right: 100px;
+    height: 0px;
+  }
+  
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -631,14 +640,14 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fffdd0!important;
+    color: #000!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #fffdd0;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -677,7 +686,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #fffdd0;
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -687,12 +696,12 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #fffdd0 !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fffdd0!important;
+    color: #2a2a2a!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -1133,6 +1142,10 @@ Blog
   padding: 100px 0 250px 0;
 }
 
+.booking img {
+  width: 600px;
+}
+
 .booking .section-heading h2 {
   margin-right: 180px;
   margin-bottom: 15px;
@@ -1418,11 +1431,14 @@ responsive
     text-align: center;
   }
   .services-offered .services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+    background: #fffdd0;
+    border: 2px solid #fff;
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
+  }
+  .services-offered .services .item p {
+    color: #000;
   }
   .services-offered .services .item .right-text {
     text-align: left;
@@ -1447,6 +1463,11 @@ responsive
   }
   .booking {
     margin-top: 0px;
+  }
+    .booking img {
+    width: 100%;
+    display: block;
+    margin: auto;
   }
   .booking .top-dec {
     display: none;
@@ -1509,6 +1530,15 @@ responsive
   .booking .right-list .right-image img {
     width: 100%;
   }
+
+  .booking img {
+    width: 100%;
+  }
+
+  .inner-content {
+    width: 100%;
+  }
+
   .phone-info h4 span {
     display: block;
     margin-top: 15px;
