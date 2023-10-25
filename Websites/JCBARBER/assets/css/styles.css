@@ -201,10 +201,10 @@ body {
 
 .main-book-button a {
   display: inline-block;
-  background-color: #afafaf;
+  background-color: #000;
   font-size: 15px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
   margin-top: 25px;
@@ -1127,79 +1127,79 @@ Blog
 --------------------------------------------- 
 */
 
-.our-blog {
+.booking {
   position: relative;
   margin-top: 80px;
   padding: 100px 0 250px 0;
 }
 
-.our-blog .section-heading h2 {
+.booking .section-heading h2 {
   margin-right: 180px;
   margin-bottom: 15px;
 }
 
-.our-blog .top-dec {
+.booking .top-dec {
   text-align: right;
   margin-top: -80px;
 }
 
-.our-blog .top-dec img {
+.booking .top-dec img {
   max-width: 270px;
 }
 
-.our-blog .left-image {
+.booking .left-image {
   position: relative;
 }
 
-.our-blog .left-image img {
+.booking .left-image img {
   border-radius: 20px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 
-.our-blog .left-image .info {
+.booking .left-image .info {
   position: relative;
 }
 
-.our-blog .left-image h4 {
+.booking .left-image h4 {
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
   margin: 20px 0px 15px 0px;
 }
 
-.our-blog .left-image .info .main-book-button {
+.booking .left-image .info .main-book-button {
   position: absolute;
   bottom: -80px;
   left: 0;
 }
 
-.our-blog .right-list {
+.booking .right-list {
   margin-left: 30px;
 }
 
-.our-blog .right-list ul li {
+.booking .right-list ul li {
   display: inline-flex;
   width: 100%;
   margin-bottom: 30px;
 }
 
-.our-blog .right-list .left-content {
+.booking .right-list .left-content {
   margin-right: 45px;
 }
 
-.our-blog .right-list .left-content span {
+.booking .right-list .left-content span {
   font-size: 15px;
   color: #afafaf;
   font-weight: 300;
 }
 
-.our-blog .right-list .left-content span i {
+.booking .right-list .left-content span i {
   color: #ff4d61;
   font-size: 16px;
   margin-right: 8px;
 }
 
-.our-blog .right-list .left-content h4 {
+.booking .right-list .left-content h4 {
   font-size: 20px;
   font-weight: 700;
   color: #afafaf;
@@ -1207,17 +1207,18 @@ Blog
 }
 
 
-.our-blog .right-list .right-image img {
+.booking .right-list .right-image img {
   
   border-radius: 20px;
 }
 
 .inner-content {
-  background-color: #fff;
+  background-color: #fffdd0;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 20px;
   margin-right: 75px;
   position: absolute;
+  width: 600px;
   margin-top: 100px;
   padding: 40px;
 }
@@ -1294,7 +1295,7 @@ form#contact .contact-dec img {
 form#contact {
   margin-left: 30px;
   position: relative;
-  background-color: #fff;
+  background-color: #fffdd0;
   padding: 60px 30px;
   border-radius: 20px;
 }
@@ -1303,18 +1304,18 @@ form#contact input {
   width: 100%;
   height: 46px;
   border-radius: 33px;
-  background-color: #d1f3ff;
+  background-color: #000;
   border: none;
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #fff;
   padding: 0px 20px;
   margin-bottom: 20px;
 }
 
 form#contact input::placeholder {
-  color: #2a2a2a;
+  color: #fff;
 }
 
 form#contact textarea {
@@ -1325,23 +1326,23 @@ form#contact textarea {
   min-height: 140px;
   height: 140px;
   border-radius: 20px;
-  background-color: #d1f3ff;
+  background-color: #000;
   border: none;
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #fff;
   padding: 15px 20px;
   margin-bottom: 20px;
 }
 
 form#contact textarea::placeholder {
-  color: #2a2a2a;
+  color: #fff;
 }
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
+  background-color: #000;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1355,7 +1356,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fffdd0;
+  background-color: #2a2a2a;
 }
 
 
@@ -1444,13 +1445,13 @@ responsive
   .our-portfolio .item {
     margin-bottom: 15px;
   }
-  .our-blog {
+  .booking {
     margin-top: 0px;
   }
-  .our-blog .top-dec {
+  .booking .top-dec {
     display: none;
   }
-  .our-blog .section-heading h2 {
+  .booking .section-heading h2 {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 45px;
@@ -1459,12 +1460,12 @@ responsive
     position: relative;
     margin-right: 0px;
   }
-  .our-blog .left-image .info .main-book-button {
+  .booking .left-image .info .main-book-button {
     position: relative;
     bottom: 0px;
     margin-top: 30px;
   }
-  .our-blog .left-image {
+  .booking .left-image {
     margin-bottom: 45px;
   }
   .contact-us {
@@ -1490,22 +1491,22 @@ responsive
   .services-offered .left-image {
     bottom: -280px;
   }
-  .our-blog .right-list {
+  .booking .right-list {
     margin-left: 0px;
   }
-  .our-blog .right-list ul li {
+  .booking .right-list ul li {
     display: inline-block;
     margin-top: 0px;
     padding-top: 30px;
     border-top: 1px solid #eee;
   }
-  .our-blog .right-list .left-content {
+  .booking .right-list .left-content {
     margin-right: 0px;
     width: 100%;
     margin-bottom: 15px;
   }
-  .our-blog .right-list .right-image,
-  .our-blog .right-list .right-image img {
+  .booking .right-list .right-image,
+  .booking .right-list .right-image img {
     width: 100%;
   }
   .phone-info h4 span {
