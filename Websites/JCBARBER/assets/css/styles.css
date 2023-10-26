@@ -1473,6 +1473,11 @@ responsive
   .booking .left-image {
     margin-bottom: 45px;
   }
+
+  .booking .right-list {
+    display: block;
+    margin: auto;
+  }
   .contact-us {
     margin-top: 60px;
     padding: 120px 0px;
