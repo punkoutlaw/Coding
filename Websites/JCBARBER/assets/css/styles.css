@@ -1211,6 +1211,11 @@ contact
 
 .phone-info {
   margin-top: 40px;
+  text-align: left;
+}
+
+.phone-info li {
+  padding: 5px;
 }
 
 .phone-info h4 {
