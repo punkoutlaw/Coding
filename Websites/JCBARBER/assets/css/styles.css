@@ -20,7 +20,7 @@ Table of contents
 09. footer
 10. preloader
 11. search
-12. portfolio
+12. about us
 
 --------------------------------------------- */
 /* 
@@ -986,16 +986,16 @@ Services Style
 
 /* 
 ---------------------------------------------
-Portfolio
+About Us
 --------------------------------------------- 
 */
 
-.our-portfolio {
+.about-us {
   padding-top: 120px;
   margin-top: 0px;
 }
 
-.our-portfolio .section-heading h2 {
+.about-us .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
   margin-bottom: 120px;
@@ -1003,21 +1003,21 @@ Portfolio
   z-index: 1;
 }
 
-.our-portfolio .item {
+.about-us .item {
   position: relative;
 }
 
-.our-portfolio .item:hover .hidden-content {
+.about-us .item:hover .hidden-content {
   top: -100px;
   opacity: 1;
   visibility: visible;
 }
 
-.our-portfolio .item:hover .showed-content {
+.about-us .item:hover .showed-content {
   top: 90px;
 }
 
-.our-portfolio .hidden-content {
+.about-us .hidden-content {
   background: rgb(255, 255, 255);
   background: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgb(62, 62, 62) 100%);
   border: 2px solid #fff;
@@ -1032,7 +1032,7 @@ Portfolio
   transition: all 0.5s;
 }
 
-.our-portfolio .hidden-content:after {
+.about-us .hidden-content:after {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -1046,18 +1046,18 @@ Portfolio
   z-index: -1;
 }
 
-.our-portfolio .hidden-content h4 {
+.about-us .hidden-content h4 {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 20px;
 }
 
-.our-portfolio .hidden-content p {
+.about-us .hidden-content p {
   color: #fff;
 }
 
-.our-portfolio .showed-content {
+.about-us .showed-content {
   top: 0px;
   position: relative;
   z-index: 3;
@@ -1069,7 +1069,7 @@ Portfolio
   transition: all 0.5s;
 }
 
-.our-portfolio .showed-content img {
+.about-us .showed-content img {
   border-radius: 10px;
 }
 
@@ -1344,7 +1344,7 @@ responsive
   form#contact .contact-dec {
     display: none;
   }
-  .our-portfolio h2{
+  .about-us h2{
     width: 100%;
     right: 90px;
   } 
@@ -1367,7 +1367,7 @@ responsive
 /* MEDIUM TABLET */
 
 @media (max-width: 992px) {
-  .our-portfolio h2{
+  .about-us h2{
     width: 100%;
     right: 0px;
   } 
@@ -1439,10 +1439,10 @@ responsive
     margin-right: 0px;
     text-align: center;
   }
-  .our-portfolio .section-heading h2 {
+  .about-us .section-heading h2 {
     margin: 0px 0px 80px 0px;
   }
-  .our-portfolio .item {
+  .about-us .item {
     margin-bottom: 15px;
   }
   .booking {
@@ -1510,7 +1510,7 @@ responsive
   .services-offered .left-image {
     bottom: -280px;
   }
-  .our-portfolio {
+  .about-us {
     padding-top: 0px;
   }
   .booking {
