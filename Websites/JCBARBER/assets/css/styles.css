@@ -602,9 +602,12 @@ header
 }
 
 @media (max-width: 1200px) {
+  .header-area h4 {
+    margin-left: -15px;
+  }
   .header-area .main-nav .nav li {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
   .header-area .main-nav:before {
     display: none;
@@ -1333,13 +1336,24 @@ responsive
 --------------------------------------------- 
 */
 
+/* LARGE TABLET */
+
 @media (max-width: 1645px) {
   form#contact .contact-dec {
     display: none;
   }
 }
 
+/* MEDIUM TABLET */
+
 @media (max-width: 992px) {
+  .header-area {
+    height: 100px;
+  }
+  .header-area h4{
+    font-size: 20px !important;
+    line-break: strict;
+  }
   .main-banner {
     padding-top: 196px;
   }
@@ -1454,7 +1468,16 @@ responsive
   }
 }
 
+/* MOBILE */
+
 @media (max-width: 767px) {
+  .header-area {
+    height: 100px;
+  }
+  .header-area h4{
+    margin-top: 20px;
+    margin-left: auto;
+  }
   .services-offered .left-image {
     bottom: -280px;
   }
