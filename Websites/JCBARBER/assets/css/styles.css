@@ -1376,6 +1376,12 @@ responsive
     border-radius: 20px;
     display: inline-block;
   }
+  .services-offered .services .item h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
   .services-offered .services .item p {
     color: #000;
   }
@@ -1384,6 +1390,7 @@ responsive
   }
   .our-services {
     margin-top: auto;
+    padding-top: 80px;
   }
   .our-services .left-image {
     margin-right: 0px;
