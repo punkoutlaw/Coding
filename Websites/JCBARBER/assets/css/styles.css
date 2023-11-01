@@ -18,6 +18,12 @@ Table of contents
 ---------------------------------------------
 font & reset css
 --------------------------------------------- 
+
+Global Colors:
+
+font colors: #fffdd0, f3eee8, afafaf, 2a2a2a (shadows, hover)
+background color: #000, fff, fffdd0, f3eee8
+
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins|Kanit|Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
@@ -96,7 +102,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Kanit', sans-serif;
   font-weight: 200;
-  background-color: #000 !important;
+  background-color: #f3eee8 !important;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -121,7 +127,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #fff;
+  color: #000;
 }
 
 img {
@@ -187,7 +193,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #fffdd0;
+  color: #000;
 }
 
 .main-book-button a {
@@ -231,7 +237,7 @@ header
 */
 
 .background-header {
-  background-color: #fffdd0!important;
+  background-color: #f3eee8!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -246,15 +252,15 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fffdd0!important;
+  color: #f3eee8!important;
 }
 
 .background-header .nav li a.active {
-  color: #fffdd0!important;
+  color: #f3eee8!important;
 }
 
 .header-area {
-  background-color: #fffdd0;
+  background-color: #fff;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -449,7 +455,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fffdd0!important;
+  color: #f3eee8!important;
   padding-left: 25px;
 }
 
@@ -589,7 +595,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fffdd0;
+  color: #f3eee8;
 }
 
 @media (max-width: 1200px) {
@@ -641,7 +647,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #fffdd0;
+    background-color: #f3eee8;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -680,7 +686,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fffdd0;
+    background: #f3eee8;
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -690,7 +696,7 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fffdd0 !important;
+    background: #f3eee8 !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
@@ -809,7 +815,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fffdd0;
+    background: #f3eee8;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -832,7 +838,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fffdd0;
+    background: #f3eee8;
     border-radius: 50%;
 }
 
@@ -874,7 +880,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fffdd0;
+  color: #f3eee8;
   margin-bottom: 15px;
 }
 
@@ -888,10 +894,15 @@ Banner Style
 .main-banner .left-content h2 em {
   color: #fff;
   font-style: normal;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .main-banner .left-content h2 span {
-  color: #fffdd0;
+  color: #000;
 }
 
 .main-banner .left-content p {
@@ -954,6 +965,7 @@ Services Style
 .our-services {
   margin-top: 0px;
   padding-top: 120px;
+  background-color: #000;
 }
 
 .our-services .left-image {
@@ -964,9 +976,14 @@ Services Style
   margin-right: 100px;
 }
 
+.our-services span {
+  color: #fff !important;
+}
+
 .our-services .section-heading p {
   margin-top: 30px;
   margin-bottom: 60px;
+  color: #fff;
 }
 
 /* 
@@ -978,6 +995,7 @@ About Us
 .about-us {
   padding-top: 120px;
   margin-top: 0px;
+  background-color: #000;
 }
 
 .about-us .section-heading h2 {
@@ -986,6 +1004,15 @@ About Us
   margin-bottom: 120px;
   position: relative;
   z-index: 1;
+}
+
+.about-us span {
+  color: #000 !important;
+  text-shadow:
+  -1px -1px 0 #fff,  
+   1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 
 .about-us .item {
@@ -1067,8 +1094,9 @@ Blog
 
 .booking {
   position: relative;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   padding: 100px 0 250px 0;
+  background-color: #000;
 }
 
 .booking img {
@@ -1155,7 +1183,7 @@ Blog
 }
 
 .inner-content {
-  background-color: #fffdd0;
+  background-color: #f3eee8;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 20px;
   margin-right: 75px;
@@ -1242,7 +1270,7 @@ form#contact .contact-dec img {
 form#contact {
   margin-left: 30px;
   position: relative;
-  background-color: #fffdd0;
+  background-color: #f3eee8;
   padding: 60px 30px;
   border-radius: 20px;
 }
@@ -1319,7 +1347,7 @@ footer p {
 }
 
 footer p a {
-  color: #fffdd0;
+  color: #f3eee8;
 }
 
 /* 
@@ -1398,7 +1426,7 @@ responsive
     text-align: center;
   }
   .services-offered .services .item  {
-    background: #fffdd0;
+    background: #f3eee8;
     border: 2px solid #fff;
     padding: 30px;
     border-radius: 20px;
