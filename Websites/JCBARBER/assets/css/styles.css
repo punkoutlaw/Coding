@@ -887,7 +887,7 @@ Banner Style
 .main-banner .left-content h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #afafaf;
+  color: #693A25;
   line-height: 72px;
 }
 
@@ -951,10 +951,25 @@ About Us Style
   margin-bottom: 12px;
 }
 
+.services-offered .section-heading h2 {
+  color: #fff !important;
+  text-align: center;
+}
+
 .services-offered .services .item p {
   color: #fff;
 }
 
+.test-bg {
+  background-color: #fff;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
 
 /* 
 ---------------------------------------------
