@@ -1203,6 +1203,14 @@ Booking Styling
   margin: 20px 0px 15px 0px;
 }
 
+.booking h2 span {
+  color: #000;
+  text-shadow:
+  -1px -1px 0 #fff,  
+   1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
 
 .booking .right-list .right-image img {
   
