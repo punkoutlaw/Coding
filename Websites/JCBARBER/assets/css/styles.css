@@ -744,7 +744,7 @@ header
 
 /* 
 ---------------------------------------------
-preloader
+Preloader
 --------------------------------------------- 
 */
 
@@ -859,7 +859,7 @@ General Styling
 
 /* 
 ---------------------------------------------
-Banner Style
+Banner Styling
 --------------------------------------------- 
 */
 
@@ -911,15 +911,15 @@ Banner Style
 
 /* 
 ---------------------------------------------
-About Us Style
+Testimonials Styling
 --------------------------------------------- 
 */
 
-#services {
+#testimonials {
   margin-top: 120px;
 }
 
-.services-offered {
+.testimonials {
   background-image: url(../images/barber-scissors2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -927,44 +927,44 @@ About Us Style
   padding: 200px 0px 200px 0px;
 }
 
-.services-offered .left-image {
+.testimonials .left-image {
   margin-right: 45px;
 }
 
-.services-offered .services .item {
+.testimonials .reviews .item {
   margin-bottom: 30px;
 }
 
-.services-offered .services .item .icon {
+.testimonials .reviews .item .icon {
   float: left;
   margin-right: 25px;
 }
 
-.services-offered .services .item .icon img {
+.testimonials .reviews .item .icon img {
   max-width: 70px;
 }
 
-.services-offered .services .item h4 {
+.testimonials .reviews .item h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
-.services-offered .section-heading h2 {
+.testimonials .section-heading h2 {
   color: #fff !important;
   text-align: center;
 }
 
-.services-offered .services .item p {
+.testimonials .reviews .item p {
   color: #fff;
 }
 
-.services-offered .carousel-item {
+.testimonials .carousel-item {
   text-align: center;
 }
 
-.services-offered .test-bg {
+.testimonials .test-bg {
   background-color: #fff;
   border-radius: 15px;
   display: block;
@@ -985,7 +985,7 @@ About Us Style
 
 /* 
 ---------------------------------------------
-Services Style
+Services Styling
 --------------------------------------------- 
 */
 
@@ -1015,7 +1015,7 @@ Services Style
 
 /* 
 ---------------------------------------------
-About Us
+About Us Styling
 --------------------------------------------- 
 */
 
@@ -1115,7 +1115,7 @@ About Us
 
 /* 
 ---------------------------------------------
-Blog
+Booking Styling
 --------------------------------------------- 
 */
 
@@ -1226,7 +1226,7 @@ Blog
 
 /* 
 ---------------------------------------------
-contact
+Contact Us Styling
 --------------------------------------------- 
 */
 
@@ -1364,7 +1364,7 @@ form#contact button:hover {
 
 /* 
 ---------------------------------------------
-Footer Style
+Footer Styling
 --------------------------------------------- 
 */
 
@@ -1379,7 +1379,7 @@ footer p a {
 
 /* 
 ---------------------------------------------
-responsive
+Responsive
 --------------------------------------------- 
 */
 
@@ -1438,37 +1438,37 @@ responsive
   #about {
     margin-top: 0px;
   }
-  .services-offered {
+  .testimonials {
     position: relative;
     background-image: none;
     padding: 0px;
   }
-  .services-offered .left-image {
+  .testimonials .left-image {
     margin-right: 0px;
     position: absolute;
     bottom: -220px;
     right: 0;
   }
-  .services-offered .services {
+  .testimonials .reviews {
     text-align: center;
   }
-  .services-offered .services .item  {
+  .testimonials .reviews .item  {
     background: #f3eee8;
     border: 2px solid #fff;
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
   }
-  .services-offered .services .item h4 {
+  .testimonials .reviews .item h4 {
     color: #000;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
   }
-  .services-offered .services .item p {
+  .testimonials .reviews .item p {
     color: #000;
   }
-  .services-offered .services .item .right-text {
+  .testimonials .reviews .item .right-text {
     text-align: left;
   }
   .our-services {
@@ -1552,7 +1552,7 @@ responsive
     margin-top: 20px;
     margin-left: auto;
   }
-  .services-offered .left-image {
+  .testimonials .left-image {
     bottom: -280px;
   }
   .about-us {
