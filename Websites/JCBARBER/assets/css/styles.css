@@ -960,7 +960,11 @@ About Us Style
   color: #fff;
 }
 
-.test-bg {
+.services-offered .carousel-item {
+  text-align: center;
+}
+
+.services-offered .test-bg {
   background-color: #fff;
   border-radius: 15px;
   display: block;
