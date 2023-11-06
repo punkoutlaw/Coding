@@ -991,7 +991,7 @@ About Us Styling
 
 .about-us {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 100px;
   background-color: #000;
 }
 
@@ -1020,7 +1020,7 @@ Services Styling
 */
 
 .services {
-  padding-top: 120px;
+  padding-bottom: 100px;
   margin-top: 0px;
   background-color: #000;
 }
@@ -1028,7 +1028,7 @@ Services Styling
 .services .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   position: relative;
   z-index: 1;
 }
@@ -1141,7 +1141,7 @@ Booking Styling
 .booking {
   position: relative;
   /* margin-top: 80px; */
-  padding: 100px 0 250px 0;
+  padding: 100px 0 100px 0;
   background-color: #000;
 }
 
@@ -1262,7 +1262,7 @@ Contact Us Styling
 */
 
 .contact-us {
-  padding: 160px 0px;
+  padding: 100px 0px;
   background-image: url(../images/barber-scissors.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1280,22 +1280,26 @@ Contact Us Styling
   margin-top: 30px;
 }
 
-.phone-info {
+.contact-info-left {
   margin-top: 40px;
   text-align: left;
 }
 
-.phone-info li {
+.contact-info-left li {
   padding: 5px;
 }
 
-.phone-info h4 {
+.contact-info-left ul li p {
+  white-space: pre;
+}
+
+.contact-info-left h4 {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
 }
 
-.phone-info h4 span i {
+.contact-info-left h4 span i {
   width: 46px;
   height: 46px;
   display: inline-block;
@@ -1309,10 +1313,19 @@ Contact Us Styling
   margin-right: 15px;
 }
 
-.phone-info h4 span a {
+.contact-info-left h4 span a {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
+}
+
+.contact-info-right h2 {
+  text-align: center;
+}
+
+.contact-info-right p {
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 form#contact .contact-dec {
@@ -1326,7 +1339,7 @@ form#contact .contact-dec img {
 }
 
 form#contact {
-  margin-left: 30px;
+  margin:auto;
   position: relative;
   background-color: #f3eee8;
   padding: 60px 30px;
@@ -1626,11 +1639,11 @@ Responsive
   .inner-content {
     width: 100%;
   }
-  .phone-info h4 span {
+  .contact-info-left h4 span {
     display: block;
     margin-top: 15px;
   }
-  .phone-info h4 span i {
+  .contact-info-left h4 span i {
     margin-left: 0px;
   }
 }
