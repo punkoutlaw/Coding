@@ -1042,6 +1042,25 @@ Services Styling
     1px 1px 0 #fff;
 }
 
+.services h2 {
+  color: #f7f7f7;
+  text-align: center;
+  padding: 25px;
+}
+
+.services p {
+  color: #fff;
+}
+
+.services ul li {
+  display: block;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
 .services .item {
   position: relative;
 }
@@ -1124,6 +1143,10 @@ Booking Styling
   /* margin-top: 80px; */
   padding: 100px 0 250px 0;
   background-color: #000;
+}
+
+.booking h2 {
+  
 }
 
 .booking img {
