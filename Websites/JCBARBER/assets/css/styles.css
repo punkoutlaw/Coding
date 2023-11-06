@@ -1141,12 +1141,8 @@ Booking Styling
 .booking {
   position: relative;
   /* margin-top: 80px; */
-  padding: 100px 0 100px 0;
+  padding: 0px 0 100px 0;
   background-color: #000;
-}
-
-.booking h2 {
-  
 }
 
 .booking img {
@@ -1154,8 +1150,7 @@ Booking Styling
 }
 
 .booking .section-heading h2 {
-  margin-right: 180px;
-  margin-bottom: 15px;
+  margin: 0 180px 30px 0;
 }
 
 .booking .top-dec {
