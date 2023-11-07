@@ -1020,7 +1020,7 @@ Services Styling
 */
 
 .services {
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   margin-top: 0px;
   background-color: #000;
 }
@@ -1031,6 +1031,10 @@ Services Styling
   margin-bottom: 100px;
   position: relative;
   z-index: 1;
+}
+
+.services-inner {
+  padding: 0px 0px 100px 0px;
 }
 
 .services span {
@@ -1141,7 +1145,7 @@ Booking Styling
 .booking {
   position: relative;
   /* margin-top: 80px; */
-  padding: 0px 0 100px 0;
+  padding: 100px 0 100px 0;
   background-color: #000;
 }
 
