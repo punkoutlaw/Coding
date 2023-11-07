@@ -1611,12 +1611,18 @@ Responsive
 /* MOBILE */
 
 @media (max-width: 767px) {
+  .main-banner {
+    padding-top: 100px;
+  }
   .header-area {
     height: 100px;
   }
   .header-area h4{
     margin-top: 20px;
     margin-left: auto;
+  }
+  .header-text h2 {
+    font-size: 35px !important;
   }
   .testimonials .left-image {
     bottom: -280px;
@@ -1629,14 +1635,17 @@ Responsive
     margin: auto;
     width: 90%;
   }
-  .about-us video {
-    width: 100%;
-  }
   .services {
     padding-top: 0px;
   }
+  .about-us {
+    padding-top: 100px;
+  }
+  .about-us video {
+    width: 100%;
+  }
   .booking {
-    padding: 45px 0px 100px 0px;
+    padding: 100px 0px 100px 0px;
   }
   .booking .right-list {
     margin-left: 0px;
