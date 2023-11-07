@@ -995,7 +995,10 @@ About Us Styling
   background-color: #000;
 }
 
-.about-us .left-image {
+.about-us .left-image p {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0px;
 }
 
 .about-us .section-heading h2 {
