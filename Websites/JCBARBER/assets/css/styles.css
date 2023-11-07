@@ -924,7 +924,7 @@ Testimonials Styling
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 200px 0px 200px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .testimonials .left-image {
@@ -996,11 +996,10 @@ About Us Styling
 }
 
 .about-us .left-image {
-  margin-right: 45px;
 }
 
 .about-us .section-heading h2 {
-  margin-right: 100px;
+  text-align: center;
 }
 
 .about-us span {
@@ -1011,6 +1010,11 @@ About Us Styling
   margin-top: 30px;
   margin-bottom: 60px;
   color: #fff;
+}
+
+.about-us video {
+  display: block;
+  margin: auto;
 }
 
 /* 
@@ -1604,6 +1608,14 @@ Responsive
   }
   .testimonials .left-image {
     bottom: -280px;
+  }
+  .testimonials .carousel-item {
+    text-align: center;
+  }
+  .testimonials .carousel-inner {
+    display: block;
+    margin: auto;
+    width: 90%;
   }
   .about-us video {
     width: 100%;
