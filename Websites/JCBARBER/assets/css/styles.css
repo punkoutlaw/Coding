@@ -1695,4 +1695,7 @@ Responsive
   .contact-info-left h4 span i {
     margin-left: 0px;
   }
+  .contact-info-right h2 {
+    padding-bottom: 25px;
+  }
 }
