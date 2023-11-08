@@ -1555,9 +1555,6 @@ Responsive
   .booking {
     margin-top: 0px;
   }
-  .booking h2 {
-    
-  }
   .booking img {
     width: 100%;
     display: block;
@@ -1647,6 +1644,9 @@ Responsive
   .services {
     padding-top: 0px;
   }
+  .services .section-heading h2{
+    margin-bottom: 0px;
+  }
   .about-us {
     padding-top: 100px;
   }
@@ -1655,6 +1655,9 @@ Responsive
   }
   .booking {
     padding: 100px 0px 100px 0px;
+  }
+  .booking h2 {
+    /* padding-bottom: 50px; */
   }
   .booking .right-list {
     margin-left: 0px;
