@@ -875,8 +875,6 @@ Banner Styling
 }
 
 .main-banner-button {
-  display: block;
-  margin: auto;
   text-align: center;
 }
 
@@ -954,9 +952,9 @@ Testimonials Styling
 --------------------------------------------- 
 */
 
-#testimonials {
+/* #testimonials {
   margin-top: 120px;
-}
+} */
 
 .testimonials {
   background-image: url(../images/barber-scissors2.jpg);
