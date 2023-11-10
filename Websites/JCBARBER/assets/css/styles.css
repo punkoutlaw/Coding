@@ -864,34 +864,66 @@ Banner Styling
 */
 
 .main-banner {
+  background-image: url(../images/gsb-banner_edited3.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   padding: 200px 0px 0px 0px;
   position: relative;
   overflow: hidden;
+  height: 50vh;
 }
 
-.main-banner .left-content {
+.main-banner-button {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.main-banner-button a {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+  margin-top: 100px;
+  padding: 12px 25px;
+  width: 20vw;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+}
+
+.main-banner-button a:hover {
+  background-color: #2a2a2a !important;
+}
+
+.main-content {
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+}
+
+.main-content .left-content {
   margin-right: 45px;
-  padding: 0px 0px 100px 0px;
+  /* padding: 0px 0px 100px 0px; */
 }
 
-.main-banner .left-content h6 {
+.main-content .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
   color: #f3eee8;
   margin-bottom: 15px;
 }
 
-.main-banner .left-content h2 {
-  font-size: 50px;
+.main-content .left-content h2 {
+  font-size: 40px;
   font-weight: 700;
   color: #693A25;
   line-height: 72px;
 }
 
-.main-banner .left-content h2 em {
+.main-content .left-content h2 em {
   color: #fff;
   font-style: normal;
   text-shadow:
@@ -901,11 +933,11 @@ Banner Styling
      1px 1px 0 #000;
 }
 
-.main-banner .left-content h2 span {
+.main-content .left-content h2 span {
   color: #000;
 }
 
-.main-banner .left-content p {
+.main-content .left-content p {
   margin: 20px 0px;
 }
 
@@ -1481,15 +1513,15 @@ Responsive
     font-size: 20px !important;
     line-break: strict;
   }
-  .main-banner {
+  .main-content {
     padding-top: 196px;
   }
-  .main-banner .left-content {
+  .main-content .left-content {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 45px;
   }
-  .main-banner:after {
+  .main-content:after {
     top: 76px;
     z-index: -1;
   }
@@ -1607,7 +1639,7 @@ Responsive
 /* MOBILE */
 
 @media (max-width: 767px) {
-  .main-banner {
+  .main-content {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
