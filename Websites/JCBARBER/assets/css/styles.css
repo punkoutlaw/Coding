@@ -904,26 +904,26 @@ Banner Styling
   height: 50vh;
 }
 
-.main-content .left-content {
+.main-content .top-content {
   margin-right: 45px;
   /* padding: 0px 0px 100px 0px; */
 }
 
-.main-content .left-content h6 {
+.main-content .top-content h6 {
   text-transform: uppercase;
   font-size: 18px;
   color: #f3eee8;
   margin-bottom: 15px;
 }
 
-.main-content .left-content h2 {
+.main-content .top-content h2 {
   font-size: 40px;
   font-weight: 700;
   color: #693A25;
   line-height: 72px;
 }
 
-.main-content .left-content h2 em {
+.main-content .top-content h2 em {
   color: #fff;
   font-style: normal;
   text-shadow:
@@ -933,12 +933,19 @@ Banner Styling
      1px 1px 0 #000;
 }
 
-.main-content .left-content h2 span {
+.main-content .top-content h2 span {
   color: #000;
 }
 
-.main-content .left-content p {
+.main-content .top-content p {
   margin: 20px 0px;
+}
+
+.main-content .bottom-content {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 600px;
 }
 
 /* 
@@ -1516,7 +1523,7 @@ Responsive
   .main-content {
     padding-top: 196px;
   }
-  .main-content .left-content {
+  .main-content .top-content {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 45px;
@@ -1644,11 +1651,11 @@ Responsive
     display: flex;
     flex-direction: column;
   }
-  #left-content {
+  #top-content {
     order: 2 !important;
     margin-bottom: -100px;
   }
-  #right-content {
+  #bottom-content {
     order: 1 !important;
     padding-top: 100px;
   }  
