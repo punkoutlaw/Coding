@@ -25,7 +25,7 @@ font colors: #fffdd0, f3eee8, afafaf, 2a2a2a (shadows, hover)
 background color: #000, fff, fffdd0, f3eee8
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins|Kanit|Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins|Kanit|Fira+Sans|Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -144,6 +144,10 @@ html,
 body {
   background: #fff;
   font-family: 'Kanit', sans-serif;
+}
+
+p {
+  font-family: 'Josefin Sans';
 }
 
 ::selection {
@@ -864,7 +868,7 @@ Banner Styling
 */
 
 .main-banner {
-  background-image: url(../images/gsb-banner_edited3.jpg);
+  background-image: url(../images/gsb-banner_edited5.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -885,15 +889,16 @@ Banner Styling
   font-weight: 400;
   color: #000;
   text-transform: capitalize;
-  margin-top: 100px;
+  margin-top: 120px;
   padding: 12px 25px;
-  width: 20vw;
+  width: 25vw;
   border-radius: 23px;
+  border: 2px solid black;
   letter-spacing: 0.25px;
 }
 
 .main-banner-button a:hover {
-  background-color: #2a2a2a !important;
+  background-color: #afafaf !important;
 }
 
 .main-content {
@@ -1074,6 +1079,12 @@ Services Styling
   margin-bottom: 100px;
   position: relative;
   z-index: 1;
+}
+
+.service-bullets {
+  font-style: italic;
+  font-weight: 100;
+  font-size: small;
 }
 
 .services-inner {
