@@ -663,6 +663,10 @@ header
   .header-area .logo {
     margin-left: 30px;
   }
+  .header-area .logo img {
+    width: auto;
+    height: auto;
+  }
   .header-area .menu-trigger {
     display: block !important;
   }
@@ -868,7 +872,7 @@ Banner Styling
 */
 
 .main-banner {
-  background-image: url(../images/gsb-banner_edited5.jpg);
+  background-image: url(../images/gsb-banner_edited3.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -884,21 +888,22 @@ Banner Styling
 
 .main-banner-button a {
   display: inline-block;
-  background-color: #fff;
-  font-size: 15px;
-  font-weight: 400;
-  color: #000;
+  background-color: #000;
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+  font-family: 'Josefin Sans';
   text-transform: capitalize;
   margin-top: 120px;
   padding: 12px 25px;
   width: 25vw;
-  border-radius: 0px;
-  border: 2px solid black;
+  border-radius: 10px;
+  border: 20px solid #fff;
   letter-spacing: 0.25px;
 }
 
 .main-banner-button a:hover {
-  background-color: #afafaf !important;
+  background-color: #2a2a2a !important;
 }
 
 .main-content {
@@ -945,6 +950,12 @@ Banner Styling
 }
 
 .main-content .bottom-content {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.main-content .bottom-content img {
   display: block;
   margin: auto;
   width: 600px;
@@ -1827,19 +1838,40 @@ Responsive
 /* MOBILE */
 
 @media (max-width: 767px) {
-  .main-content {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-  }
-  #top-content {
+    /* #top-content {
     order: 2 !important;
     margin-bottom: -100px;
   }
   #bottom-content {
     order: 1 !important;
     padding-top: 100px;
-  }  
+  } */
+  .main-banner-button a {
+    width: 90%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: auto;
+  }
+  .main-content .top-content {
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    height: 50vh;
+  }
+  .main-content .bottom-content {
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    height: 50vh;
+  }
+  .main-content .bottom-content img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
   .header-area {
     height: 100px;
   }
