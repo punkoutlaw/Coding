@@ -142,7 +142,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000 !important;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -910,6 +910,7 @@ Banner Styling
   position: relative;
   overflow: hidden;
   height: 50vh;
+  background-color: #f3eee8 !important;
 }
 
 .main-content .top-content {
@@ -1675,6 +1676,24 @@ Responsive
 /* LARGE TABLET */
 
 @media (max-width: 1645px) {
+  .main-content .top-content {
+    display: block;
+    margin: auto;
+    height: 50vh;
+  }
+  .main-banner-button a {
+    width: 90%;
+    margin-top: auto;
+  }
+  .main-content .bottom-content {
+    display: block;
+    margin: auto;
+    height: 50vh;
+  }
+  .main-content .bottom-content img {
+    height: 100%;
+    display: block;
+  }
   form#contact .contact-dec {
     display: none;
   }
@@ -1692,7 +1711,6 @@ Responsive
     width: 100%;
     border-radius: 20px;
   }
-
   .booking .inner-content {
     width: 90%;
   }
@@ -1712,20 +1730,30 @@ Responsive
     font-size: 20px !important;
     line-break: strict;
   }
-  .main-content {
-    padding-top: 196px;
-  }
   .main-content .top-content {
-    margin-right: 0px;
-    text-align: center;
-    margin-bottom: 45px;
+    display: block;
+    margin: auto;
+    height: 50vh;
+  }
+  .main-banner-button a {
+    margin-top: 120px;
+    width: 90%;
+  }
+  .main-content .bottom-content {
+    display: block;
+    margin: auto;
+    height: 50vh;
+  }
+  .main-content .bottom-content img {
+    height: 100%;
+    display: block;
   }
   .main-content:after {
     top: 76px;
     z-index: -1;
   }
-  #about {
-    margin-top: 0px;
+  .about-us {
+    padding-top: 100px;
   }
   .testimonials {
     position: relative;
