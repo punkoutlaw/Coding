@@ -1282,6 +1282,7 @@ Services Styling
 
 .services .showed-content img {
   border-radius: 10px;
+  width: 75px;
 }
 
 /* GALLERY */
