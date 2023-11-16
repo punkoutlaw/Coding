@@ -628,7 +628,7 @@ header
   }
 }
 
-/* MOBILE */
+/* MOBILE HEADER */
 
 @media (max-width: 767px) {
   .main-nav h4 {
@@ -1905,9 +1905,8 @@ Responsive
     display: block;
     margin: auto;
   }
-  .main-content .top-content .header-text {
-    display: block;
-    margin: auto;
+  .main-content .top-content .header-text h2 {
+    font-size: 55px !important;
   }
   .main-content .top-content .main-banner-button {
     width: 100%;
