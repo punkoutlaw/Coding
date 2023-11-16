@@ -1907,6 +1907,9 @@ Responsive
     display: block;
     margin: auto;
   }
+  .main-content .top-content .header-text {
+    margin-top: 40vh;
+  }
   .main-content .top-content .header-text h2 {
     font-size: 55px !important;
   }
