@@ -25,7 +25,7 @@ font colors: #fffdd0, f3eee8, afafaf, 2a2a2a (shadows, hover)
 background color: #000, fff, fffdd0, f3eee8
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins|Kanit|Fira+Sans|Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins|Kanit|Fira+Sans|Josefin+Sans|Bebas+Neue:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -118,6 +118,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: 'Bebas Neue';
 }
 
 ul {
@@ -265,6 +266,7 @@ header
 
 .header-area {
   background-color: #fff;
+  font-family: 'Bebas Neue';
   position: absolute;
   top: 0px;
   left: 0px;
@@ -360,7 +362,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 25px;
   color: #2a2a2a;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
@@ -890,9 +892,13 @@ Banner Styling
 
 .main-content .top-content .header-text {
   display: block;
-  margin-top: 120px;
+  margin-top: 100px;
   padding: 200px 0px 0px 0px;
   text-align: center;
+}
+
+.main-content .top-content .header-text h2 {
+  font-size: 55px;
 }
 
 .top-content .main-banner-button {
@@ -905,7 +911,7 @@ Banner Styling
   font-size: 25px;
   font-weight: 800;
   color: #fff;
-  font-family: 'Josefin Sans';
+  font-family: 'Bebas Neue';
   text-transform: capitalize;
   padding: 12px 25px;
   width: 25vw;
@@ -930,11 +936,13 @@ Banner Styling
   font-weight: 700;
   color: #693A25;
   line-height: 72px;
+  text-align: center;
 }
 
 .main-content .top-content h2 em {
   color: #fff;
   font-style: normal;
+  text-transform: uppercase;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
