@@ -892,13 +892,13 @@ Banner Styling
 
 .main-content .top-content .header-text {
   display: block;
-  margin-top: 100px;
-  padding: 200px 0px 0px 0px;
+  margin: 200px 0px 0px 0px;
   text-align: center;
 }
 
 .main-content .top-content .header-text h2 {
-  font-size: 55px;
+  font-size: 8vh !important;
+  line-height: 1;
 }
 
 .top-content .main-banner-button {
@@ -1693,8 +1693,10 @@ Responsive
     margin: auto;
     height: 100vh;
   }
-  .main-content .top-content .main-banner-button {
+  .main-content .top-content .header-text {
     display: block;
+  }
+  .main-content .top-content .main-banner-button {
     margin-top: 200px;
   }
   .main-content .top-content .main-banner-button a {
@@ -1754,8 +1756,11 @@ Responsive
     display: block;
     margin: auto;
   }
+  .main-content .top-content .header-text {
+    display: block;
+  }
   .main-content .top-content .main-banner-button {
-    margin-top: 40%;
+    margin:auto;
   }
   .main-content .top-content .main-banner-button a {
     margin: auto;
