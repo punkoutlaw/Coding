@@ -126,9 +126,10 @@ ul {
 }
 
 p {
-  font-size: medium;
+  font-size: large;
   line-height: 30px;
-  color: #000;
+  color: #fff;
+  font-family: 'Josefin Sans';
 }
 
 img {
@@ -145,10 +146,6 @@ html,
 body {
   background: #000 !important;
   font-family: 'Kanit', sans-serif;
-}
-
-p {
-  font-family: 'Josefin Sans';
 }
 
 ::selection {
