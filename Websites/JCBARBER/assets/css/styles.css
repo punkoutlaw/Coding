@@ -871,22 +871,34 @@ Banner Styling
 --------------------------------------------- 
 */
 
+.main-content {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #f3eee8 !important;
+}
+
 .main-banner {
   background-image: url(../images/gsb-banner_edited3.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  padding: 200px 0px 0px 0px;
   position: relative;
   overflow: hidden;
+}
+
+.main-banner .top-content {
   height: 50vh;
 }
 
-.main-banner-button {
+.top-content .main-banner-button {
+  display: block;
+  margin-top: 120px;
+  padding: 200px 0px 0px 0px;
   text-align: center;
 }
 
-.main-banner-button a {
+.top-content .main-banner-button a {
   display: inline-block;
   background-color: #000;
   font-size: 25px;
@@ -894,7 +906,7 @@ Banner Styling
   color: #fff;
   font-family: 'Josefin Sans';
   text-transform: capitalize;
-  margin-top: 120px;
+
   padding: 12px 25px;
   width: 25vw;
   border-radius: 10px;
@@ -902,15 +914,8 @@ Banner Styling
   letter-spacing: 0.25px;
 }
 
-.main-banner-button a:hover {
+.top-content .main-banner-button a:hover {
   background-color: #2a2a2a !important;
-}
-
-.main-content {
-  position: relative;
-  overflow: hidden;
-  height: 50vh;
-  background-color: #f3eee8 !important;
 }
 
 .main-content .top-content {
@@ -1050,7 +1055,7 @@ Testimonials Styling
       height: 100px;
     }
 
-    .gtco-testimonials .card-body {
+    .gsb-testimonials .card-body {
       background-color: #000 !important;
     }
 
@@ -1097,7 +1102,7 @@ Testimonials Styling
 }
 
 @media (max-width: 767px) {
-  .gtco-testimonials {
+  .gsb-testimonials {
     margin-top: 20px;
   }
 }
@@ -1358,7 +1363,7 @@ Services Styling
 }
 
 @media (max-width: 767px) {
-  .gtco-testimonials {
+  .gsb-testimonials {
     margin-top: 20px;
   }
 }
@@ -1676,23 +1681,35 @@ Responsive
 /* LARGE TABLET */
 
 @media (max-width: 1645px) {
+
+  .main-content {
+    height: auto;
+  }
   .main-content .top-content {
     display: block;
     margin: auto;
-    height: 50vh;
+    height: 100vh;
   }
-  .main-banner-button a {
-    width: 90%;
-    margin-top: auto;
+  .main-content .top-content .main-banner-button {
+    display: block;
+    margin-top: 200px;
+  }
+  .main-content .top-content .main-banner-button a {
+    display: block;
+    margin: auto;
+    width: 50%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
-    height: 50vh;
   }
   .main-content .bottom-content img {
-    height: 100%;
     display: block;
+    margin: auto;
+    height: 100%;
+  }
+  .testimonials .card {
+    min-height: 350px;
   }
   form#contact .contact-dec {
     display: none;
@@ -1733,20 +1750,19 @@ Responsive
   .main-content .top-content {
     display: block;
     margin: auto;
-    height: 50vh;
   }
-  .main-banner-button a {
-    margin-top: 120px;
+  .main-content .top-content .main-banner-button a {
+    margin: auto;
     width: 90%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
-    height: 50vh;
   }
   .main-content .bottom-content img {
     height: 100%;
     display: block;
+    margin: auto;
   }
   .main-content:after {
     top: 76px;
@@ -1874,31 +1890,31 @@ Responsive
     order: 1 !important;
     padding-top: 100px;
   } */
-  .main-banner-button a {
-    width: 90%;
-  }
   .main-content {
     display: flex;
     flex-direction: column;
-    padding: 0px;
     margin: auto;
   }
   .main-content .top-content {
     display: block;
     margin: auto;
-    padding-top: 0px;
     height: 50vh;
+  }
+  .main-content .top-content .main-banner-button {
+    display: block;
+    margin: auto;
+  }
+  .main-content .top-content .main-banner-button a {
+    display: block;
+    margin: auto;
+    width: 90%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
-    padding-top: 0px;
-    height: 50vh;
   }
   .main-content .bottom-content img {
     width: 100%;
-    height: 100%;
-    display: block;
   }
   .header-area {
     height: 100px;
@@ -1909,6 +1925,9 @@ Responsive
   }
   .header-text h2 {
     font-size: 35px !important;
+  }
+  .testimonials .card {
+    min-height: 400px;
   }
   .testimonials .left-image {
     bottom: -280px;
