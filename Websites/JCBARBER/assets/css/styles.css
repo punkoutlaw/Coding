@@ -126,7 +126,7 @@ ul {
 }
 
 p {
-  font-size: large;
+  font-size: larger;
   line-height: 30px;
   color: #fff;
   font-family: 'Josefin Sans';
@@ -1440,9 +1440,15 @@ Contact Us Styling
   font-size: 22px;
 }
 
+.contact-info-left h4 span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .contact-info-left h4 span a {
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 
