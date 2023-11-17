@@ -216,15 +216,21 @@ body {
   color: #fff;
 }
 
+.main-nav-button {
+  display: inline-block;
+  margin: auto;
+}
+
 .main-nav-button a {
   display: inline-block;
   background-color: #000;
+  border-radius: 10px;
+  text-align: center;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
   letter-spacing: 0.25px;
 }
 
@@ -764,7 +770,8 @@ Banner Styling
 }
 
 .top-content .main-banner-button {
-  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .top-content .main-banner-button a {
@@ -775,11 +782,11 @@ Banner Styling
   color: #fff;
   font-family: 'Bebas Neue';
   text-transform: capitalize;
+  letter-spacing: 0.25px;
   padding: 12px 25px;
   width: 25vw;
   border-radius: 10px;
   border: 20px solid #fff;
-  letter-spacing: 0.25px;
 }
 
 .top-content .main-banner-button a:hover {
