@@ -207,7 +207,7 @@ body {
   text-transform: capitalize;
   padding: 12px 25px;
   margin-top: 25px;
-  border-radius: 23px;
+  border-radius: 20px;
   letter-spacing: 0.25px;
 }
 
@@ -1518,7 +1518,7 @@ form#contact button {
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 20px;
   letter-spacing: 0.25px;
   border: none;
   outline: none;
