@@ -786,7 +786,7 @@ Banner Styling
   padding: 12px 25px;
   width: 25vw;
   border-radius: 10px;
-  border: 20px solid #fff;
+  border: 10px solid #fff;
 }
 
 .top-content .main-banner-button a:hover {
@@ -1783,7 +1783,7 @@ Responsive
 
 @media (max-width: 767px) {
   .main-nav h4 {
-    margin-right: 100px;
+    margin-right: 325px;
     margin-top: 10px;
     font-size: 25px !important;
     line-height: normal !important;
