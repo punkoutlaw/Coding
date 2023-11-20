@@ -856,6 +856,7 @@ Testimonials Styling
   background-position: center center;
   background-size: cover;
   padding: 100px 0px 100px 0px;
+  margin-top: 100px;
 }
 
 .testimonials .section-heading h2 {
@@ -1429,8 +1430,8 @@ Contact Us Styling
 }
 
 .contact-info-left h4 span i {
-  width: 46px;
-  height: 46px;
+  width: 45px;
+  height: 45px;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1985,9 +1986,6 @@ Responsive
   .booking {
     padding: 100px 0px 100px 0px;
   }
-  .booking h2 {
-    /* padding-bottom: 50px; */
-  }
   .booking .right-list {
     margin-left: 0px;
   }
@@ -2017,8 +2015,11 @@ Responsive
     width: 100%;
   }
   .contact-info-left {
-    text-align: center;
+    text-align: left;
     margin-bottom: 25px;
+  }
+  .contact-info-left h2 {
+    text-align: center;
   }
   .contact-info-left h4 span {
     display: block;
