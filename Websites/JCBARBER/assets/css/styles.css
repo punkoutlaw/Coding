@@ -1260,6 +1260,12 @@ Booking Styling
   margin: 0 180px 30px 0;
 }
 
+.booking .section-heading #cash {
+  display: block;
+  margin: auto;
+  text-align: center !important;
+}
+
 .booking .top-dec {
   text-align: right;
   margin-top: -80px;
