@@ -758,24 +758,17 @@ Banner Styling
   height: 50vh;
 }
 
-.main-content .top-content .header-text {
-  display: block;
-  margin: 200px 0px 0px 0px;
-  text-align: center;
-}
-
-.main-content .top-content .header-text h2 {
-  font-size: 8vh !important;
-  line-height: 1;
-}
-
 .top-content .main-banner-button {
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 .top-content .main-banner-button a {
   display: inline-block;
+  margin: 25vh 0px;
+  padding: 12px 25px;
+  width: 50%;
   background-color: #000;
   font-size: 25px;
   font-weight: 800;
@@ -783,8 +776,6 @@ Banner Styling
   font-family: 'Bebas Neue';
   text-transform: capitalize;
   letter-spacing: 0.25px;
-  padding: 12px 25px;
-  width: 25vw;
   border-radius: 10px;
   border: 10px solid #fff;
 }
@@ -828,16 +819,22 @@ Banner Styling
 }
 
 .main-content .bottom-content {
+  background-image: url(../images/GSB-Logo_crm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   display: block;
   margin: auto;
+  height: 50vh;
 }
 
-.main-content .bottom-content img {
+.bottom-content .main-banner-logo {
   display: block;
   margin: auto;
-  width: 600px;
-  height: 600px;
+  text-align: center;
 }
 
 /* 
@@ -1570,30 +1567,12 @@ Responsive
   .main-content {
     height: auto;
   }
-  .main-content .top-content {
-    display: block;
-    margin: auto;
-    height: 100vh;
-  }
-  .main-content .top-content .header-text {
-    display: block;
-  }
-  .main-content .top-content .main-banner-button {
-    margin-top: 200px;
-  }
   .main-content .top-content .main-banner-button a {
-    display: block;
-    margin: auto;
     width: 50%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
-  }
-  .main-content .bottom-content img {
-    display: block;
-    margin: auto;
-    height: 100%;
   }
   .testimonials .card {
     min-height: 350px;
@@ -1648,25 +1627,19 @@ Responsive
   .main-content .top-content {
     display: block;
     margin: auto;
-  }
-  .main-content .top-content .header-text {
-    display: block;
-  }
-  .main-content .top-content .main-banner-button {
-    margin:auto;
+    height: 100vh;
   }
   .main-content .top-content .main-banner-button a {
-    margin: auto;
-    width: 90%;
+    width: 50%;
+    margin: 50vh 0px;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
+    height: 50vh;
   }
-  .main-content .bottom-content img {
-    height: 100%;
-    display: block;
-    margin: auto;
+  .main-content .bottom-content .main-banner-logo {
+    padding: 25px;
   }
   .main-content:after {
     top: 76px;
@@ -1784,8 +1757,7 @@ Responsive
 
 @media (max-width: 767px) {
   .main-nav h4 {
-    margin-right: 325px;
-    margin-top: 10px;
+    margin: 10px 350px 0px 0px;
     font-size: 25px !important;
     line-height: normal !important;
     width: 75%;
@@ -1905,14 +1877,6 @@ Responsive
 }
 
 @media (max-width: 767px) {
-    /* #top-content {
-    order: 2 !important;
-    margin-bottom: -100px;
-  }
-  #bottom-content {
-    order: 1 !important;
-    padding-top: 100px;
-  } */
   .main-content {
     display: flex;
     flex-direction: column;
@@ -1927,25 +1891,16 @@ Responsive
     background-size: cover;
     position: relative;
     overflow: hidden;
-  }
-  .main-content .top-content .header-text {
-    margin-top: 40vh;
-  }
-  .main-content .top-content .header-text h2 {
-    font-size: 55px !important;
-  }
-  .main-content .top-content .main-banner-button {
-    width: 100%;
+    height: 100vh;
   }
   .main-content .top-content .main-banner-button a {
+    margin: 50vh 0px;
     width: 100%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
-  }
-  .main-content .bottom-content img {
-    width: 100%;
+    height: 50vh;
   }
   .header-area {
     height: 100px;
