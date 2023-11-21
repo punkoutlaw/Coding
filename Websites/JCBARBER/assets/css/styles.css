@@ -198,6 +198,23 @@ body {
   color: #000;
 }
 
+.main-nav-button a {
+  display: inline-block;
+  background-color: #000;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  letter-spacing: 0.25px;
+}
+
+.main-nav-button a:hover {
+  background-color: #2a2a2a !important;
+}
+
 .main-book-button a {
   display: inline-block;
   background-color: #000;
@@ -214,28 +231,6 @@ body {
 .main-book-button a:hover {
   background-color: #2a2a2a;
   color: #fff;
-}
-
-.main-nav-button {
-  display: inline-block;
-  margin: auto;
-}
-
-.main-nav-button a {
-  display: inline-block;
-  background-color: #000;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  letter-spacing: 0.25px;
-}
-
-.main-nav-button a:hover {
-  background-color: #2a2a2a !important;
 }
 
 /* 
