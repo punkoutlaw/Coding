@@ -265,7 +265,7 @@ header
 .header-area {
   background-color: #fff;
   font-family: 'Bebas Neue';
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -1090,6 +1090,7 @@ Services Styling
 
 .services .item:hover .showed-content {
   top: 90px;
+  visibility: hidden;
 }
 
 .services .hidden-content {
@@ -1137,7 +1138,6 @@ Services Styling
   top: 0px;
   position: relative;
   z-index: 3;
-  background-color: #fff;
   text-align: center;
   padding: 10px;
   border-radius: 20px;
