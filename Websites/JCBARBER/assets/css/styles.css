@@ -838,17 +838,12 @@ Testimonials Styling
 --------------------------------------------- 
 */
 
-/* #testimonials {
-  margin-top: 120px;
-} */
-
 .testimonials {
   background-image: url(../images/barber-scissors2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 100px 0px 100px 0px;
-  margin-top: 100px;
 }
 
 .testimonials .section-heading h2 {
@@ -1027,7 +1022,6 @@ Services Styling
 */
 
 .services {
-  /* padding-bottom: 100px; */
   margin-top: 0px;
   background-color: #000;
 }
@@ -1035,7 +1029,6 @@ Services Styling
 .services .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 100px;
   position: relative;
   z-index: 1;
 }
