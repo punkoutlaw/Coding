@@ -100,7 +100,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   background-color: #f3eee8 !important;
   -webkit-text-size-adjust: 100%;
@@ -145,7 +145,7 @@ global styles
 html,
 body {
   background: #000 !important;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ::selection {
@@ -304,7 +304,7 @@ header
 .header-area .main-nav .logo h4 {
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Kanit';
+    font-family: 'Josefin Sans';
     text-transform: uppercase;
     color: #000;
     line-height: 100px;
@@ -1048,7 +1048,7 @@ Services Styling
 .service-bullets {
   font-style: italic;
   font-weight: 100;
-  font-size: small;
+  font-size: medium;
 }
 
 .services-inner {
