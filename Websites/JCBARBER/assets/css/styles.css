@@ -265,7 +265,7 @@ header
 .header-area {
   background-color: #fff;
   font-family: 'Bebas Neue';
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -340,11 +340,15 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:last-child {
+/* NAV LAST CHILD */
+
+.header-area .main-nav .nav li:nth-child(n+5) {
   padding-right: 0px;
   padding-left: 40px;
 }
 
+/*
+ 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
   color: #fff !important;
@@ -355,7 +359,9 @@ header
 .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
-}
+} 
+
+*/
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -396,10 +402,10 @@ header
   opacity: 1;
 }
 
-.header-area .main-nav .nav li:last-child a:hover ,
+/* .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
   background-color: #fff;
-}
+} */
 
 .header-area .main-nav .nav li.submenu {
   position: relative;
@@ -772,7 +778,7 @@ Banner Styling
   text-transform: capitalize;
   letter-spacing: 0.25px;
   border-radius: 10px;
-  border: 10px solid #fff;
+  border: 8px solid #fff;
 }
 
 .top-content .main-banner-button a:hover {
@@ -1595,7 +1601,9 @@ Responsive
 
 /* MEDIUM TABLET */
 
-@media (max-width: 992px) {
+/* NAV LAST CHILD */
+
+/* @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
     display: none;
@@ -1604,7 +1612,7 @@ Responsive
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
-}
+} */
 
 @media (max-width: 992px) {
   .about-us h2{
@@ -1782,6 +1790,7 @@ Responsive
     height: 100px;
     box-shadow: none;
     text-align: center;
+    position: fixed;
   }
   .header-area .container {
     padding: 0px;
