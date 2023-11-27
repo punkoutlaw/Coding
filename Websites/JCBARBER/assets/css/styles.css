@@ -1966,7 +1966,9 @@ Responsive
   }
   .contact-info-left {
     text-align: left;
-    margin-bottom: 25px;
+  }
+  .contact-info-left p {
+    font-size: larger;
   }
   .contact-info-left h2 {
     text-align: center;
