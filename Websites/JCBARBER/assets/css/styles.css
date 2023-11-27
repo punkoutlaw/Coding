@@ -278,44 +278,26 @@ header
 }
 
 .header-area .main-nav {
+  display: block;
+  margin: auto;
   min-height: 80px;
   background: transparent;
 }
 
-.header-area .main-nav .logo {
+.header-area .main-nav .header-left {
+  display: flex;
+  margin: auto;
+  justify-content: start;
   line-height: 100px;
   color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   float: left;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  width: 100px;
 }
 
-.header-area .main-nav .logo h4 {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Josefin Sans';
-    text-transform: uppercase;
-    color: #000;
-    line-height: 100px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.logo h4 span {
-  color: #2a2a2a;
-}
-
-.background-header .main-nav .logo h4 {
-  line-height: 80px;
+.header-area .main-nav .header-right {
+  display: flex;
+  margin: auto;
+  justify-content: end;
 }
 
 .background-header .main-nav .nav {
@@ -1773,9 +1755,6 @@ Responsive
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
-  .header-area .main-nav .logo {
-    color: #1e1e1e;
-  }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #000!important;
@@ -1795,12 +1774,19 @@ Responsive
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo {
-    margin-left: 30px;
+  .header-area .header-left {
+    display: block !important;
+    margin: auto;
+    text-align: center;
   }
-  .header-area .logo img {
+  .header-area .header-right {
+    display: block !important;
+    margin: auto;
+  }
+  .header-area .header-left img {
     width: auto;
     height: auto;
+    margin-left: 35vw;
   }
   .header-area .menu-trigger {
     display: block !important;
