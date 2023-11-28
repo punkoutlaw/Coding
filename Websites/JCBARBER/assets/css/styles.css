@@ -6,12 +6,11 @@ Table of contents
 03. global styles
 04. header
 05. banner
-06. features
-08. contact
-09. footer
-10. preloader
-11. search
-12. about us
+06. contact
+07. footer
+08. preloader
+09. search
+10. about us
 
 --------------------------------------------- */
 /* 
@@ -396,7 +395,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu:after {
-  font-family: FontAwesome;
+  font-family: 'Bebas Neue';
   content: "\f107";
   font-size: 12px;
   color: #2a2a2a;
