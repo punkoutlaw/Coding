@@ -384,11 +384,6 @@ header
   opacity: 1;
 }
 
-/* .header-area .main-nav .nav li:last-child a:hover ,
-.background-header .main-nav .nav li:last-child a:hover {
-  background-color: #fff;
-} */
-
 .header-area .main-nav .nav li.submenu {
   position: relative;
   padding-right: 30px;
