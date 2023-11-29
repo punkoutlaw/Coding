@@ -80,16 +80,6 @@
   .gsb-testimonials .owl-carousel .card {
     background-color: #fff !important;
   }
-  .owl-carousel .owl-dots {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-  .owl-carousel .owl-nav button.owl-prev,
-  .owl-carousel .owl-nav button.owl-next {
-    visibility: hidden;
-  }
-
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -102,6 +92,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    visibility: hidden;
   }
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
@@ -119,6 +113,11 @@
     background: #fff;
     border: 2px solid #693A25 !important;
     margin: 0 5px;
+  }
+  .owl-carousel .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
   .owl-carousel.owl-loaded {
     display: block; }
