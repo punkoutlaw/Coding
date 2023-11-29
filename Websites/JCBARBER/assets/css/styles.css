@@ -878,7 +878,7 @@ Testimonials Styling
 
 .gsb-testimonials .card {
   background: #fff;
-  box-shadow: 0 8px 30px -7px #c9dff0;
+  /* box-shadow: 0 8px 30px -7px #c9dff0; */
   margin: 0 20px;
   padding: 0 10px;
   border-radius: 20px;
@@ -896,7 +896,7 @@ Testimonials Styling
 }
 
 .gsb-testimonials .card-body {
-  background-color: #fff !important;
+  text-align: center;
 }
 
 .gsb-testimonials h5 {
@@ -916,7 +916,7 @@ Testimonials Styling
   padding-bottom: 15px;
 }
 
-.gsb-testimonials  .active {
+.gsb-testimonials .active {
   opacity: 0.5;
   transition: all 0.3s;
 }
@@ -947,6 +947,9 @@ Testimonials Styling
 @media (max-width: 767px) {
   .gsb-testimonials {
     margin-top: 20px;
+  }
+  .gsb-testimonials .card {
+    width: 90%;
   }
 }
 
