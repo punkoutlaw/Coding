@@ -52,6 +52,8 @@
     position: relative;
     min-height: 1px;
     float: left;
+    padding: 0 10px;
+    border-radius: 25px !important;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -61,10 +63,23 @@
     -ms-tap-highlight-color: transparent;
     -webkit-touch-callout: none; 
     -moz-touch-callout: none; 
-    -ms-touch-callout: none; }
+    -ms-touch-callout: none;
+  }
+  .owl-carousel .card {
+    background-color: #000;
+    border-radius: 25px !important;
+  }
+  .owl-carousel .owl-item p {
+    color: #000;
+  }
   .owl-carousel .owl-item img {
+    border-radius: 25px;
     display: block;
-    width: 100%; }
+    width: 100%; 
+  }
+  .gsb-testimonials .owl-carousel .card {
+    background-color: #fff !important;
+  }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
