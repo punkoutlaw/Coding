@@ -118,6 +118,10 @@
     display: flex;
     justify-content: center;
     margin: auto;
+
+    .active {
+      background-color: #000;
+    }
   }
   .owl-carousel.owl-loaded {
     display: block; }
