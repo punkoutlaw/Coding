@@ -853,33 +853,6 @@ Testimonials Styling
     display: none;
   }
 
-  .owl-dots {
-    text-align: center;
-
-    span {
-      position: relative;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      display: block;
-      background: #fff;
-      border: 2px solid #693A25 !important;
-      margin: 0 5px;
-    }
-
-    .active {
-      box-shadow: none;
-
-      span {
-        background: #afafaf;
-        box-shadow: none;
-        height: 12px;
-        width: 12px;
-        margin-bottom: -1px;
-      }
-    }
-  }
-
   .card {
     background: #fff;
     box-shadow: 0 8px 30px -7px #c9dff0;
@@ -1142,33 +1115,6 @@ Services Styling
 
   .owl-nav {
     display: none;
-  }
-
-  .owl-dots {
-    text-align: center;
-
-    span {
-      position: relative;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      display: block;
-      background: #fff;
-      border: 2px solid #693A25 !important;
-      margin: 0 5px;
-    }
-
-    .active {
-      box-shadow: none;
-
-      span {
-        background: #afafaf;
-        box-shadow: none;
-        height: 12px;
-        width: 12px;
-        margin-bottom: -1px;
-      }
-    }
   }
 
   .card {
