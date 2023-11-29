@@ -841,7 +841,7 @@ Testimonials Styling
   h2 {
     font-size: 30px;
     text-align: center;
-    color: #333333;
+    color: #fff;
     margin-bottom: 50px;
   }
 
@@ -1133,7 +1133,7 @@ Services Styling
   margin-top: 30px;
 
   h2 {
-    color: #fff;
+    color: #fff !important;
   }
 
   .owl-stage-outer {
