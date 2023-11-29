@@ -834,87 +834,114 @@ Testimonials Styling
   text-align: center;
 }
 
-.gsb-testimonials {
-  position: relative;
-  margin-top: 30px;
+.gsb-testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 50px;
+}
 
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 50px;
-  }
+.gsb-testimonials .owl-stage-outer {
+  padding: 30px 0;
+}
 
-  .owl-stage-outer {
-    padding: 30px 0;
-  }
+.gsb-testimonials .owl-nav {
+  display: none;
+}
 
-  .owl-nav {
-    display: none;
-  }
+.gsb-testimonials .owl-dots {
+  text-align: center;
 
-  .card {
+  span {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
     background: #fff;
-    box-shadow: 0 8px 30px -7px #c9dff0;
-    margin: 0 20px;
-    padding: 0 10px;
-    border-radius: 20px;
-    border: 0;
-    min-height: 300px;
-
-    .card-img-top {
-      max-width: 100px;
-      border-radius: 50%;
-      margin: 15px auto 0;
-      box-shadow: 0 8px 20px -4px #95abbb;
-      width: 100px;
-      height: 100px;
-    }
-
-    .gsb-testimonials .card-body {
-      background-color: #000 !important;
-    }
-
-    h5 {
-      color: #000;
-      font-size: 21px;
-      line-height: 1.3;
-
-      span {
-        font-size: 18px;
-        color: #666666;
-      }
-    }
-
-    p {
-      font-size: 18px;
-      color: #555;
-      padding-bottom: 15px;
-    }
+    border: 2px solid #693A25 !important;
+    margin: 0 5px;
   }
 
   .active {
-    opacity: 0.5;
-    transition: all 0.3s;
-  }
+    box-shadow: none;
 
-  .center {
-    opacity: 1;
-
-    h5 {
-      font-size: 24px;
-
-      span {
-        font-size: 20px;
-      }
-    }
-
-    .card-img-top {
-      max-width: 100%;
-      height: 120px;
-      width: 120px;
+    span {
+      background: #afafaf;
+      box-shadow: none;
+      height: 12px;
+      width: 12px;
+      margin-bottom: -1px;
     }
   }
+}
+
+.gsb-testimonials .card {
+  background: #fff;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+  min-height: 300px;
+}
+
+.gsb-testimonials .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+}
+
+.gsb-testimonials .card-body {
+  background-color: #fff !important;
+}
+
+.gsb-testimonials h5 {
+  color: #000;
+  font-size: 21px;
+  line-height: 1.3;
+
+  span {
+    font-size: 18px;
+    color: #666666;
+  }
+}
+
+.gsb-testimonials p {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+}
+
+.gsb-testimonials  .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.gsb-testimonials .center {
+  opacity: 1;
+}
+
+.gsb-testimonials h5 {
+  font-size: 24px;
+
+  span {
+    font-size: 20px;
+  }
+}
+
+.gsb-testimonials .card-img-top {
+  max-width: 100%;
+  height: 120px;
+  width: 120px;
+}
+
+.gsb-testimonials {
+  position: relative;
+  margin-top: 30px;
 }
 
 @media (max-width: 767px) {
@@ -1104,49 +1131,75 @@ Services Styling
 .gsb-gallery {
   position: relative;
   margin-top: 30px;
+}
 
-  h2 {
-    color: #fff !important;
-  }
+.gsb-gallery h2 {
+  color: #fff;
+}
 
-  .owl-stage-outer {
-    padding: 30px 0;
-  }
+.gsb-gallery .owl-stage-outer {
+  padding: 30px 0;
+}
 
-  .owl-nav {
-    display: none;
-  }
+.gsb-gallery .owl-nav {
+  display: none;
+}
 
-  .card {
-    background: rgb(0, 0, 0);
-    margin: 0 20px;
-    padding: 0 10px;
-    border-radius: 20px;
-    border: 0;
-    min-height: 400px;
-  }
+.gsb-gallery .owl-dots {
+  text-align: center;
+}
 
-  .card img {
-    border-radius: 25px;
-    box-shadow: 0 8px 30px -7px #c9dff0;
-  }
+.gsb-gallery .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #693A25 !important;
+  margin: 0 5px;
+}
 
-  .active {
-    opacity: 0.5;
-    transition: all 0.3s;
-  }
+.gsb-gallery .owl-dots .active {
+  box-shadow: none;
+}
 
-  .center {
-    opacity: 1;
+.gsb-gallery .owl-dots .active span {
+  background: #afafaf;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
 
-    h5 {
-      font-size: 24px;
+.gsb-gallery .card {
+  background: rgb(0, 0, 0);
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+  /* min-height: 400px; */
+}
 
-      span {
-        font-size: 20px;
-      }
-    }
+.gsb-gallery .card img {
+  border-radius: 25px;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+}
 
+.gsb-gallery .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.gsb-gallery .center {
+  opacity: 1;
+}
+
+.gsb-gallery h5 {
+  font-size: 24px;
+
+  span {
+    font-size: 20px;
   }
 }
 
