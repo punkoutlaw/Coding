@@ -1592,6 +1592,11 @@ Responsive
   .header-area {
     height: 100px;
   }
+  .header-area .header-left img {
+    width: auto;
+    height: auto;
+    margin: auto !important;
+  }
   .header-area h4{
     font-size: 20px !important;
     line-break: strict;
@@ -1774,7 +1779,7 @@ Responsive
   .header-area .header-left img {
     width: auto;
     height: auto;
-    margin-left: 33vw;
+    margin-left: 33vw !important;
   }
   .header-area .menu-trigger {
     display: block !important;
