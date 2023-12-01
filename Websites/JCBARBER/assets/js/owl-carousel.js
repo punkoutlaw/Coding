@@ -3445,6 +3445,8 @@
 		$.support.transform3d = tests.csstransforms3d();
 	}
 
+	// GALLERY CAROUSEL \\
+
 	(function () {
 		"use strict";
 	  
@@ -3481,12 +3483,14 @@
 		  carousels();
 		})(jQuery);
 	  })();
+
+	// TESTIMONIALS CAROUSEL \\
 	
-	  (function () {
-		"use strict";
-	  
+	(function () {
+	"use strict";
+	
 		var carousels = function () {
-		  $(".owl-carousel2").owlCarousel({
+			$(".owl-carousel2").owlCarousel({
 			loop: true,
 			center: true,
 			autoplay: true,
@@ -3497,27 +3501,26 @@
 			responsiveClass: true,
 			nav: false,
 			responsive: {
-			  0: {
+				0: {
 				items: 1,
 				nav: false
-			  },
-			  680: {
+				},
+				680: {
 				items: 2,
 				nav: false,
 				loop: true
-			  },
-			  1000: {
+				},
+				1000: {
 				items: 3,
 				nav: true
-			  }
+				}
 			}
-		  });
+			});
 		};
-	  
+		
 		(function ($) {
-		  carousels();
+			carousels();
 		})(jQuery);
-	  })();
-	  
+		})();
 
 })(window.Zepto || window.jQuery, window, document);
