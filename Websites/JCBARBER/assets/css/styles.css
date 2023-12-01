@@ -1191,7 +1191,6 @@ Services Styling
 
 .gsb-gallery .card img {
   border-radius: 25px;
-  box-shadow: 0 8px 30px -7px #c9dff0;
 }
 
 .gsb-gallery .active {
@@ -1201,6 +1200,10 @@ Services Styling
 
 .gsb-gallery .center {
   opacity: 1;
+}
+
+.gsb-gallery .center img {
+  box-shadow: 0 8px 15px -7px #c9dff0;
 }
 
 .gsb-gallery h5 {
