@@ -3453,7 +3453,44 @@
 			loop: true,
 			center: true,
 			autoplay: true,
-			// slideTransition: 'linear',
+			slideTransition: 'linear',
+			autoplaySpeed: 1000,
+			smartSpeed: 1000,
+			margin: 0,
+			responsiveClass: true,
+			nav: false,
+			responsive: {
+			  0: {
+				items: 1,
+				nav: false
+			  },
+			  680: {
+				items: 2,
+				nav: false,
+				loop: true
+			  },
+			  1000: {
+				items: 3,
+				nav: true
+			  }
+			}
+		  });
+		};
+	  
+		(function ($) {
+		  carousels();
+		})(jQuery);
+	  })();
+	
+	  (function () {
+		"use strict";
+	  
+		var carousels = function () {
+		  $(".owl-carousel2").owlCarousel({
+			loop: true,
+			center: true,
+			autoplay: true,
+			slideTransition: 'linear',
 			// autoplaySpeed: 6000,
 			// smartSpeed: 6000,
 			margin: 0,
