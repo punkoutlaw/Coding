@@ -3452,6 +3452,10 @@
 		  $(".owl-carousel1").owlCarousel({
 			loop: true,
 			center: true,
+			autoplay: true,
+			// slideTransition: 'linear',
+			// autoplaySpeed: 6000,
+			// smartSpeed: 6000,
 			margin: 0,
 			responsiveClass: true,
 			nav: false,
