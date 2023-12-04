@@ -3495,7 +3495,7 @@
 			center: true,
 			autoplay: true,
 			slideTransition: 'linear',
-			autoplayTimeout: 10000,
+			autoplayTimeout: 8000,
 			autoplaySpeed: 1000,
 			smartSpeed: 100,
 			touchDrag: true,
