@@ -1672,9 +1672,11 @@ Responsive
     margin-top: 30px;
   }
   .booking .left-content {
-    margin-bottom: 45px;
+    margin-bottom: 0px;
   }
-
+  .booking #left-content {
+    margin-bottom: 40px;
+  }
   .booking .right-list {
     display: block;
     margin: auto;
