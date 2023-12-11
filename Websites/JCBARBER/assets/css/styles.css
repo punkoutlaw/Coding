@@ -2019,19 +2019,14 @@ Responsive
   .booking {
     padding: 100px 0px 100px 0px;
   }
+  .booking #left-content {
+    margin-bottom: 40px;
+  }
+  .booking .left-content {
+    margin-bottom: 0px;
+  }
   .booking .right-list {
     margin-left: 0px;
-  }
-  .booking .right-list ul li {
-    display: inline-block;
-    margin-top: 0px;
-    padding-top: 30px;
-    border-top: 1px solid #eee;
-  }
-  .booking .right-list .left-content {
-    margin-right: 0px;
-    width: 100%;
-    margin-bottom: 15px;
   }
   .booking .right-list .right-content,
   .booking .right-list .right-content img {
