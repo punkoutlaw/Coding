@@ -1240,13 +1240,23 @@ Booking Styling
 
 .booking {
   position: relative;
-  /* margin-top: 80px; */
   padding: 100px 0 100px 0;
   background-color: #000;
 }
 
 .booking img {
   width: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.booking h2 span {
+  color: #000;
+  text-shadow:
+  -1px -1px 0 #fff,  
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  1px 1px 0 #fff;
 }
 
 .booking .section-heading h2 {
@@ -1259,22 +1269,14 @@ Booking Styling
   text-align: center !important;
 }
 
-.booking .top-dec {
-  text-align: right;
-  margin-top: -80px;
-}
-
-.booking .top-dec img {
-  max-width: 270px;
-}
-
 .booking .left-content {
-  position: relative;
-}
-
-.booking .left-content img {
-  border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 
 .booking .left-content .info {
@@ -1283,8 +1285,8 @@ Booking Styling
 
 .booking .left-content h4 {
   font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
+  font-weight: 500;
+  color: #f1f1f1;
   margin: 20px 0px 15px 0px;
 }
 
@@ -1298,44 +1300,6 @@ Booking Styling
   margin-left: 30px;
 }
 
-.booking .right-list ul li {
-  display: inline-flex;
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.booking .right-list .left-content {
-  margin-right: 45px;
-}
-
-.booking .right-list .left-content span {
-  font-size: 15px;
-  color: #afafaf;
-  font-weight: 300;
-}
-
-.booking .right-list .left-content span i {
-  color: #693A25;
-  font-size: 16px;
-  margin-right: 8px;
-}
-
-.booking .right-list .left-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #afafaf;
-  margin: 20px 0px 15px 0px;
-}
-
-.booking h2 span {
-  color: #000;
-  text-shadow:
-  -1px -1px 0 #fff,  
-   1px -1px 0 #fff,
-   -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-}
-
 .booking .right-list .right-content img {
   border-radius: 20px;
 }
@@ -1346,13 +1310,12 @@ Booking Styling
 }
 
 .inner-content {
-  background-color: #f3eee8;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 20px;
-  margin-right: 75px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: auto;
   position: absolute;
   width: 600px;
-  margin-top: 100px;
   padding: 40px;
 }
 
