@@ -1,3 +1,24 @@
+// By default do not allow form submission.
+var allow_submit = false
+
+function captcha_filled () {
+    /*
+     * This is called when Google get's the recaptcha response and approves it.
+     * Setting allow_submit = true will let the form POST as normal.
+     * */
+
+    allow_submit = true
+}
+
+function captcha_expired () {
+    /*
+     * This is called when Google determines too much time has passed and expires the approval.
+     * Setting allow_submit = false will prevent the form from being submitted.
+     * */
+
+    allow_submit = false
+}
+
 let divAppended = false;
 
 function toggleText1() {

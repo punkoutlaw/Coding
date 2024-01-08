@@ -22,6 +22,14 @@
     <meta property="og:image"              content="https://www.razzodesigns.com/Images/razzodesigns-square.png" />
 
     <title>RAZZO DESIGNS</title>
+        <script> window.onload = function() {
+            var $recaptcha = document.querySelector('#g-recaptcha-response');
+          
+              if($recaptcha) {
+                  $recaptcha.setAttribute("required", "required");
+                  }
+              };
+        </script>
 </head>
 <body>
     
@@ -234,14 +242,6 @@
         </div>  
     </section>
 
-    <script> window.onload = function() {
-        var $recaptcha = document.querySelector('#g-recaptcha-response');
-      
-          if($recaptcha) {
-              $recaptcha.setAttribute("required", "required");
-              }
-          };
-    </script>
 
     <section id="sub-contact" class="container-fluid">
         <div class="row">
@@ -249,7 +249,7 @@
                 <div class="card">
                     <div class="card-title"><h1>Contact Us <i class="bi bi-chat-dots"></i></h1></div>
                     <div class="card-body">
-                        <form action="forms/contact.php" method="post" role="form" onsubmit="alert('Message sent! We will be in touch shortly.')">
+                        <form action="forms/contact.php" method="post" role="form" onsubmit="return check_captcha_filled() && alert('Message sent! We will be in touch shortly.')">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
                             <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Telephone Number" required>
@@ -257,7 +257,10 @@
                             
                             <br>
 
-                            <div class="g-recaptcha" data-sitekey="6Le89LEiAAAAAGUP4JFHsDiwTIiYNGGte-CdMv-_"></div>
+                            <div class="g-recaptcha" 
+                            data-sitekey="6Le89LEiAAAAAGUP4JFHsDiwTIiYNGGte-CdMv-_" 
+                            data-callback="captcha_filled" 
+                            data-expired-callback="captcha_expired"></div>
 
                             <br>
 
