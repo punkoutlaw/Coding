@@ -3,13 +3,13 @@
 ## CONFIG ##
 
 # LIST EMAIL ADDRESS
-$recipient = "dwfeudale@gmail.com";
+$recipient = "info@razzodesigns.com";
 
 # SUBJECT (Subscribe/Remove)
 $subject = "New Inquiry";
 
 # RESULT PAGE
-$location = "/contact.html";
+$location = "/index.html";
 
 ## FORM VALUES ##
 
