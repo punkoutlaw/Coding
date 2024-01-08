@@ -198,6 +198,10 @@ a:visited {
     padding-bottom: 50px;
 }
 
+#sub-services .card-body {
+    padding: 20px;
+}
+
 #sub-services .header {
     font-family: 'Pacifico';
     padding: 50px 0 50px 0;
