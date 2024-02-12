@@ -376,13 +376,13 @@ p {
 
 .grid-image {
   width: 50%;
-  background-color: #69b9ff;
+  background-color: #30465b;
   border: 10px solid #fff;
   border-radius: 50%;
   margin: 20px auto;
   padding: 0;
   display: block;
-  box-shadow: 0 0 0 1px #2e9dff;
+  box-shadow: 0 0 0 1px #6a859c;
 }
 
 .info-icon {
