@@ -232,7 +232,7 @@ p {
   display: flex;
 }
 
-.white-box img {
+.white-box #service-img {
   padding-bottom: 25px;
 }
 
