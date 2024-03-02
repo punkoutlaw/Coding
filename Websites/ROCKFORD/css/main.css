@@ -232,6 +232,10 @@ p {
   display: flex;
 }
 
+.white-box img {
+  padding-bottom: 25px;
+}
+
 .white-box.transparent {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
