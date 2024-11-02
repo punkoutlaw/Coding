@@ -244,34 +244,14 @@
 
 
     <section id="sub-contact" class="container-fluid">
-        <div class="row">
-            <div class="col mx-auto">
+        <div class="row align-items-center">
+            <div class="card-title"><h1> Contact Us <i class="bi bi-chat-dots"></i></h1></div>
+
+            <div class="col-3 mx-auto"></div>
+
+            <div class="col-3 mx-auto">
                 <div class="card">
-                    <div class="card-title"><h1>Contact Us <i class="bi bi-chat-dots"></i></h1></div>
-                    <div class="card-body">
-                        <form action="forms/contact.php" method="post" role="form" onsubmit="return check_captcha_filled() && alert('Message sent! We will be in touch shortly.')">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
-                            <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Telephone Number" required>
-                            <textarea class="form-control" name="message" id="message" placeholder="Message" required></textarea>
-                            
-                            <br>
-
-                            <div class="g-recaptcha" 
-                            data-sitekey="6Le89LEiAAAAAGUP4JFHsDiwTIiYNGGte-CdMv-_" 
-                            data-callback="captcha_filled" 
-                            data-expired-callback="captcha_expired"></div>
-
-                            <br>
-
-                            <button type="submit" class="btn btn-request" value="submit" title="Submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col mx-auto">
-                <div class="card">
-                    <div class="card-title"><h1>Location <i class="bi bi-compass"></i></h1></div>
+                    <div class="card-title"></div>
                     <div class="card-body" id="location-body">
                         <ul id="location-ul">
                             <li><i class="bi bi-envelope"></i> <a href="mailto:info@razzodesigns.com"> info@razzodesigns.com </a></li>
@@ -281,6 +261,18 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-3 mx-auto">
+                <div class="card">
+                    <div class="card-title"></div>
+                    <div class="card-body">
+                        <img src="Images/contact-us_pic.webp" class="" title="Contact Photo" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 mx-auto"></div>
+
         </div>
     </section>
 

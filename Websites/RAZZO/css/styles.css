@@ -447,6 +447,10 @@ a:visited {
     min-width: 40vw;
 }
 
+#sub-contact .card-body img {
+    width: 50%;
+}
+
 #sub-contact #location-ul {
     list-style: none;
     text-align: left;
