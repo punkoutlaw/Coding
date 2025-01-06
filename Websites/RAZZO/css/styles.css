@@ -452,6 +452,14 @@ a:visited {
     justify-content: left;
 }
 
+#contact-col1 {
+    padding: 0 0 0 100px;
+}
+
+#contact-col2 {
+    padding-right: 200px;
+}
+
 #sub-contact #location-ul {
     list-style: none;
     text-align: left;
