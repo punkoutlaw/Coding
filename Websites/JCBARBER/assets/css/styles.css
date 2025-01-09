@@ -1053,6 +1053,10 @@ Services Styling
   color: #fff;
 }
 
+.services .section-heading p {
+  text-align: center;
+}
+
 .services ul li {
   display: block;
   margin: auto;
