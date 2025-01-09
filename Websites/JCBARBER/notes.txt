@@ -1,0 +1,9 @@
+OLD HOURS:
+          
+<li><p>Monday:        10:00 AM - 5:00 PM</p></li>
+<li><p>Tuesday:       9:30 AM - 7:00 PM</p></li>
+<li><p>Wednesday:     9:30 AM - 7:00 PM</p></li>
+<li><p>Thursday:      9:30 AM - 7:00 PM</p></li>
+<li><p>Friday:        8:30 AM - 6:30 PM</p></li>
+<li><p>Saturday:      8:00 AM - 4:00 PM</p></li>
+<li><p>Sunday:        9:00 AM - 1:00 PM</p></li>
