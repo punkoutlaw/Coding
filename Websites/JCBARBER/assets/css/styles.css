@@ -2013,6 +2013,9 @@ Responsive
   .services {
     padding-top: 0px;
   }
+  .services .item {
+    margin-bottom: 0px;
+  }
   .services .section-heading h2{
     margin-bottom: 0px;
   }
