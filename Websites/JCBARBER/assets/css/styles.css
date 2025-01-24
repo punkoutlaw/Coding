@@ -1244,7 +1244,7 @@ Booking Styling
 
 .booking {
   position: relative;
-  padding: 100px 0 100px 0;
+  padding: 100px 0 140px 0;
   background-color: #000;
 }
 
@@ -1320,7 +1320,7 @@ Booking Styling
   margin: auto;
   position: absolute;
   width: 600px;
-  padding: 40px;
+  padding: 40px 0px 0px 0px;
 }
 
 .inner-content p {
