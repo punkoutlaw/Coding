@@ -1342,6 +1342,10 @@ Contact Us Styling
   background-attachment: fixed;
 }
 
+.contact-us h2 {
+  font-size: 35px;
+}
+
 .contact-us .section-heading h2,
 .contact-us .section-heading h2 em,
 .contact-us .section-heading h2 span {
