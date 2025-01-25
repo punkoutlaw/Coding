@@ -1666,9 +1666,9 @@ Responsive
     text-align: center;
     margin-bottom: 45px;
   }
-  .inner-content {
+  .booking .info .inner-content {
     position: relative;
-    margin-right: 0px;
+    margin: auto;
   }
   .booking .left-content .info .main-book-button {
     position: relative;
