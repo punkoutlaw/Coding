@@ -724,7 +724,7 @@ Banner Styling
   overflow: hidden;
   height: 100vh;
   background-color: #f3eee8 !important;
-  background-image: url(../images/GSB-main_new-wlogo.jpg);
+  background-image: url(../images/GSB-main_new-wlogo_os.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -749,7 +749,7 @@ Banner Styling
 
 .top-content .main-banner-button a {
   display: inline-block;
-  margin: 80vh 0px;
+  margin: 70vh 0px;
   padding: 12px 25px;
   width: 30%;
   background-color: #000;
