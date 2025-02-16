@@ -1531,12 +1531,12 @@ Responsive
   .main-content {
     height: auto;
   }
-  .main-content .top-content .main-banner-button a {
-    width: 50%;
-  }
   .main-content .bottom-content {
     display: block;
     margin: auto;
+  }
+  .main-content .bottom-content .main-banner-button a {
+    width: 50%;
   }
   .testimonials .card {
     min-height: 350px;
@@ -1582,26 +1582,26 @@ Responsive
     font-size: 20px !important;
     line-break: strict;
   }
+  .main-content:after {
+    top: 76px;
+    z-index: -1;
+  }
   .main-content .top-content {
     display: block;
     margin: auto;
-    height: 100vh;
-  }
-  .main-content .top-content .main-banner-button a {
-    width: 50%;
-    margin: 50vh 0px;
+    height: 50vh;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
     height: 50vh;
   }
+  .bottom-content .main-banner-button a {
+    width: 50%;
+    margin: 20vh 0px;
+  }
   .main-content .bottom-content .main-banner-logo {
     padding: 25px;
-  }
-  .main-content:after {
-    top: 76px;
-    z-index: -1;
   }
   .about-us {
     padding-top: 100px;
@@ -1978,22 +1978,20 @@ Responsive
   .main-content .top-content {
     display: block;
     margin: auto;
-    background-image: url(../images/gsb-banner_mob1.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    height: 100vh;
-  }
-  .main-content .top-content .main-banner-button a {
-    margin: 50vh 0px;
-    width: 100%;
   }
   .main-content .bottom-content {
     display: block;
     margin: auto;
     height: 50vh;
+  }
+  .main-content .bottom-content .main-banner-button a {
+    margin: 10vh 0px;
+    width: 100%;
   }
   .header-area {
     height: 100px;
