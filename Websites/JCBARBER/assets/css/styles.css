@@ -732,39 +732,13 @@ Banner Styling
 }
 
 .main-content .top-content {
-  /* background-image: url(../images/gsb-banner_dsk1.jpg); */
+  /* background-image: url(../images/gsb-banner_dsk1.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   position: relative;
-  overflow: hidden;
-  height: 100vh;
-}
-
-.top-content .main-banner-button {
-  display: block;
-  margin: auto;
-  text-align: center;
-}
-
-.top-content .main-banner-button a {
-  display: inline-block;
-  margin: 70vh 0px;
-  padding: 12px 25px;
-  width: 30%;
-  background-color: #000;
-  font-size: 25px;
-  font-weight: 800;
-  color: #fff;
-  font-family: 'Bebas Neue';
-  text-transform: capitalize;
-  letter-spacing: 0.25px;
-  border-radius: 10px;
-  border: 8px solid #fff;
-}
-
-.top-content .main-banner-button a:hover {
-  background-color: #2a2a2a !important;
+  overflow: hidden; */
+  height: 50vh;
 }
 
 .main-content .top-content h6 {
@@ -802,12 +776,12 @@ Banner Styling
 }
 
 .main-content .bottom-content {
-  background-image: url(../images/GSB-Logo_crm.jpg);
+  /* background-image: url(../images/GSB-Logo_crm.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:auto;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; */
   text-align: center;
   display: block;
   margin: auto;
@@ -818,6 +792,32 @@ Banner Styling
   display: block;
   margin: auto;
   text-align: center;
+}
+
+.bottom-content .main-banner-button {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-content .main-banner-button a {
+  display: inline-block;
+  margin: 10vh 0px;
+  padding: 12px 25px;
+  width: 20%;
+  background-color: #000;
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+  font-family: 'Bebas Neue';
+  text-transform: capitalize;
+  letter-spacing: 0.25px;
+  border-radius: 10px;
+  border: 8px solid #fff;
+}
+
+.bottom-content .main-banner-button a:hover {
+  background-color: #2a2a2a !important;
 }
 
 /* 
