@@ -788,21 +788,21 @@ Banner Styling
   height: 50vh;
 }
 
-.bottom-content .main-banner-logo {
+.main-content .bottom-content .main-banner-logo {
   display: block;
   margin: auto;
   text-align: center;
 }
 
-.bottom-content .main-banner-button {
+.main-content .bottom-content .main-banner-button {
   display: block;
   margin: auto;
   text-align: center;
 }
 
-.bottom-content .main-banner-button a {
+.main-content .bottom-content .main-banner-button a {
   display: inline-block;
-  margin: 10vh 0px;
+  margin: 20vh 0px;
   padding: 12px 25px;
   width: 20%;
   background-color: #000;
