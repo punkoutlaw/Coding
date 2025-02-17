@@ -1019,6 +1019,7 @@ Services Styling
 
 .services {
   margin-top: 0px;
+  padding: 100px 0px;
   background-color: #000;
 }
 
@@ -1029,6 +1030,17 @@ Services Styling
   z-index: 1;
 }
 
+.services h2 {
+  color: #f7f7f7;
+  text-align: center;
+  padding: 25px;
+}
+
+.services p {
+  color: #fff;
+  text-align: center;
+}
+
 .service-bullets {
   font-style: italic;
   font-weight: 100;
@@ -1036,7 +1048,7 @@ Services Styling
 }
 
 .services-inner {
-  padding: 0px 0px 100px 0px;
+  padding: 0px;
 }
 
 .services span {
@@ -1046,20 +1058,6 @@ Services Styling
    1px -1px 0 #fff,
    -1px 1px 0 #fff,
     1px 1px 0 #fff;
-}
-
-.services h2 {
-  color: #f7f7f7;
-  text-align: center;
-  padding: 25px;
-}
-
-.services p {
-  color: #fff;
-}
-
-.services .section-heading p {
-  text-align: center;
 }
 
 .services ul li {
@@ -2018,7 +2016,7 @@ Responsive
     width: 90%;
   }
   .services {
-    padding-top: 0px;
+    /* padding-top: 0px; */
   }
   .services .item {
     margin-bottom: 0px;
