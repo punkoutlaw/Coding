@@ -3,10 +3,10 @@
 ## CONFIG ##
 
 # LIST EMAIL ADDRESS
-$recipient = "dwfeudale@gmail.com";
+$recipient = "gardenstatebarber@gmail.com";
 
 # SUBJECT (Subscribe/Remove)
-$subject = "New Inquiry";
+$subject = "Garden State Barbershop Inquiry";
 
 # RESULT PAGE
 $location = "/contact";
@@ -24,7 +24,7 @@ $body .= "Subject: ".$_REQUEST['subject']." \n";
 $body .= "Message: ".$_REQUEST['message']." \n";
 # add more fields here if required
 
-## SEND MESSGAE ##
+## SEND MESSAGE ##
 
 mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
 
