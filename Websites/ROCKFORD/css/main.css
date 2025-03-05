@@ -232,6 +232,10 @@ p {
   display: flex;
 }
 
+.white-box p {
+  font-size: 14px;
+}
+
 .white-box #service-img {
   padding-bottom: 25px;
 }
